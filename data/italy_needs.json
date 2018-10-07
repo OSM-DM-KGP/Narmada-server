@@ -1,0 +1,4966 @@
+[
+   {
+      "_id": "768285039759069186",
+      "lang": "en",
+      "text": "Earthquake in Italy : at Amatrice town high damages , streets blocked and one bridge fell down . Mayor ask for help .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "streets",
+         "Mayor"
+      ],
+      "Resources": [
+         {
+            "resource": "bridge",
+            "quantity": "1"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768286044605128704",
+      "lang": "en",
+      "text": "Amatrice mayor ( Rieti province close to epicentre ): \" we need special units to rescue trapped people \" terremoto earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "rieti": {
+            "lat": 42.404366,
+            "long": 12.868538
+         },
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         }
+      },
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768288931158695937",
+      "lang": "en",
+      "text": "Actions does more than thoughts or prayers ! Like donating blood , food , water and shelter . Italy Earthquake Italy Earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "thoughts",
+            "quantity": "None"
+         },
+         {
+            "resource": "shelter",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "Actions",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768297334652350465",
+      "lang": "en",
+      "text": "Blood , free wifi , ambulances and prayers is what needed NOW for earthquake in Central Italy terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "ambulances",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768299309645254656",
+      "lang": "en",
+      "text": "Two reported dead in arquata del tronto , people are asked to donate blood amatrice terremoto earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "arquata": {
+            "lat": 44.978705,
+            "long": 10.303635
+         }
+      },
+      "Sources": [
+         "people"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood amatrice earthquake",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768300297386995712",
+      "lang": "en",
+      "text": "SEND CASH DONATIONS TO THE CLINTONFOUNDATION : Strong quake hits central Italy , brings down buildings",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Strong quake"
+      ],
+      "Resources": [
+         {
+            "resource": "CASH",
+            "quantity": "None"
+         },
+         {
+            "resource": "buildings",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768303803284107264",
+      "lang": "en",
+      "text": "Mayor of Amatrice , Italy says his quake-damaged city needs heavy equipment to clear rubble-clogged streets to get to the injured AP",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "ap": {
+            "lat": 42.88443,
+            "long": 13.55306
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         }
+      },
+      "Sources": [
+         "damaged city"
+      ],
+      "Resources": [
+         {
+            "resource": "equipment",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768317536278568960",
+      "lang": "en",
+      "text": "BREAKING They are appealing for blood donations in Amatrice Italy after 6.2 magnitude earthquake .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768318146000191488",
+      "lang": "en",
+      "text": "Italy earthquake urgent blood donations needed Rieti",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "rieti": {
+            "lat": 42.404366,
+            "long": 12.868538
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "urgent donations",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768318419217313793",
+      "lang": "en",
+      "text": "Italy earthquake : local officials calling for blood donations .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768320530055168000",
+      "lang": "en",
+      "text": "ITALY : URGENTE -> TERREMOTO Earthquake Critical Appeals For Blood Donation of ALL KINDS ! SANGUE \ud83c\udd98",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "KINDS"
+      ],
+      "Resources": [
+         {
+            "resource": "Blood Donation",
+            "quantity": "None"
+         },
+         {
+            "resource": "Blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "Donation",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768327899225157632",
+      "lang": "en",
+      "text": "earthquake Avis Rieti hospital Avis ask for blood donors , all blood type .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood type",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donors",
+            "quantity": "None"
+         },
+         {
+            "resource": "hospital Avis",
+            "quantity": "None"
+         },
+         {
+            "resource": "hospital",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768328841177726976",
+      "lang": "en",
+      "text": "Keep your wi-fi password free . Help people to communicate via what's app . Donate blood . Help people please . Italy earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "people"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768331927011069952",
+      "lang": "en",
+      "text": "Mayor of earthquake-hit Amatrice says : ( 1 ) stay off the roads near areas affected ( 2 ) go give blood if you can . terrmoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Mayor"
+      ],
+      "Resources": [
+         {
+            "resource": "areas",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768339464888328192",
+      "lang": "en",
+      "text": "American military must send URGENT RESCUE TEAMS to free those trapped under rubble in Perugia's Earthquake .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "perugia": {
+            "lat": 43.096689,
+            "long": 12.409274
+         },
+         "american": {
+            "lat": 43.156985,
+            "long": 13.37503
+         }
+      },
+      "Sources": [
+         "military"
+      ],
+      "Resources": [
+         {
+            "resource": "TEAMS",
+            "quantity": "None"
+         },
+         {
+            "resource": "RESCUE TEAMS",
+            "quantity": "None"
+         },
+         {
+            "resource": "URGENT TEAMS",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768339620258021376",
+      "lang": "en",
+      "text": "Want to help people caught in Italy's earthquake ? Consider donating to and Both v practical",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768339980913639424",
+      "lang": "en",
+      "text": "Please open your WIFI to allow better communication in earthquake zones .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "WIFI"
+      ],
+      "Resources": [
+         {
+            "resource": "communication",
+            "quantity": "None"
+         },
+         {
+            "resource": "better communication",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768340979413815296",
+      "lang": "en",
+      "text": "Rieti hospital in Italy is asking for blood donors of all blood types terremoto italyearthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "rieti": {
+            "lat": 42.404366,
+            "long": 12.868538
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "hospital",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donors",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood types",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768341571318255617",
+      "lang": "en",
+      "text": "International tourists in Central Italy : stay away from Via Salaria . Rescue teams and emergency vehicles need it free Earthquake terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "via salaria": {
+            "lat": 41.9,
+            "long": 12.48333
+         }
+      },
+      "Sources": [
+         "International tourists"
+      ],
+      "Resources": [
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "Rescue teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "emergency vehicles",
+            "quantity": "None"
+         },
+         {
+            "resource": "vehicles",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768342819043966976",
+      "lang": "en",
+      "text": "Terrible earthquake in central Italy . Shocked . Our Civil Protection Department needs blood . Please help . terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Civil Protection",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "Civil Protection Department",
+            "quantity": "None"
+         },
+         {
+            "resource": "Protection",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768344070708137985",
+      "lang": "en",
+      "text": "If in the area affected by earthquake in Italy please remove passwords from working wi-fi connections and for emergencies call 800 840 840",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "emergencies"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": [
+            "800 840 840"
+         ]
+      }
+   },
+   {
+      "_id": "768344380147138560",
+      "lang": "en",
+      "text": "Also please donate blood earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood earthquake",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768346610573148160",
+      "lang": "en",
+      "text": "If you're traveling through Central Italy and read this , please consider going to give blood . All types are needed . earthquake terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "types"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768352564601561088",
+      "lang": "en",
+      "text": "If you live in central Italy please consider donating blood to help the victims of the earthquake this morning .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768352770495770624",
+      "lang": "en",
+      "text": "Earthquake of 6.0 degrees in the center of Italy . Blood needed in the hospitals of Ascoli Piceno and Rieti . Hundreds still buried alive",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "piceno": {
+            "lat": 42.82121,
+            "long": 13.53739
+         },
+         "ascoli": {
+            "lat": 42.85351,
+            "long": 13.57395
+         },
+         "rieti": {
+            "lat": 42.404366,
+            "long": 12.868538
+         },
+         "ascoli piceno": {
+            "lat": 42.86025,
+            "long": 13.570966
+         }
+      },
+      "Sources": [
+         "Hundreds"
+      ],
+      "Resources": [
+         {
+            "resource": "center",
+            "quantity": "None"
+         },
+         {
+            "resource": "Blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "hospitals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768363682837499904",
+      "lang": "en",
+      "text": "Thoughts and prayers for the victims of the devastating earthquake in Central Italy . Please donate blood if you live in the area earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "Thoughts",
+            "quantity": "None"
+         },
+         {
+            "resource": "area",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768364853870329857",
+      "lang": "en",
+      "text": "Italy earthquake Italia terremotoremember to remove password from Wi-Fi networks .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "networks",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768366578593308672",
+      "lang": "en",
+      "text": "so sad for those affected by the earthquake   please donate blood ! ! terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768369544247271424",
+      "lang": "en",
+      "text": "I'm ok . The earquake here wad minimal but we have problem with the water and shitty Wi-Fi . earthquake terremoto Italy Earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "earquake"
+      ],
+      "Resources": [
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768371866474057728",
+      "lang": "en",
+      "text": "Can you please retweet for donations to the Italian Red Cross for earthquake , ?",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768373724487753729",
+      "lang": "en",
+      "text": "I can't do anything from where I am but , if you can , please please go donate blood and go out there to help someone Pray For Italy earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768374124070768640",
+      "lang": "en",
+      "text": "If you are close to area affected by the terrible earthquake in italy go donateblood andate a donare sangue .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "donateblood"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768380171116240896",
+      "lang": "en",
+      "text": "Please donate blood ospedale Lellis ( Rieti ) avisprovincialerieti Terremoto Italia earthquake Italy Earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "rieti": {
+            "lat": 42.404366,
+            "long": 12.868538
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Terremoto",
+         "Lellis"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768387927520976896",
+      "lang": "en",
+      "text": "Go to blood donations ! terremoto earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768393012535844864",
+      "lang": "en",
+      "text": "Terremoto Numeri Protezione Civile : 8408408 40/803555 Serve sangue.Civil Protection Nos . Urgent need for blood donation Italy earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Terremoto Numeri",
+         "Civile"
+      ],
+      "Resources": [
+         {
+            "resource": "blood donation",
+            "quantity": "None"
+         },
+         {
+            "resource": "donation",
+            "quantity": "None"
+         },
+         {
+            "resource": "Protection",
+            "quantity": "None"
+         },
+         {
+            "resource": "Civil Protection",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": [
+            "840840840"
+         ]
+      }
+   },
+   {
+      "_id": "768394761648611328",
+      "lang": "en",
+      "text": "so did the loss of wifi have anything to do with the earthquake or no ?",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "loss"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768395258426109952",
+      "lang": "en",
+      "text": "Those in Italy who wish to show solidarity for the victims of earthquake can do so by donating blood at their nearest hospital terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "hospital terremoto",
+            "quantity": "None"
+         },
+         {
+            "resource": "hospital",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768397851386908673",
+      "lang": "en",
+      "text": "Sentivo che c'\u00e8 bisogno di sangue , chi pu\u00f2 donare aiuti ! Blood needed for the earthquake emergency please RT !",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "RT"
+      ],
+      "Resources": [
+         {
+            "resource": "Blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768398808799711237",
+      "lang": "en",
+      "text": "From town : \" We need chain saws , shears to cut iron bars , and jacks to remove beams : everything , we need everything . \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768400239203979264",
+      "lang": "en",
+      "text": "My condolences to the people of Italy affected by this devastating earthquake . International relief assistance is needed . Please help .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "international": {
+            "lat": 43.44347,
+            "long": 13.315785
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "relief",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768408502553509888",
+      "lang": "en",
+      "text": "Italy earthquake Blood Donation Emergency : Below is the emergency phone number for the \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Blood Donation",
+            "quantity": "None"
+         },
+         {
+            "resource": "Blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "Blood Donation Emergency",
+            "quantity": "None"
+         },
+         {
+            "resource": "Donation",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768408682350649344",
+      "lang": "en",
+      "text": "Foreign tourists in Rome , please see if you can donate blood of all types for the earthquake .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "rome": {
+            "lat": 41.905435,
+            "long": 12.531177
+         }
+      },
+      "Sources": [
+         "Foreign tourists"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768425824362127361",
+      "lang": "en",
+      "text": "Italy Earthquake : ' No electricity or food ' Sabarina lives 8 miles from the epicentre via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Sabarina"
+      ],
+      "Resources": [
+         {
+            "resource": "electricity",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768433982002245633",
+      "lang": "en",
+      "text": "News Italian rescue worker reassures woman buried under earthquake rubble Capodacqua Italy  DONATE BLOOD \ud83c\udd98",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "capodacqua": {
+            "lat": 42.563098,
+            "long": 13.210422
+         }
+      },
+      "Sources": [
+         "Italian rescue worker"
+      ],
+      "Resources": [
+         {
+            "resource": "BLOOD",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768435179018944512",
+      "lang": "en",
+      "text": "My prayers are for all the affected by the earthquake . Go to donate your blood and use sms or whatsapp , don't use calls . Pray For Italy",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "prayers"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768439059442180096",
+      "lang": "en",
+      "text": "6.2 earthquake devastated central Italy . Please donate to the Italian Red Cross to aid its search and recovery effort",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "search",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768442765629722629",
+      "lang": "en",
+      "text": "Retweeted CNN International ( Red Cross is asking people in central Italy to turn off their wifi ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768445853283516417",
+      "lang": "en",
+      "text": "CNN \" cnni : The Red Cross is asking people in central Italy to turn off their wifi passwords to make communicati \u2026 \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "CNN"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768454557840146432",
+      "lang": "en",
+      "text": "Earthquake in Italy :P rotezione Civile : 800 840 840 Prot . Civ . Lazio : 803 555 Please remove your Wi Fi password if in emergency zone .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "lazio": {
+            "lat": 42.007692,
+            "long": 12.668188
+         }
+      },
+      "Sources": [
+         "Wi Fi",
+         "Civile"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": [
+            "800 840 840"
+         ]
+      }
+   },
+   {
+      "_id": "768456034419478529",
+      "lang": "en",
+      "text": "Donate money , blood and food !",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "money",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768456114350333954",
+      "lang": "en",
+      "text": "Donate blood in solidarity to earthquake victims.Please find the whole list of blood donation centers in Rome",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "rome": {
+            "lat": 41.905435,
+            "long": 12.531177
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood donation",
+            "quantity": "None"
+         },
+         {
+            "resource": "donation",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "centers",
+            "quantity": "None"
+         },
+         {
+            "resource": "blood donation centers",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768457694382592000",
+      "lang": "en",
+      "text": "heres how you can help Italian earthquake victims / families : donate to CLICK THIS LINK",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768458079402885120",
+      "lang": "en",
+      "text": "Unable to get into the hospital , earthquake victims are being treated in the parking lot . Italy Earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "into the hospital": {
+            "lat": 27.9929677,
+            "long": 85.1041387
+         }
+      },
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768461939769012224",
+      "lang": "en",
+      "text": "Rescue workers are struggling to get vital digging equipment to an area of Italy hit by a powerful earthquake .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Rescue workers"
+      ],
+      "Resources": [
+         {
+            "resource": "equipment",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768480587170676737",
+      "lang": "en",
+      "text": "Italy Earthquake Red Cross asks folks near epicenter disable wifi passwords , help 1 st responders communicate :",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "1 st responders"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768480605118009344",
+      "lang": "en",
+      "text": "New post : \" People urged to remove password from Wi Fi to help Italian earthquake relief \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian",
+         "Wi Fi",
+         "People"
+      ],
+      "Resources": [
+         {
+            "resource": "post",
+            "quantity": "None"
+         },
+         {
+            "resource": "relief",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768482875947651072",
+      "lang": "en",
+      "text": "( ! Axeliito_x 3 ! ) People urged to remove password from Wi Fi to help Italian earthquake ... $ Wiz Khalifa $",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian",
+         "Wi Fi",
+         "People",
+         "Axeliito_x"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768484304611454977",
+      "lang": "en",
+      "text": "\" Red Cross : Turn your wi-fi password off \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768489250014662656",
+      "lang": "en",
+      "text": "Please help the PEOPLE in Italy . Devastating earthquake . We need to donate money , food , etc ! Obama step up !",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Obama"
+      ],
+      "Resources": [
+         {
+            "resource": "money",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768489755973709825",
+      "lang": "en",
+      "text": "Italian Red Cross urges people to disable Wi-Fi passwords after devastating earthquake . A security expert has ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "security",
+            "quantity": "None"
+         },
+         {
+            "resource": "security expert",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768489840417632257",
+      "lang": "en",
+      "text": "Sharing Technology Startup Founder News Red Cross Asks Italians in Quake Zone to Disable Wi-Fi Passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768490876066680832",
+      "lang": "en",
+      "text": "Se hace un llamado para que la gente desbloquee sus redes de Wi Fi ante emergencia en Italy Earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Se",
+         "de Wi Fi",
+         "gente desbloquee sus"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768492113352921089",
+      "lang": "en",
+      "text": "Italian Red Cross has urged people to disable Wi-Fi passwords after earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768492909112852480",
+      "lang": "en",
+      "text": "( Wired UK ): Italian Red Cross urges people to disable Wi-Fi passwords after devastating earthquake : A ..",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wired UK"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768496350262460418",
+      "lang": "en",
+      "text": "Haven't seen this before : The Red Cross Wants Italians in Earthquake Disaster Area to Deactivate Wi-Fi Passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768499618581581825",
+      "lang": "en",
+      "text": "People urged to remove password from Wi Fi to help Italian earthquake relief : Multiple organizations and insti ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian",
+         "Wi Fi",
+         "People"
+      ],
+      "Resources": [
+         {
+            "resource": "relief",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768501059228696576",
+      "lang": "en",
+      "text": "The Red Cross asks Italians to deactivate their password protection on their Wi Fi in the aftermath of an earthquake .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi",
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "password protection",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         },
+         {
+            "resource": "protection",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768502788313653248",
+      "lang": "en",
+      "text": "Italy Earthquake guys please everyone donate as much as you can to these earthquake centers and donate blood and clothes please help out",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "guys"
+      ],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "centers",
+            "quantity": "None"
+         },
+         {
+            "resource": "clothes",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768509922631905280",
+      "lang": "en",
+      "text": "\u201c Locals urged to remove password from Wi Fi after earthquake \u201d Mashable",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "Locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768520457779896321",
+      "lang": "en",
+      "text": "Red Cross wants Italians in Earthquake Disaster Area to Deactivate Wi-Fi Passwords . Terremoto",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768523257498611713",
+      "lang": "en",
+      "text": "The Red Cross Wants Italians in Earthquake Disaster Area to Deactivate Wi-Fi Passwords : Enter your username a ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768525046465892352",
+      "lang": "en",
+      "text": "Italy needs help ! The earthquake left many people without home , hospitals need ambulances , \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "home",
+            "quantity": "None"
+         },
+         {
+            "resource": "ambulances",
+            "quantity": "None"
+         },
+         {
+            "resource": "hospitals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768538386172878852",
+      "lang": "en",
+      "text": "Italian Red Cross urges people near earthquake epicenter to open their Wi-Fi nets by removing the password",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "nets",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768543871265566720",
+      "lang": "en",
+      "text": "Help Italian earthquake victims ; donate to Red Cross Emergency Centers thru the link below.Thank you , Deborah .  \ud83c\uddee \ud83c\uddf9",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Deborah",
+         "Italian"
+      ],
+      "Resources": [
+         {
+            "resource": "Centers",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768548480147161088",
+      "lang": "en",
+      "text": "Italian Red Cross today requesting people in earthquake affected areas remove wifi passwords on routers to allow emergency use EPTip",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "emergency"
+      ],
+      "Resources": [
+         {
+            "resource": "areas",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         },
+         {
+            "resource": "routers",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768552041522135040",
+      "lang": "en",
+      "text": "Red Cross requests Italians deactivate Wi-Fi router passwords to ease earthquake rescue efforts",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "router",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768554573787193344",
+      "lang": "en",
+      "text": "A sign of modern times People urged to remove password from Wi Fi to help Italian earthquake relief via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian",
+         "Wi Fi",
+         "People"
+      ],
+      "Resources": [
+         {
+            "resource": "relief",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768559917892370433",
+      "lang": "en",
+      "text": "Italy Earthquake Emphasizes The Need For Mobile Hospitals : BLU-MED Response Systems ' Disaster Response Stockpile \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Hospitals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Stockpile",
+            "quantity": "None"
+         },
+         {
+            "resource": "Systems",
+            "quantity": "None"
+         },
+         {
+            "resource": "Mobile Hospitals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768559918437789696",
+      "lang": "en",
+      "text": "Italy Earthquake Emphasizes The Need For Mobile Hospitals",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Hospitals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Mobile Hospitals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768567839783473152",
+      "lang": "en",
+      "text": "Italians ask for any donations for earthquake aid to be sent directly to Italian Red Cross auspol",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768577135090946050",
+      "lang": "en",
+      "text": "Italian Red Cross asking for wifi access during earthquake recovery effort",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768577912291328000",
+      "lang": "en",
+      "text": "Engadget RSS Feed / / Italian earthquake victims asked to disable Wi Fi passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "Feed",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768578411736346624",
+      "lang": "en",
+      "text": "Digital Tech News : Italian earthquake victims asked to disable Wi Fi passwords : Early Wednesday a 6.2 magnitud ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi",
+         "Digital Tech News"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768580138401406976",
+      "lang": "en",
+      "text": "Latest TUAW News Italian earthquake victims asked to disable Wi Fi passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768580329414066176",
+      "lang": "en",
+      "text": "Huuuh , disaster orgs requesting opening wifi connections to bolster communication in the wake of Italy's earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "connections",
+            "quantity": "None"
+         },
+         {
+            "resource": "communication",
+            "quantity": "None"
+         },
+         {
+            "resource": "wifi connections",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768580926251163648",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords Read : via Engadget \u00a9",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768581765858529281",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords , and it makes sense",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768581884695674880",
+      "lang": "en",
+      "text": "New post : \" Italian earthquake victims asked to disable Wi Fi passwords \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "post",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768594609433878528",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords disaster facebookmessenger",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768597868051652608",
+      "lang": "en",
+      "text": "New post on my blog : Italian earthquake victims asked to disable Wi Fi passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "post",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768600268762075136",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords : Early Wednesday a 6.2 magnitude earthquake struck central Italy , killing ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768601291555688448",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768608350737014785",
+      "lang": "en",
+      "text": "Italian victims asked to disable Wi Fi passwords This is making it able for malicious people to access info .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian victims",
+         "Wi Fi",
+         "malicious people"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768609847885631492",
+      "lang": "en",
+      "text": "' We need chain saws .. we need everything ' Italy Earthquake survivors , 21 dead",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768611530740948993",
+      "lang": "en",
+      "text": "Modern disasterrelief MT Italianearthquake residents asked to disable Wi Fi p / w",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi",
+         "disasterrelief MT Italianearthquake residents"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768632959649910784",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords TX to Joystiq",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi",
+         "TX"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768637966675771392",
+      "lang": "en",
+      "text": "Italy Earthquake death toll rises to 159 ; Need For Mobile Hospitals emphasised",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "death toll"
+      ],
+      "Resources": [
+         {
+            "resource": "Hospitals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Mobile Hospitals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768681469623492608",
+      "lang": "en",
+      "text": "Italian Red Cross urges locals to disable Wi-Fi passwords following devastating earthquake : The Croce Rossa t ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "The Croce Rossa"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768684087028703232",
+      "lang": "en",
+      "text": "Another case of technology being used for good Italian earthquake victims asked to disable Wi Fi passwords :",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian",
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "case",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768688368108601344",
+      "lang": "en",
+      "text": "Italian Red Cross urges people to disable Wi-Fi passwords after devastating earthquake > > Niet veilg . Wel nodig .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wel",
+         "Niet"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768705176400175104",
+      "lang": "en",
+      "text": "The Next Web / / Want to help earthquake victims near you ? Disable your Wi-Fi password",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Web",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768705995337895936",
+      "lang": "en",
+      "text": "super interesting , small but huge commisaid element in disaster response : turn off your wifi password",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "element",
+            "quantity": "None"
+         },
+         {
+            "resource": "interesting element",
+            "quantity": "None"
+         },
+         {
+            "resource": "commisaid element",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768707126453764096",
+      "lang": "en",
+      "text": "The Next Web \" Want to help earthquake victims near you ? Disable your Wi-Fi password \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Next Web",
+            "quantity": "None"
+         },
+         {
+            "resource": "Web",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768714819608334337",
+      "lang": "en",
+      "text": "Want to help earthquake victims near you ? Disable your Wi-Fi password : A 6.2 magnitude earthquake struck central Italy on Wednesday m ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768714825417560064",
+      "lang": "en",
+      "text": "Want to help earthquake victims near you ? Disable your Wi-Fi pas .. internet",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "internet",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768717007768416256",
+      "lang": "en",
+      "text": "help earthquake plastic tablewear , water , detergents , long-life food pleasedonate everythingcanhelp",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "life": {
+            "lat": 43.43752,
+            "long": 13.66237
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "food pleasedonate everythingcanhelp",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768717751892533248",
+      "lang": "en",
+      "text": "Italian Red Cross urges locals to disable Wi Fi passwords following devastating earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768721652091854848",
+      "lang": "en",
+      "text": "Our support to all families affected by the earthquake in Italy . Donate Italian Red Cross :",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Italian"
+      ],
+      "Resources": [
+         {
+            "resource": "support",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768729445255577601",
+      "lang": "en",
+      "text": "New post : \" The Red Cross is urging Italians to turn their Wi-Fi passwords off after the earthquake \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi",
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "post",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768729795894968321",
+      "lang": "en",
+      "text": "Italian Red Cross urges locals to disable Wi Fi passwords following devastating earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768735619195469824",
+      "lang": "en",
+      "text": "Italian Red Cross : remove Wi-Fi password to help earthquake recovery . Security expert : hold on a second",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Security",
+            "quantity": "None"
+         },
+         {
+            "resource": "Security expert",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768735868219629569",
+      "lang": "en",
+      "text": "Italians Urged to Remove Wifi Passwords to Help Earthquake Victims : Disaster communications .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians Urged",
+         "Remove Wifi Passwords"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768736713476800513",
+      "lang": "en",
+      "text": "Italians are being urged to drop their Wi-Fi passwords to help earthquake victims",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi",
+         "Italians"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768737582800928770",
+      "lang": "en",
+      "text": "Earthquake Collection efforts taking place in Florence today from 10 am - 10 pm ( asking for clothes , shoes , water )",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "florence": {
+            "lat": 43.791506,
+            "long": 11.264206
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "pm",
+            "quantity": "10"
+         },
+         {
+            "resource": "shoes",
+            "quantity": "None"
+         },
+         {
+            "resource": "clothes",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768743798461440000",
+      "lang": "en",
+      "text": "The is urging Italians to disable wifi passwords so responders and victims can communicate . earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "responders",
+         "Italians"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768744737863897088",
+      "lang": "en",
+      "text": "Public service announcement , in event of disaster , donate your wifi and disable your wifi password . psa earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "psa": {
+            "lat": 43.696225,
+            "long": 10.398175
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "service",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768745988664258560",
+      "lang": "en",
+      "text": "Donate clothes , shoes , water and more in Florence for victims of the Earthquake , here's how and where",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "florence": {
+            "lat": 43.791506,
+            "long": 11.264206
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "shoes",
+            "quantity": "None"
+         },
+         {
+            "resource": "clothes",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768757200634441728",
+      "lang": "en",
+      "text": "\u00ab Want to help earthquake victims near you ? Disable your Wi Fi password \u00bb Le net c \u2019 est comme la bi\u00e8re : \u00e7a se partage",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "le": {
+            "lat": 40.21667,
+            "long": 18.16667
+         }
+      },
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "net",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768758887063355392",
+      "lang": "en",
+      "text": "Survivors of the 6.2 M Italy Earthquake need emergency supplies like food , water , and medicine \u2014 donate today :",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "\u2014",
+         "Survivors"
+      ],
+      "Resources": [
+         {
+            "resource": "medicine",
+            "quantity": "None"
+         },
+         {
+            "resource": "emergency supplies",
+            "quantity": "None"
+         },
+         {
+            "resource": "supplies",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768759688288727040",
+      "lang": "en",
+      "text": "Earthquake in central Italy , 247 dead so far . Blood donations needed :",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Blood donations",
+            "quantity": "None"
+         },
+         {
+            "resource": "Blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768765233519296512",
+      "lang": "en",
+      "text": "The simplest things mean a hell of a lot . Disable wifi in this and other situations : disablewifi",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "things",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768767120142393344",
+      "lang": "en",
+      "text": "Our thoughts are with those who lost relatives and homes in Italy Earthquake . Please send donations",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "homes",
+            "quantity": "None"
+         },
+         {
+            "resource": "donations",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768769977759379456",
+      "lang": "en",
+      "text": "Corpus Christi Italian Earthquake survivors seek shelter",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "survivors"
+      ],
+      "Resources": [
+         {
+            "resource": "shelter",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768772127579336704",
+      "lang": "en",
+      "text": "247 dead and many still missing.Blood Help Aid still needed . Italy Earthquake Charity",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Help Aid"
+      ],
+      "Resources": [
+         {
+            "resource": "Blood Aid",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768783300341207041",
+      "lang": "en",
+      "text": "Perugia earthquake : DONATE blood and funds . Pray For Italy \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "perugia": {
+            "lat": 43.096689,
+            "long": 12.409274
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "blood",
+            "quantity": "None"
+         },
+         {
+            "resource": "funds",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768784240196591616",
+      "lang": "en",
+      "text": "Please assist in rescue efforts , food , water , shelter , to the earthquake devastated area of Amatrice in Italy .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "shelter",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768785401418919936",
+      "lang": "en",
+      "text": "Ping ForADay > Italy asks public to off Wi-Fi passwords for communication in earthquake aftermath . Wi Fi quake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "communication",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768789883120914433",
+      "lang": "en",
+      "text": "Red Cross appeals to Italian earthquake victims to disable Wi Fi passwords ( Bandwidth Blog )",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italian",
+         "Wi Fi",
+         "Bandwidth Blog"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768790575541870592",
+      "lang": "en",
+      "text": "Italy earthquake : Red Cross urges locals in affected areas to disable their Wi Fi passwords International Busines \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Wi Fi",
+         "International Busines"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768792105451917312",
+      "lang": "en",
+      "text": "Amatrice , home town of Amatriciana sauce , has been destroyed by an earthquake : help the locals . via / r / food food \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         }
+      },
+      "Sources": [
+         "Amatriciana"
+      ],
+      "Resources": [
+         {
+            "resource": "home",
+            "quantity": "None"
+         },
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "food food",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768792564891721728",
+      "lang": "en",
+      "text": "Another way of donating if you are in Italy is to open up your wifi to allow others to use it .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768799099684610048",
+      "lang": "en",
+      "text": "Red Cross urges Italians to turn off their wifi passwords . Essentially a pitch for free internet for all .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "free internet",
+            "quantity": "None"
+         },
+         {
+            "resource": "internet",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768804859407663108",
+      "lang": "en",
+      "text": "Blood urgently needed for earthquake patients , where to donate in florence tuscany Prayingfor Italy",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768805856100036608",
+      "lang": "en",
+      "text": "Italy earthquake ; rescue teams running out of body bags , people forced to sleep in the streets-looting 4 Italy",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "people"
+      ],
+      "Resources": [
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "rescue teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "body",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768806059771367424",
+      "lang": "en",
+      "text": "Technology News : Rescue teams searching for earthquake survivors trapped in central Italy have asked locals to unlock their wi-fi passwords .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768808279610884096",
+      "lang": "en",
+      "text": "Red Cross asks Italians in earthquake disaster area to turn off Wi-Fi passwords",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         },
+         {
+            "resource": "area",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768809412744077312",
+      "lang": "en",
+      "text": "India needs an SOP for to override KYC for this . \" Italy quake rescuers ask locals to unlock their wi-fi \"",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "india": {
+            "lat": 46.7324,
+            "long": 12.27855
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "KYC",
+         "SOP",
+         "quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768811382422724608",
+      "lang": "en",
+      "text": "The role of telecom in crisis The Red Cross is urging Italians to turn Wi-Fi passwords off after the earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi",
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768813995763564544",
+      "lang": "en",
+      "text": "The Red Cross is Urging Italians to Turn Their Wi Fi Passwords Off After the Earthquake via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768815218344464384",
+      "lang": "en",
+      "text": "The Red Cross is urging Italians to turn their Wi Fi passwords off after the earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi",
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768816836431327232",
+      "lang": "en",
+      "text": "Italy earthquake leads to open-air mortuaries , rescue teams running out of body bags , as looting spreads",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "air",
+            "quantity": "None"
+         },
+         {
+            "resource": "rescue teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "body",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768817709945610240",
+      "lang": "en",
+      "text": "Survivors of the magnitude 6.2 quake in Italy seek shelter , left homeless .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "6.2 quake",
+         "Survivors"
+      ],
+      "Resources": [
+         {
+            "resource": "shelter",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768817716996308992",
+      "lang": "en",
+      "text": "The Italy Earthquake has caused significant damage . Survivors need your help to access food , water , and medicine .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Survivors"
+      ],
+      "Resources": [
+         {
+            "resource": "medicine",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768820146085306368",
+      "lang": "en",
+      "text": "BBC News Tech Italy quake rescuers ask locals to unlock their wi-fi : Rescue teams searching for earthquake su ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "BBC News Tech Italy quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Rescue teams",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768820563221417984",
+      "lang": "en",
+      "text": "berita teknologi Italy quake rescuers ask locals to unlock their wi-fi : Rescue teams se ... Warta Berita Central",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "locals",
+            "quantity": "None"
+         },
+         {
+            "resource": "Rescue teams",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768822302582697984",
+      "lang": "en",
+      "text": "Tech Update from the BBC ! Tech BBC Technology Italy quake rescuers ask locals to unlock their wi-fi",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Tech BBC Technology Italy quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768822681391079424",
+      "lang": "en",
+      "text": "Ohh ... This isn't a request I've ever heard in the US . Brilliant . Disable wifi so first responders can comm .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Disable wifi",
+         "first responders"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768823780093427712",
+      "lang": "en",
+      "text": "The Red Cross asks Italians to deactivate their Wi-Fi passwords for earthquake relief : \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         },
+         {
+            "resource": "relief",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768828087412875265",
+      "lang": "en",
+      "text": "Italy quake rescuers ask locals to unlock their wi-fi",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768830981717516288",
+      "lang": "en",
+      "text": "Italian earthquake victims asked to disable Wi Fi passwords \u2014 Engadget ( engadget ) August \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "\u2014 Engadget",
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768834300754092032",
+      "lang": "en",
+      "text": "Italy earthquake victims asked to disable Wi Fi passwords so Red Cross can use Whats App and Skype to contact victims",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "victims",
+         "App and Skype",
+         "Wi Fi"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768838950140141568",
+      "lang": "en",
+      "text": "The is urging Italians \ud83c\uddee \ud83c\uddf9 to turn their Wi-Fi passwords off after the earthquake.Via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "via": {
+            "lat": 45.86175,
+            "long": 11.34073
+         }
+      },
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768850149040726018",
+      "lang": "en",
+      "text": "an alarm training button , in cage , cats push button , wifi alarm in house says , hey dummy hooman , get me out earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "house",
+            "quantity": "None"
+         },
+         {
+            "resource": "alarm",
+            "quantity": "None"
+         },
+         {
+            "resource": "button",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768852021990400001",
+      "lang": "en",
+      "text": "I've really gotta get my earthquake prep game up ! I need all the bottles of water , batteries , canned food , etc . earthquakestress",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "game",
+            "quantity": "None"
+         },
+         {
+            "resource": "batteries",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768853110483738624",
+      "lang": "en",
+      "text": "2 all that asked how 2 help , of course if u live abroad can't send food , but maybe clothes , blankets or money ! Contact earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "live": {
+            "lat": 46.83333,
+            "long": 10.5
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "money",
+            "quantity": "None"
+         },
+         {
+            "resource": "blankets",
+            "quantity": "None"
+         },
+         {
+            "resource": "course",
+            "quantity": "None"
+         },
+         {
+            "resource": "food",
+            "quantity": "None"
+         },
+         {
+            "resource": "clothes",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768856637272576000",
+      "lang": "en",
+      "text": ": Italy quake rescuers ask locals to unlock their wifi : Italy quake rescuers ask local ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768857736486359040",
+      "lang": "en",
+      "text": "Appeal for wi-fi connection in earthquake areas in Italy via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "connection",
+            "quantity": "None"
+         },
+         {
+            "resource": "fi connection",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768858856482930688",
+      "lang": "en",
+      "text": "BBC News : Earthquake rescuers seek unlocked wi-fi",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "BBC News",
+         "rescuers"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768860982072467456",
+      "lang": "en",
+      "text": "Help quake victims near you by disabling your Wi-Fi password",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768868055837470720",
+      "lang": "en",
+      "text": "Red Cross asks Italians in Amatrice to disable wifi passwords to speed communication :",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         }
+      },
+      "Sources": [
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "communication",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768870785578598400",
+      "lang": "en",
+      "text": "How can you help in Emergency or Natural Disaster situations ? Unlock your Wi Fi for those in need to communicate .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768871410185936896",
+      "lang": "en",
+      "text": "Directly donate proceeds to the Shelter Box Italy Earthquake relief efforts , including water purification ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "Shelter",
+            "quantity": "None"
+         },
+         {
+            "resource": "purification",
+            "quantity": "None"
+         },
+         {
+            "resource": "water purification",
+            "quantity": "None"
+         },
+         {
+            "resource": "relief",
+            "quantity": "None"
+         },
+         {
+            "resource": "Shelter efforts",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768890150524903424",
+      "lang": "en",
+      "text": "Well right now donating to the victims of the earthquake .. sent some mails to try and get the medicines . No answer so far .",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "mails",
+            "quantity": "None"
+         },
+         {
+            "resource": "medicines",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768900617045585920",
+      "lang": "en",
+      "text": "Disable your Wi Fi passwords in times of crisis . Louisianaflooding via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi Fi"
+      ],
+      "Resources": [],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768902851959500800",
+      "lang": "en",
+      "text": "When mudslides and earthquakes bury people , dogs rescue teams and medical teams need to be immediately dispatched",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "dogs",
+            "quantity": "None"
+         },
+         {
+            "resource": "rescue teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "medical teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "dogs teams",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768913368027533312",
+      "lang": "en",
+      "text": "PLS If You / Ur Friends / Neighbors Can HELP the PPL of AMATRICE , ITALY From recent earthquake killing hundreds W / blankets , water and / or $ Pls Do !",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         }
+      },
+      "Sources": [
+         "Pls",
+         "PLS",
+         "/ Neighbors"
+      ],
+      "Resources": [
+         {
+            "resource": "blankets",
+            "quantity": "None"
+         },
+         {
+            "resource": "water",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768914704135839744",
+      "lang": "en",
+      "text": "Italy Quake Rescuers Ask Locals To Unlock Their Wi-Fi Checkout more of our fantastic stuff \u2026",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italy Quake Rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "Checkout",
+            "quantity": "None"
+         },
+         {
+            "resource": "Locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768916182774624256",
+      "lang": "en",
+      "text": "Italy Quake Rescuers Ask Locals To Unlock Their Wi-Fi : Rescue teams searching for earthquake survivors \u2026 Slashdot",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "fi": {
+            "lat": 44.86301,
+            "long": 10.663695
+         }
+      },
+      "Sources": [
+         "Italy Quake Rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "Rescue teams",
+            "quantity": "None"
+         },
+         {
+            "resource": "Locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768917728363184128",
+      "lang": "en",
+      "text": "Over 1000 people in the Italian earthquake disaster are homeless and tents desperately needed . How about it ?",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Over 1000 people",
+         "Italian"
+      ],
+      "Resources": [
+         {
+            "resource": "tents",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768936542534569986",
+      "lang": "en",
+      "text": "\" Italy Quake Rescuers Ask Locals To Unlock Their Wi-Fi \" by manishs",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Italy Quake Rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "Locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768944692889124864",
+      "lang": "en",
+      "text": "Italian Red Cross asks residents to unlock their wifi to aid in search and rescue after ( terrible ) earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [],
+      "Resources": [
+         {
+            "resource": "search",
+            "quantity": "None"
+         },
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768948638240350208",
+      "lang": "en",
+      "text": "Red Cross call on Italians to turn Wifi passwords off following earthquake",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wifi",
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768958328085049348",
+      "lang": "en",
+      "text": "Italy quake rescuers ask locals to unlock their wi-fi Short News : via",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "quake rescuers",
+         "Short News"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768958535870799874",
+      "lang": "en",
+      "text": "The Red Cross is urging Italians to turn their Wi-Fi passwords off after the earthquake : The Red Cross is urg ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Wi",
+         "Italians"
+      ],
+      "Resources": [
+         {
+            "resource": "Cross",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768958970136518656",
+      "lang": "en",
+      "text": "Italy quake rescuers ask locals to unlock their wi-fi earthquakeemergency wifi makes sense",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "quake rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "locals",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768965279531556868",
+      "lang": "en",
+      "text": "The Register : Rescuers urge quake-hit Italy to open its Wi-Fi networks to boost comms",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         }
+      },
+      "Sources": [
+         "Rescuers"
+      ],
+      "Resources": [
+         {
+            "resource": "networks",
+            "quantity": "None"
+         },
+         {
+            "resource": "Fi networks",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   },
+   {
+      "_id": "768978532341014528",
+      "lang": "en",
+      "text": "Donate to day to help save Victims or provide Food Water etc ...",
+      "Classification": "Need",
+      "isCompleted": false,
+      "username": "@Username",
+      "Matched": -1,
+      "Locations": {},
+      "Sources": [
+         "Victims"
+      ],
+      "Resources": [
+         {
+            "resource": "Food Water",
+            "quantity": "None"
+         },
+         {
+            "resource": "Water",
+            "quantity": "None"
+         },
+         {
+            "resource": "Food",
+            "quantity": "None"
+         }
+      ],
+      "Contact": {
+         "Email": [],
+         "Phone Number": []
+      }
+   }
+]
