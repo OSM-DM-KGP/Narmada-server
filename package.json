@@ -1,0 +1,22 @@
+{
+    "name": "narmada-api",
+    "version": "1.0.0",
+    "description": "API for Narmada Database",
+    "main": "app.js",
+    "scripts": {
+        "start": "node node_modules/nodemon/bin/nodemon.js app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kaustubh Hiware",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "circular-json": "^0.5.7",
+        "express": "^4.15.4",
+        "mongodb": "^3.0.2",
+        "mongoose": "^4.11.6",
+        "mongoose-paginate": "^5.0.3",
+        "nodemon": "^1.18.4",
+        "python-shell": "^0.4.0"
+    }
+}
