@@ -42,7 +42,29 @@ app.get('/info', (request, response) => {
 
 // Get
 app.get('/', (request, response) => {
-    response.status(200).send(request.query);
+    // request.query contains filter
+    // response.status(200).send(request.query);
+    var options = {
+        "limit": 20,
+        "skip": 0,
+    };
+    if(request.query.skip) {
+        options.skip = Number(request.query.skip);
+        delete request.query.skip;
+    }
+    if(request.query.isCompleted) request.query.isCompleted = (request.query.isCompleted == 'true');
+    if(request.query.text) request.query.text = JSON.parse(request.query.text);
+    console.log('Query', request.query);
+    db.collection(collectionName).find(request.query, options).sort({ created: -1 }).toArray(function(err, results) {
+        if(results) {
+            // console.log('results', results);
+            response.send(results);
+        }
+        if(err) {
+            console.log('Error retrieving docs', err);
+        }
+    });
+    // response.status(200).send(CircularJSON.stringify(out));
 });
 
 // get details of tweet
@@ -59,7 +81,7 @@ app.post('/new', (request, response) => {
 
     var insertTweet = Tweet(tweet);
     db.collection(collectionName).insert(insertTweet);
-    response.status(200).send('Saved resource');
+    response.status(201).send('Created resource');
 });
 
 app.listen(port, () => {
