@@ -1,0 +1,64 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Narmada",
+		"_postman_id": "8580c949-2f8d-ef7e-2ce5-681765ac840d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create resource",
+			"request": {
+				"url": "http://localhost:3000/new",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"lang\": \"en\",\n  \"text\": \"a\",\n  \"Classification\": \"Need\",\n  \"isCompleted\": false,\n  \"Matched\": -1,\n  \"Locations\":\n   { \"Assam, India\": { \"lat\": 26.0737044, \"long\": 83.18594580000001 } },\n  \"Resources\": { \"Food\": \"as\"},\n  \"Contact\": { \"Email\": [], \"Phone number\": [] } \n\t\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Incomplete Needs",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000?type=Need&isCompleted=false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"query": [
+						{
+							"key": "type",
+							"value": "Need",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isCompleted",
+							"value": "false",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

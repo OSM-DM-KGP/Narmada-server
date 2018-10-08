@@ -8,6 +8,11 @@ const locationSchema = new mongoose.Schema({
 //     "long" : 12.868538
 // }
 
+//     Resources: [{
+// resource: String,
+//     quantity: String,
+//     }],
+
 const tweetSchema = new mongoose.Schema({
     _id: {
         type: String,
@@ -27,16 +32,19 @@ const tweetSchema = new mongoose.Schema({
         type: Boolean,
         default: false,
     },
-    username:  String,
-    Matched: Number,
+    username:  {
+        type: String,
+        default: '',
+    },
+    Matched: {
+        type: Number,
+        default: -1,
+    },
     Locations: {},
     Sources: [{
         type: String
     }],
-    Resources: [{
-        resource: String,
-        quantity: String,
-    }],
+    Resources: Array,
     status: {
         type: Number,
         default: 0,
