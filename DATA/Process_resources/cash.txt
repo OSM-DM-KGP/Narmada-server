@@ -1,0 +1,14 @@
+cash
+funds
+loan
+donation
+money
+stock
+supply
+endowment
+reserve
+savings
+credit
+resources
+treasure
+assets
