@@ -14,21 +14,21 @@ const locationSchema = new mongoose.Schema({
 //     }],
 
 const tweetSchema = new mongoose.Schema({
-    _id: {
+    _id: { // id for tweet
         type: String,
         unique: true,
         required: true,
     },
     lang:  String,
-    text: {
+    text: { // tweet text
         type: String,
         required: true,
     },
-    Classification: {
+    Classification: { // Classification according to system
         type: String,
         enum: ['Need','Availability'],
     },
-    isCompleted: {
+    isCompleted: { // only after status is full
         type: Boolean,
         default: false,
     },
@@ -36,20 +36,20 @@ const tweetSchema = new mongoose.Schema({
         type: String,
         default: '',
     },
-    Matched: {
-        type: Number,
-        default: -1,
+    Matched: { // id of matched tweet
+        type: String,
+        default: '',
     },
-    Locations: {},
-    Sources: [{
+    Locations: {}, // all possible detected locations
+    Sources: [{ // sources - names of people, NGO's, etc
         type: String
     }],
-    Resources: Array,
+    Resources: Array, // detected json of jsons - each json has resource and quantity
     status: {
         type: Number,
         default: 0,
     },
-    Contact: {
+    Contact: { // straight forwarsd
         Email: [{
             type: String,
         }],
@@ -57,10 +57,14 @@ const tweetSchema = new mongoose.Schema({
             type: String,
         }],     
     },
-    created: {
+    created: { // created time - used for matching
         type: Date, 
         default: Date.now,
     },
+    url: { // tweet url in case we want to reply to them
+        type: String,
+        default: ''
+    }
 
 }, { collection: 'tweets'});
 
