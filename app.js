@@ -54,7 +54,7 @@ app.get('/', (request, response) => {
     }
     if(request.query.isCompleted) request.query.isCompleted = (request.query.isCompleted == 'true');
     if(request.query.text) request.query.text = JSON.parse(request.query.text);
-    console.log('Query', request.query);
+    // console.log('Query', request.query);
     db.collection(collectionName).find(request.query, options).sort({ created: -1 }).toArray(function(err, results) {
         if(results) {
             // console.log('results', results);
