@@ -3,38 +3,28 @@
       "_id": "768288931158695937",
       "lang": "en",
       "text": "Actions does more than thoughts or prayers ! Like donating blood , food , water and shelter . Italy Earthquake Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Actions",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "water": "None",
+            "food": "None",
+            "thoughts": "None"
          },
-         {
-            "resource": "blood",
-            "quantity": "None"
+         "logistic": {
+            "Actions": "None"
          },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "shelter": {
+            "shelter": "None"
          },
-         {
-            "resource": "shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "thoughts",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -44,7 +34,7 @@
       "_id": "768300446603579392",
       "lang": "en",
       "text": "Toronto's Italian community already mobilizing to help victims of earthquake 100 miles north of Rome . Many worried about relatives .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -57,16 +47,12 @@
       "Sources": [
          "Toronto"
       ],
-      "Resources": [
-         {
-            "resource": "community",
-            "quantity": "None"
-         },
-         {
-            "resource": "Italian community",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Italian community": "None",
+            "community": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -76,7 +62,7 @@
       "_id": "768301172708876288",
       "lang": "en",
       "text": "Friends , sound off ! Everyone OK ? What help is needed , blankets , food , water , etc , let me know , friends will help ! Pray 4 Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -85,20 +71,15 @@
          "help",
          "friends"
       ],
-      "Resources": [
-         {
-            "resource": "blankets",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "blankets": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "food": {
+            "food": "None",
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -108,30 +89,24 @@
       "_id": "768306420907466752",
       "lang": "en",
       "text": "All the emergency centers are mobilized at national level . Local volunteers are supporting affected people earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "centers",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "centers": "None"
          },
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+         "logistic": {
+            "Local volunteers": "None",
+            "volunteers": "None"
          },
-         {
-            "resource": "Local volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "level",
-            "quantity": "None"
+         "shelter": {
+            "level": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -141,7 +116,7 @@
       "_id": "768313152098410496",
       "lang": "en",
       "text": "Volunteers from are helping people stay safe after a big earthquake has struck in central Italy .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -154,12 +129,11 @@
       "Sources": [
          "people"
       ],
-      "Resources": [
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -169,42 +143,26 @@
       "_id": "768315293487824896",
       "lang": "en",
       "text": "Italy Red Cross deploys Relief units and Rescue dogs , 20 ambulances on their way to respond to major earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Rescue dogs",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None",
+            "Relief": "None",
+            "way": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "Rescue dogs": "None",
+            "dogs": "None"
          },
-         {
-            "resource": "dogs",
-            "quantity": "None"
-         },
-         {
-            "resource": "way",
-            "quantity": "None"
-         },
-         {
-            "resource": "20 ambulances",
-            "quantity": "20"
-         },
-         {
-            "resource": "Relief",
-            "quantity": "None"
-         },
-         {
-            "resource": "ambulances",
-            "quantity": "20"
+         "medical": {
+            "ambulances": "20"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -214,7 +172,7 @@
       "_id": "768318222315687936",
       "lang": "en",
       "text": "Search and rescue dogs and 20 ambulances on the ground in Perugia following earthquake volunteers from on the scene .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -225,32 +183,17 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Search",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "ambulances": "20",
+            "Search": "None"
          },
-         {
-            "resource": "dogs",
-            "quantity": "None"
-         },
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "earthquake volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "20 ambulances",
-            "quantity": "20"
-         },
-         {
-            "resource": "ambulances",
-            "quantity": "20"
+         "logistic": {
+            "volunteers": "None",
+            "earthquake volunteers": "None",
+            "dogs": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -260,22 +203,20 @@
       "_id": "768323535588696064",
       "lang": "en",
       "text": "Italy Red Cross emergency centrs mobilized . volunteers support affected by earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -285,7 +226,7 @@
       "_id": "768325132897099776",
       "lang": "en",
       "text": "Emergency contact information distributed by the Italian Red Cross Terremoto ( ) Amatrice Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -293,7 +234,7 @@
       "Sources": [
          "the Italian Red Cross Terremoto"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -303,30 +244,22 @@
       "_id": "768332398820032512",
       "lang": "en",
       "text": "Active numbers of the contact center of the Civil Protection : 8008408 40 Civil Protection Lazio : 803555 earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "center",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Civil Protection": "40",
+            "Civil Protection Lazio": "40",
+            "Protection": "None"
          },
-         {
-            "resource": "Civil Protection Lazio",
-            "quantity": "40"
-         },
-         {
-            "resource": "Civil Protection",
-            "quantity": "40"
-         },
-         {
-            "resource": "Protection",
-            "quantity": "None"
+         "food": {
+            "center": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": [
@@ -338,30 +271,22 @@
       "_id": "768337549945245696",
       "lang": "en",
       "text": "Italian Red Cross volunteers are on the ground supporting people affected by the recent earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Red Cross volunteers": "None",
+            "Italian volunteers": "None",
+            "volunteers": "None"
          },
-         {
-            "resource": "Red Cross volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Italian volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -371,7 +296,7 @@
       "_id": "768345666724700160",
       "lang": "en",
       "text": "RT_com : URGENT : Italy mobilizes army to tackle quake aftermath , many feared under rubble \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -382,12 +307,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -397,7 +321,7 @@
       "_id": "768354192578768896",
       "lang": "en",
       "text": "Thanks God my friend and her family are ok . Their house is earthquake-proof and now they are hosting who needs shelter .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -405,16 +329,12 @@
       "Sources": [
          "Thanks"
       ],
-      "Resources": [
-         {
-            "resource": "shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "house",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "house": "None",
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -424,7 +344,7 @@
       "_id": "768356256088256512",
       "lang": "en",
       "text": "Long queues to donate blood after Earthquake strikes Central Italy . Pray For Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -435,12 +355,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -450,26 +369,23 @@
       "_id": "768358083177418753",
       "lang": "en",
       "text": "Red Cross search and rescue teams help survivors amid rubble after Italy Earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "teams": "None"
          },
-         {
-            "resource": "search",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "medical": {
+            "search": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -479,7 +395,7 @@
       "_id": "768359054276108288",
       "lang": "en",
       "text": "' Half the town is gone ' operations team prepared to respond to a 6.2 magnitude earthquake in Italy .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -490,16 +406,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "operations team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "operations team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -509,18 +421,17 @@
       "_id": "768359451397132289",
       "lang": "en",
       "text": "Army is mobilized on earthquake zone terremoto",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -530,7 +441,7 @@
       "_id": "768359789931929600",
       "lang": "en",
       "text": "Army is mobilized on earthquake zone terremoto-Donaci\u00f3n de sangre en hospital de RIETI",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -538,12 +449,11 @@
       "Sources": [
          "Donaci\u00f3n de"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -553,7 +463,7 @@
       "_id": "768360296595488768",
       "lang": "en",
       "text": "Italy Earthquake : Army mobilized , Amatrice and ... FethullahG\u00fclen news",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -566,12 +476,11 @@
       "Sources": [
          "FethullahG\u00fclen"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -581,7 +490,7 @@
       "_id": "768366800744673280",
       "lang": "en",
       "text": "Earthquake Italy Rieti hospital . People queue up to give blood to wounded ( photo Humanity",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -589,16 +498,12 @@
       "Sources": [
          "People"
       ],
-      "Resources": [
-         {
-            "resource": "hospital",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None",
+            "hospital": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -608,7 +513,7 @@
       "_id": "768367340312338432",
       "lang": "en",
       "text": "A major earthquake has struck central Italy and Red Cross search and rescue teams are racing to help survivors ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -619,20 +524,17 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "teams": "None"
          },
-         {
-            "resource": "search",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "medical": {
+            "search": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -642,29 +544,28 @@
       "_id": "768369675541569536",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , Amatrice and Accumoli Hit Hard For my readers and friends in Italy ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Accumoli Hit"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -674,7 +575,7 @@
       "_id": "768378458288353281",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , Dozens Buried in Amatrice Aug 24 5:24 AM ET",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -685,12 +586,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -700,7 +600,7 @@
       "_id": "768379217318907904",
       "lang": "en",
       "text": "Israeli PM Netanyahu offers Italy aid , search and rescue assistance after quake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -714,12 +614,11 @@
          "Israeli",
          "Netanyahu"
       ],
-      "Resources": [
-         {
-            "resource": "search",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "search": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -729,29 +628,28 @@
       "_id": "768381874896973825",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , Amatrice and Accumoli Hit Hard : A 6.2- magnitude earthquake rocked a swath o ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Accumoli Hit"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -761,29 +659,28 @@
       "_id": "768387630371340288",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , Dozens Buried in Amatrice An earthquake hit central Italy early Wednesday , ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Dozens"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -793,36 +690,35 @@
       "_id": "768389483335028736",
       "lang": "en",
       "text": "( NBC 5 Dallas Fort Worth ) Italy Earthquake : Army Mobilized , Dozens Buried in Amatrice : ..",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "fort": {
-            "lat": 44.56784,
-            "long": 7.41295
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
          },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
          },
-         "amatrice": {
-            "lat": 42.62664,
-            "long": 13.29509
+         "fort": {
+            "lat": 44.56784,
+            "long": 7.41295
          }
       },
       "Sources": [
-         "Worth",
+         "Dallas",
          "NBC",
          "Dozens Buried",
-         "Dallas"
+         "Worth"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -832,7 +728,7 @@
       "_id": "768390430207647744",
       "lang": "en",
       "text": "Shelter Box team to Italy within 24 hrs . Ready to help after quake . In touch with Rotary and affiliate colleagues .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -845,24 +741,16 @@
       "Sources": [
          "Rotary"
       ],
-      "Resources": [
-         {
-            "resource": "Box team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Shelter team": "None",
+            "Box team": "None",
+            "team": "None"
          },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter team",
-            "quantity": "None"
+         "shelter": {
+            "Shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -872,7 +760,7 @@
       "_id": "768391873786290176",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , 37 Killed : An earthquake hit central Italy early Wednesday , collapsing home ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -883,12 +771,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -898,7 +785,7 @@
       "_id": "768392022717759488",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , 37 Killed",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -909,12 +796,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -924,18 +810,17 @@
       "_id": "768393091371896833",
       "lang": "en",
       "text": "First aid already on its way after Italy Quake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "way",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "way": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -945,7 +830,7 @@
       "_id": "768397122458845184",
       "lang": "en",
       "text": "Tents have arrived in Amatrice so the 2,500 displaced people have somewhere to spend the night terremoto",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -958,12 +843,11 @@
       "Sources": [
          "2,500 displaced people"
       ],
-      "Resources": [
-         {
-            "resource": "Tents",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Tents": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -973,7 +857,7 @@
       "_id": "768399993162043392",
       "lang": "en",
       "text": "Mobile kitchens are also being set up by for people forced to leave their home after the earthquake in Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -984,15 +868,14 @@
          }
       },
       "Sources": [
-         "people",
-         "Mobile kitchens"
+         "Mobile kitchens",
+         "people"
       ],
-      "Resources": [
-         {
-            "resource": "home",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "home": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1002,7 +885,7 @@
       "_id": "768405087051976704",
       "lang": "en",
       "text": "The Italian gvt waited 10 HOURS to send the army to help the villages where the earthquake hit",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1010,16 +893,14 @@
       "Sources": [
          "Italian gvt"
       ],
-      "Resources": [
-         {
-            "resource": "army",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "villages": "None"
          },
-         {
-            "resource": "villages",
-            "quantity": "None"
+         "logistic": {
+            "army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1029,7 +910,7 @@
       "_id": "768407796337479680",
       "lang": "en",
       "text": "Italy Earthquake : Church sends aid , volunteers in Rieti deliver food and basic necessities",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1042,16 +923,14 @@
       "Sources": [
          "Church"
       ],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "logistic": {
+            "volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1061,13 +940,13 @@
       "_id": "768412294900441088",
       "lang": "en",
       "text": "BREAKING : 6.2 Italy Earthquake has killed 372,500 displacedFrance ready to help army rescues",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1077,22 +956,20 @@
       "_id": "768412466850177024",
       "lang": "en",
       "text": "We are already trying to gather some stuff for the people affected by the earthquake terremoto like food and clothes",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "clothes",
-            "quantity": "None"
+         "shelter": {
+            "clothes": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1102,7 +979,7 @@
       "_id": "768414747100344320",
       "lang": "en",
       "text": "Following a 6.2 earthquake in Italy , is working with local Rotary affiliates to respond to the disaster .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1115,7 +992,7 @@
       "Sources": [
          "Rotary"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1125,39 +1002,31 @@
       "_id": "768416445931909121",
       "lang": "en",
       "text": "Passing dozens of Red Cross and emergency vehicles and buses on road out of Rome to earthquake zone . Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "rome": {
             "lat": 41.905435,
             "long": 12.531177
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "buses",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "emergency vehicles": "None",
+            "buses": "None",
+            "vehicles": "None"
          },
-         {
-            "resource": "vehicles",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
-         },
-         {
-            "resource": "emergency vehicles",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1167,7 +1036,7 @@
       "_id": "768418420060745728",
       "lang": "en",
       "text": "Our disaster desk is active for earthquake activity today . Volunteers are monitoring . Volunteers please report in to Skype hmrd via ^ ct",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1176,12 +1045,11 @@
          "disaster desk",
          "Skype"
       ],
-      "Resources": [
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1191,7 +1059,7 @@
       "_id": "768419061210292224",
       "lang": "en",
       "text": "Jerusalem \u2013 Israel Offers Italy With Aid And Rescue Efforts For Earthquake Ravaged Town : Jerusalem \u2013 Israel \u2019 s leader says he has offe ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1206,7 +1074,7 @@
          "leader",
          "Israel"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1216,7 +1084,7 @@
       "_id": "768419570923298816",
       "lang": "en",
       "text": "A response team will be in Italy within 24 hours , to assess the need for emergency shelter in Italy after today's earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1227,24 +1095,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "response team",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "shelter": "None",
+            "emergency shelter": "None"
          },
-         {
-            "resource": "emergency shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
+         "logistic": {
+            "response team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1254,26 +1114,19 @@
       "_id": "768422057847746560",
       "lang": "en",
       "text": "Update : A man is rescued alive from the ruins following an earthquake in Amatrice Army mobilized ,",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Amatrice Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "man",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Amatrice Army": "None",
+            "man": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1283,7 +1136,7 @@
       "_id": "768425195199721473",
       "lang": "en",
       "text": "Israel's PM Netanyahu offers Italy aid and rescue help after strong earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1297,7 +1150,7 @@
          "PM Netanyahu",
          "Israel"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1307,7 +1160,7 @@
       "_id": "768427476469051392",
       "lang": "en",
       "text": "Deadly earthquake rocks central Italy , Army mobilized in rescue Our thoughtsandprayers with the people in that region",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1318,12 +1171,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1333,7 +1185,7 @@
       "_id": "768431594419941376",
       "lang": "en",
       "text": "Cyprus has offered rescue teams to Italy to aid in rescue efforts after a 6.2 magnitude earthquake Italy Quake ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1346,16 +1198,12 @@
       "Sources": [
          "Cyprus"
       ],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "rescue teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "rescue teams": "None",
+            "teams": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1365,7 +1213,7 @@
       "_id": "768432971628118017",
       "lang": "en",
       "text": "ITALY EARTHQUAKE UPDATE : to send team to disaster zone where dozens have died",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1373,12 +1221,11 @@
       "Sources": [
          "dozens"
       ],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1388,26 +1235,21 @@
       "_id": "768433069384691712",
       "lang": "en",
       "text": "RT_com : The Italian Army has been mobilized to help areas affected by the 6.2 earthquake . News",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "areas",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Italian Army": "None"
          },
-         {
-            "resource": "Italian Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Army",
-            "quantity": "None"
+         "shelter": {
+            "areas": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1417,7 +1259,7 @@
       "_id": "768434917902540800",
       "lang": "en",
       "text": "Photo : Italian Red Cross teams assist with rescues after a 6.0- magnitude earthquake in central Italy via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1428,24 +1270,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Red Cross teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Italian teams": "None",
+            "teams": "None",
+            "Red Cross teams": "None"
          },
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "Italian teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1455,7 +1289,7 @@
       "_id": "768435156935909376",
       "lang": "en",
       "text": "Israel IDF search and rescue earthquake team on way to Italy Earthquake.IDF Jewish humanitarian Aid ADL",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1464,24 +1298,18 @@
          "Jewish",
          "Israel"
       ],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "search": "None"
          },
-         {
-            "resource": "Israel team",
-            "quantity": "None"
+         "shelter": {
+            "way": "None"
          },
-         {
-            "resource": "search",
-            "quantity": "None"
-         },
-         {
-            "resource": "way",
-            "quantity": "None"
+         "logistic": {
+            "Israel team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1491,7 +1319,7 @@
       "_id": "768435745455341569",
       "lang": "en",
       "text": "Italy Red Cross still searching for survivors : Tommaso Della Longa of the Italian Red Cross tells CNN's Isa S ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1502,15 +1330,14 @@
          }
       },
       "Sources": [
-         "CNN",
-         "Isa S"
+         "Isa S",
+         "CNN"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1520,18 +1347,17 @@
       "_id": "768436223585185792",
       "lang": "en",
       "text": "First aid to victims Italyquake of partner on its way . How you can support",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "way",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "way": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1541,7 +1367,7 @@
       "_id": "768436703052922881",
       "lang": "en",
       "text": "ENEL mobilises 100 generators for quake victims earthquake Italy Via Gazzetta Del Sud",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1554,7 +1380,7 @@
       "Sources": [
          "ENEL"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1564,27 +1390,26 @@
       "_id": "768440302789091328",
       "lang": "en",
       "text": "Italy earthquake : Army mobilized , dozens buried in Amatrice + Photos",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1594,29 +1419,28 @@
       "_id": "768443206895828992",
       "lang": "en",
       "text": "Photo : Water collected for earthquake victims , in Rieti , Italy Rieti Life via Facebook via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "rieti": {
             "lat": 42.404366,
             "long": 12.868538
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Facebook"
       ],
-      "Resources": [
-         {
-            "resource": "Water",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "Water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1626,7 +1450,7 @@
       "_id": "768444631260553216",
       "lang": "en",
       "text": "Kudos to the Italians in line to donate blood for the earthquake victims in Amatrice .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1639,16 +1463,14 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "line": "None"
          },
-         {
-            "resource": "line",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1658,7 +1480,7 @@
       "_id": "768447390047014912",
       "lang": "en",
       "text": "We are heartbroken by the images emerging from Italy . The Salvation Army is working with the Italian government ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1671,16 +1493,12 @@
       "Sources": [
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1690,7 +1508,7 @@
       "_id": "768447896240943104",
       "lang": "en",
       "text": "Death Toll From Italian Quake Rises To 38 ; Army Mobilized As Dozens Remain Buried Under Rubble Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1699,12 +1517,11 @@
          "Dozens",
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1714,39 +1531,29 @@
       "_id": "768448747097452545",
       "lang": "en",
       "text": "2 tent cities totaling about 50 tents being set up for quake victims in Italy's central Marche region ANSA",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "marche": {
             "lat": 45.420169,
             "long": 12.45818
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "tent cities",
-            "quantity": "2"
-         },
-         {
-            "resource": "tent",
-            "quantity": "2"
-         },
-         {
-            "resource": "tents",
-            "quantity": "2"
-         },
-         {
-            "resource": "about 50 tents",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "2",
+            "about 50 tents": "None",
+            "tent": "2",
+            "tent cities": "2"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1756,7 +1563,7 @@
       "_id": "768449420849545216",
       "lang": "en",
       "text": "ITALY EARTHQUAKE , AUG . 24 , 2016 Italian Red Cross teams assist with rescues after a 6.0- magnitude earthquake in ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1764,28 +1571,16 @@
       "Sources": [
          "AUG"
       ],
-      "Resources": [
-         {
-            "resource": "Italian teams",
-            "quantity": "2016"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "2016 teams",
-            "quantity": "2016"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
-         },
-         {
-            "resource": "Red Cross teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "teams",
-            "quantity": "None"
+         "logistic": {
+            "teams": "None",
+            "Red Cross teams": "None",
+            "Italian teams": "2016"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1795,7 +1590,7 @@
       "_id": "768449513472266240",
       "lang": "en",
       "text": "Shelterbox sends team to Italy to help earthquake rescue operation . More here : via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1808,12 +1603,11 @@
       "Sources": [
          "Shelterbox"
       ],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1823,21 +1617,20 @@
       "_id": "768450033742118912",
       "lang": "en",
       "text": "Death toll from Italyearthquake rises to 73 , thousands homeless , army called in to move rubble",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "thousands",
-         "Death toll"
+         "Death toll",
+         "thousands"
       ],
-      "Resources": [
-         {
-            "resource": "army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1847,30 +1640,24 @@
       "_id": "768450504242425856",
       "lang": "en",
       "text": "Italian Red Cross is on the ground with search and rescue teams and sniffer dogs after a 6.2 magnitude earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "dogs",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "teams": "None",
+            "dogs": "None"
          },
-         {
-            "resource": "teams",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "search",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "medical": {
+            "search": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1880,18 +1667,17 @@
       "_id": "768453725476286464",
       "lang": "en",
       "text": "Service call 4 earthquake live free twitter and photostream",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Service",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Service": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1901,7 +1687,7 @@
       "_id": "768455198264045568",
       "lang": "en",
       "text": "In Amatrice , Italian volunteers continue to support and help those affected by the earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1912,16 +1698,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Italian volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Italian volunteers": "None",
+            "volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1931,7 +1713,7 @@
       "_id": "768455236583362560",
       "lang": "en",
       "text": "ITALY EARTHQUAKE , AUG . 24 , 20162 tent cities totaling about 50 tents being set up for quake victims in Italy's ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1944,24 +1726,14 @@
       "Sources": [
          "AUG"
       ],
-      "Resources": [
-         {
-            "resource": "tent cities",
-            "quantity": "20162"
-         },
-         {
-            "resource": "tent",
-            "quantity": "20162"
-         },
-         {
-            "resource": "tents",
-            "quantity": "20162"
-         },
-         {
-            "resource": "about 50 tents",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "20162",
+            "about 50 tents": "None",
+            "tent": "20162",
+            "tent cities": "20162"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1971,7 +1743,7 @@
       "_id": "768458269102702594",
       "lang": "en",
       "text": "Our condolences and sympathy to everyone affected by the Italy earthquake . We stand ready to help with water purification units .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -1982,24 +1754,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "water purification units",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "water purification": "None",
+            "water purification units": "None",
+            "water": "None"
          },
-         {
-            "resource": "purification",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
-         },
-         {
-            "resource": "water purification",
-            "quantity": "None"
+         "medical": {
+            "purification": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2009,7 +1773,7 @@
       "_id": "768458869920165888",
       "lang": "en",
       "text": "Shelter Box assessment team en route after 6.2 magnitude earthquake struck central Italy .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2020,24 +1784,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Shelter team": "None",
+            "Box assessment team": "None",
+            "team": "None"
          },
-         {
-            "resource": "Box assessment team",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter team",
-            "quantity": "None"
+         "shelter": {
+            "Shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2047,16 +1803,16 @@
       "_id": "768463410262597635",
       "lang": "en",
       "text": "\" Pope sends Vatican firemen to the scene \"",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Vatican",
-         "Pope"
+         "Pope",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2066,7 +1822,7 @@
       "_id": "768464570537111552",
       "lang": "en",
       "text": "Refugees in Italy volunteering in emergency rescues following earthquake solidarity Rescue Humanity",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2077,7 +1833,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2087,16 +1843,16 @@
       "_id": "768465822662656002",
       "lang": "en",
       "text": "Pope sends Vatican firefighters to help rescue operation after devastating earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Vatican",
-         "Pope"
+         "Pope",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2106,7 +1862,7 @@
       "_id": "768465917068111872",
       "lang": "en",
       "text": "Alice Pettway on working with Volunteers and the Ecuador Earthquake Response .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2114,7 +1870,7 @@
       "Sources": [
          "Alice Pettway"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2124,30 +1880,20 @@
       "_id": "768466111738314755",
       "lang": "en",
       "text": "will be collecting items for earthquake victims ; blankets , coats , jackets , shoes , toys etc ; info : ioterremoto",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "toys",
-            "quantity": "None"
-         },
-         {
-            "resource": "blankets",
-            "quantity": "None"
-         },
-         {
-            "resource": "jackets",
-            "quantity": "None"
-         },
-         {
-            "resource": "shoes",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "toys": "None",
+            "shoes": "None",
+            "jackets": "None",
+            "blankets": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2157,7 +1903,7 @@
       "_id": "768476796811563008",
       "lang": "en",
       "text": "T-Mobile will bring free calls and texts to Italy thru 8/ 28 , and waiving roaming fees for customers there now due to an Italy Earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2168,7 +1914,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2178,7 +1924,7 @@
       "_id": "768479275166994432",
       "lang": "en",
       "text": "So glad that IFRC are bringing dogs : fastest way to find survivors . Red Cross rescuers join hunt for quake survivors",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2186,16 +1932,14 @@
       "Sources": [
          "IFRC"
       ],
-      "Resources": [
-         {
-            "resource": "dogs",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "dogs": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2205,7 +1949,7 @@
       "_id": "768479410571706370",
       "lang": "en",
       "text": "Plumbers working 24/7 to restore water service to areas of Italy affected by the earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2216,20 +1960,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "water service",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "water service": "None",
+            "water": "None"
          },
-         {
-            "resource": "water",
-            "quantity": "None"
-         },
-         {
-            "resource": "service",
-            "quantity": "None"
+         "logistic": {
+            "service": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2239,7 +1978,7 @@
       "_id": "768482309943152640",
       "lang": "en",
       "text": "Praying for Italy . Devastating ... Deadly earthquake rocks central Italy , Army mobilized in rescue via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2250,12 +1989,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2265,34 +2003,30 @@
       "_id": "768482385033850880",
       "lang": "en",
       "text": "Italy : displeasure grows . While earthquake victims are lodged in tents , staying refugees in Finished houses in Como .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "como": {
-            "lat": 45.846866,
-            "long": 9.116269
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "como": {
+            "lat": 45.846866,
+            "long": 9.116269
          }
       },
       "Sources": [
-         "Finished",
-         "displeasure"
+         "displeasure",
+         "Finished"
       ],
-      "Resources": [
-         {
-            "resource": "tents",
-            "quantity": "None"
-         },
-         {
-            "resource": "houses",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "None",
+            "houses": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2302,7 +2036,7 @@
       "_id": "768482955513716736",
       "lang": "en",
       "text": "Vatican firefighters to help Italy quake : Pope Francis has dispatched one-sixth of the \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2313,10 +2047,10 @@
          }
       },
       "Sources": [
-         "Vatican",
-         "Pope Francis"
+         "Pope Francis",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2326,7 +2060,7 @@
       "_id": "768484394298290177",
       "lang": "en",
       "text": "Pope dispatches Vatican firefighters to help in Italy quake rescue : Pope Francis on Wednesday ... ( via GMA News )",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2337,11 +2071,11 @@
          }
       },
       "Sources": [
-         "Vatican",
+         "GMA News",
          "Pope Francis",
-         "GMA News"
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2351,7 +2085,7 @@
       "_id": "768485818856013824",
       "lang": "en",
       "text": "Pope Francis has sent a third of the Vatican fire brigade to help with rescue efforts in Amatrice after the devastating earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2364,16 +2098,14 @@
       "Sources": [
          "Pope Francis"
       ],
-      "Resources": [
-         {
-            "resource": "third",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "fire": "None"
          },
-         {
-            "resource": "fire",
-            "quantity": "None"
+         "logistic": {
+            "third": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2383,7 +2115,7 @@
       "_id": "768486394910089216",
       "lang": "en",
       "text": "Italy Rotary partners sorting transp and accom for incoming SBox team of 3 tmrw . Arr Rome , then on to quake zone .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2397,24 +2129,14 @@
          "Rotary partners",
          "Arr Rome"
       ],
-      "Resources": [
-         {
-            "resource": "tmrw team",
-            "quantity": "3"
-         },
-         {
-            "resource": "SBox team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "incoming team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "incoming team": "None",
+            "SBox team": "None",
+            "tmrw team": "3",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2424,7 +2146,7 @@
       "_id": "768488362353098752",
       "lang": "en",
       "text": "Pope dispatches Vatican firefighters to help in Italy quake rescue Daily Mail 15:24",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2435,23 +2157,16 @@
          }
       },
       "Sources": [
-         "Vatican",
-         "Pope"
+         "Pope",
+         "Vatican"
       ],
-      "Resources": [
-         {
-            "resource": "quake rescue Mail",
-            "quantity": "None"
-         },
-         {
-            "resource": "Mail",
-            "quantity": "None"
-         },
-         {
-            "resource": "Daily Mail",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Daily Mail": "None",
+            "Mail": "None",
+            "quake rescue Mail": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2461,7 +2176,7 @@
       "_id": "768491516776050688",
       "lang": "en",
       "text": "Shelter Box sending relief team to Italy earthquake disaster zone",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2472,28 +2187,17 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Shelter",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "relief": "None",
+            "Shelter": "None",
+            "Shelter Box": "None"
          },
-         {
-            "resource": "relief team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter Box",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
+         "logistic": {
+            "relief team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2503,7 +2207,7 @@
       "_id": "768492994039279616",
       "lang": "en",
       "text": "We are working to bring electricity to the areas affected by the earthquake in central Italy .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2514,12 +2218,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "electricity",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "electricity": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2529,7 +2232,7 @@
       "_id": "768494528378449920",
       "lang": "en",
       "text": "Keeping the families and community impacted by the earthquake in our prayers . Free calls and texts from the US to Italy \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2540,12 +2243,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "community",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "community": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2555,29 +2257,28 @@
       "_id": "768495779350589440",
       "lang": "en",
       "text": "Italy Earthquake : Army Mobilized , Dozens Buried in Amatrice : by Alexander Smi ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Alexander Smi"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2587,7 +2288,7 @@
       "_id": "768499185981255681",
       "lang": "en",
       "text": "Maltese volunteers head out to help earthquake-stricken Umbria",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2598,16 +2299,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Maltese volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "volunteers": "None",
+            "Maltese volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2617,7 +2314,7 @@
       "_id": "768499846126903296",
       "lang": "en",
       "text": "Relief groups are mobilizing to aid victims of the Italy Earthquake Here \u2019 s how you can help",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2625,12 +2322,11 @@
       "Sources": [
          "\u2019"
       ],
-      "Resources": [
-         {
-            "resource": "Relief",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2640,7 +2336,7 @@
       "_id": "768500154253111296",
       "lang": "en",
       "text": "Great Italian solidarity : queueing to donate blood for the victims of the earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2648,12 +2344,11 @@
       "Sources": [
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2663,7 +2358,7 @@
       "_id": "768502054893424640",
       "lang": "en",
       "text": "ATandT provides free texting and calls to Italy after earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2676,7 +2371,7 @@
       "Sources": [
          "ATandT"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2686,7 +2381,7 @@
       "_id": "768502298888724480",
       "lang": "en",
       "text": "At least 120 dead , 368 injured : Deadly earthquake rocks central Italy , Army mobilized in rescue via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2699,12 +2394,11 @@
       "Sources": [
          "368"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2714,7 +2408,7 @@
       "_id": "768504712102547456",
       "lang": "en",
       "text": "Death toll rises to 84 in Italy The Italian army has been mobilized to aid earthquake-affected areas .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2727,16 +2421,12 @@
       "Sources": [
          "Death toll"
       ],
-      "Resources": [
-         {
-            "resource": "Italian army",
-            "quantity": "None"
-         },
-         {
-            "resource": "army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "army": "None",
+            "Italian army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2746,7 +2436,7 @@
       "_id": "768506658339319809",
       "lang": "en",
       "text": "Vatican press office said six Vatican firefighters had been sent to Amatrice to help Pray earthquake Pope Francis",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2763,7 +2453,7 @@
       "Sources": [
          "Vatican press office"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2773,7 +2463,7 @@
       "_id": "768509338147098624",
       "lang": "en",
       "text": "Pope Catholics Pope dispatches Vatican firefighters to help in Italy quake rescu ... : Earli ... Unite Blue Tcot",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2784,10 +2474,10 @@
          }
       },
       "Sources": [
-         "Vatican",
-         "Pope Catholics Pope"
+         "Pope Catholics Pope",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2797,7 +2487,7 @@
       "_id": "768509919544897563",
       "lang": "en",
       "text": "The Itallian navy is quicker to help illegals in the sea than the army to help the victims of the earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2805,16 +2495,14 @@
       "Sources": [
          "Itallian navy"
       ],
-      "Resources": [
-         {
-            "resource": "army",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "sea": "None"
          },
-         {
-            "resource": "sea",
-            "quantity": "None"
+         "logistic": {
+            "army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2824,30 +2512,20 @@
       "_id": "768512457954455552",
       "lang": "en",
       "text": "Earthquake Italy Colonel Massimo Tuzza Army working manually for the removal of rubble",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Earthquake Italy Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Colonel Massimo Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Tuzza Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Tuzza Army": "None",
+            "Colonel Massimo Army": "None",
+            "Army": "None",
+            "Earthquake Italy Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2857,7 +2535,7 @@
       "_id": "768519354694692864",
       "lang": "en",
       "text": "Pope dispatches Vatican firefighters to help in Italy quake rescue \u2014 GMA News ( gmanews ) August 24 , 2016",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2868,11 +2546,11 @@
          }
       },
       "Sources": [
-         "Vatican",
+         "\u2014 GMA News",
          "Pope",
-         "\u2014 GMA News"
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2882,7 +2560,7 @@
       "_id": "768523249730727937",
       "lang": "en",
       "text": "Digital Tech News : T-Mobile makes calls , texts from U . S . to Italy free in aftermath of deadly earthquake : In ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2895,7 +2573,7 @@
       "Sources": [
          "Digital Tech News"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2905,7 +2583,7 @@
       "_id": "768525191483826176",
       "lang": "en",
       "text": "Global Red Cross rescuers join hunt for quake survivors IFRC giving",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2913,12 +2591,11 @@
       "Sources": [
          "IFRC"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2928,39 +2605,33 @@
       "_id": "768525498121129984",
       "lang": "en",
       "text": "IRWorldwide : Following earthquake in Italy we are distributing emergency supplies of food , hygiene kits and nap \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "nap": {
-            "lat": 40.869095,
-            "long": 14.279445
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "nap": {
+            "lat": 40.869095,
+            "long": 14.279445
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "supplies",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "hygiene": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "hygiene",
-            "quantity": "None"
-         },
-         {
-            "resource": "emergency supplies",
-            "quantity": "None"
+         "logistic": {
+            "supplies": "None",
+            "emergency supplies": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2970,7 +2641,7 @@
       "_id": "768526488790446080",
       "lang": "en",
       "text": "Italy have a big earthquake and 123 people get killed and the leader of the country mobilize the army to help out .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -2981,15 +2652,14 @@
          }
       },
       "Sources": [
-         "leader",
-         "123 people"
+         "123 people",
+         "leader"
       ],
-      "Resources": [
-         {
-            "resource": "army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2999,13 +2669,13 @@
       "_id": "768528478526242816",
       "lang": "en",
       "text": "Emergency aid from Hungary",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3015,7 +2685,7 @@
       "_id": "768531692189548544",
       "lang": "en",
       "text": "Italy Earthquake We are sending food , water , and medicine to survivors of the 6.2 Magnatude earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3028,20 +2698,15 @@
       "Sources": [
          "Magnatude"
       ],
-      "Resources": [
-         {
-            "resource": "food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None",
+            "water": "None"
          },
-         {
-            "resource": "medicine",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "medical": {
+            "medicine": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3051,7 +2716,7 @@
       "_id": "768532750173294592",
       "lang": "en",
       "text": "Shelter Box assessment team deploys to Italy : Shelter Box assessment team en route after 6.2 earthquake in cent ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3062,24 +2727,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Shelter team": "None",
+            "Box assessment team": "None",
+            "team": "None"
          },
-         {
-            "resource": "Box assessment team",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter team",
-            "quantity": "None"
+         "shelter": {
+            "Shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3089,7 +2746,7 @@
       "_id": "768532846256488448",
       "lang": "en",
       "text": "T-Mobile makes calls , texts from U . S . to Italy free in aftermath of deadly earthquake ( via Tech New",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3100,7 +2757,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3110,22 +2767,18 @@
       "_id": "768536876823224320",
       "lang": "en",
       "text": "Earthquake blanket",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Earthquake blanket",
-            "quantity": "None"
-         },
-         {
-            "resource": "blanket",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "blanket": "None",
+            "Earthquake blanket": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3135,7 +2788,7 @@
       "_id": "768537578874277888",
       "lang": "en",
       "text": "20 asylum seekers from a regional centre went to help the civil protection team earthquake Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3146,24 +2799,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "asylum": "20",
+            "asylum seekers": "20"
          },
-         {
-            "resource": "asylum",
-            "quantity": "20"
+         "food": {
+            "centre": "None"
          },
-         {
-            "resource": "asylum seekers",
-            "quantity": "20"
-         },
-         {
-            "resource": "centre",
-            "quantity": "None"
+         "logistic": {
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3173,7 +2820,7 @@
       "_id": "768546924047642624",
       "lang": "en",
       "text": "Ecuadorian government expresses dismay at quake-victims in Italy and offers humanitarian aid : Image : The Ecu ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3186,12 +2833,11 @@
       "Sources": [
          "Ecuadorian government"
       ],
-      "Resources": [
-         {
-            "resource": "humanitarian aid",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "humanitarian aid": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3201,7 +2847,7 @@
       "_id": "768548116752498689",
       "lang": "en",
       "text": "TMobile makes calls , texts from U . S . to Italy free in aftermath of deadly earthquake . Read more : $ TMUS",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3214,7 +2860,7 @@
       "Sources": [
          "TMobile"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3224,7 +2870,7 @@
       "_id": "768548723098017792",
       "lang": "en",
       "text": "Ecuadorian government expresses dismay at quake-victims in Italy and offers humanitarian aid : ( Andes Info andes \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3238,16 +2884,12 @@
          "Ecuadorian government",
          "Andes Info"
       ],
-      "Resources": [
-         {
-            "resource": "expresses",
-            "quantity": "None"
-         },
-         {
-            "resource": "humanitarian aid",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "humanitarian aid": "None",
+            "expresses": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3257,7 +2899,7 @@
       "_id": "768557253100244992",
       "lang": "en",
       "text": "\" Cornwall charity Shelter Box sends relief team to Italy earthquake ... \" cornwall feedly",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3268,28 +2910,17 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Shelter",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "relief": "None",
+            "Shelter": "None",
+            "Shelter Box": "None"
          },
-         {
-            "resource": "relief team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter Box",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
+         "logistic": {
+            "relief team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3299,7 +2930,7 @@
       "_id": "768568471894560768",
       "lang": "en",
       "text": "Deadly earthquake rocks central Italy , Army mobilized in rescue via SUCH SAD NEWS",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3310,12 +2941,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3325,7 +2955,7 @@
       "_id": "768568768406560769",
       "lang": "en",
       "text": "Italy Earthquake : Death toll rises to 159 , Army Mobilized , Dozens Buried in Amatrice NBC News",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3336,11 +2966,11 @@
          }
       },
       "Sources": [
-         "Dozens Buried",
          "Army Mobilized",
-         "Death toll"
+         "Death toll",
+         "Dozens Buried"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3350,7 +2980,7 @@
       "_id": "768574365944324096",
       "lang": "en",
       "text": "GRAZIE ! or GRACIAS ! thank ! you HOLY SEE ! for sending over your Vatican fire fighters to help Italy's earthquake victims , Heavenly ! !",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3361,15 +2991,14 @@
          }
       },
       "Sources": [
-         "Vatican",
-         "GRACIAS"
+         "GRACIAS",
+         "Vatican"
       ],
-      "Resources": [
-         {
-            "resource": "fire",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "fire": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3379,7 +3008,7 @@
       "_id": "768574812474085376",
       "lang": "en",
       "text": "\u4e00\u4eba\u3067\u3082\u591a\u304f\u306e\u65b9\u304c\u52a9\u304b\u308a\u307e\u3059\u3088\u3046\u306b \u3002 Italy Earthquake > Deadly earthquake rocks central Italy , Army mobilized in rescue \u304b\u3089",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3390,12 +3019,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3405,7 +3033,7 @@
       "_id": "768575191198806016",
       "lang": "en",
       "text": "volunteers from everywhere in Italy are reaching the area of earthquake to help . We show our best in tragedies . \ud83c\uddee \ud83c\uddf9  \ufe0f",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3418,12 +3046,11 @@
       "Sources": [
          "\ud83c\uddf9"
       ],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3433,15 +3060,11 @@
       "_id": "768575234517630976",
       "lang": "en",
       "text": "Deadly Italy earthquake : Accumoli and Amatrice in ruins ; Army mobilized in rescue ~ via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "accumoli": {
-            "lat": 42.69445,
-            "long": 13.247645
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
@@ -3449,15 +3072,18 @@
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "accumoli": {
+            "lat": 42.69445,
+            "long": 13.247645
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3467,7 +3093,7 @@
       "_id": "768577739414704128",
       "lang": "en",
       "text": "My beautiful friends in Italy are taking food to animals near the epicentre . Pls help them by donating Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3480,12 +3106,11 @@
       "Sources": [
          "beautiful friends"
       ],
-      "Resources": [
-         {
-            "resource": "food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3495,30 +3120,29 @@
       "_id": "768584656388173824",
       "lang": "en",
       "text": "Army , Rescuers Race to Save Survivors of Italy Quake : The 6.2 magnitude quake struck about 100 miles northeast of Rome and killed at ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "rome": {
             "lat": 41.905435,
             "long": 12.531177
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Rescuers Race",
          "6.2 magnitude quake"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3528,32 +3152,31 @@
       "_id": "768590960716500992",
       "lang": "en",
       "text": "Pope sent his Vatican fire fighters to Italy's earthquake victims , Grazie , Gracias , thank ! you . Heaven Sent .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "grazie": {
-            "lat": 44.112491,
-            "long": 11.962165
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "grazie": {
+            "lat": 44.112491,
+            "long": 11.962165
          }
       },
       "Sources": [
-         "Vatican",
-         "Heaven",
          "Gracias",
-         "Pope"
+         "Pope",
+         "Vatican",
+         "Heaven"
       ],
-      "Resources": [
-         {
-            "resource": "fire",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "fire": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3563,7 +3186,7 @@
       "_id": "768591078018715648",
       "lang": "en",
       "text": "Italy Earthquake Tuscany region sending to the scene additional tents for 250 u + Light trailers and ambulances",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3574,28 +3197,19 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Light trailers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Light trailers": "None",
+            "trailers": "None"
          },
-         {
-            "resource": "additional tents",
-            "quantity": "None"
+         "medical": {
+            "ambulances": "None"
          },
-         {
-            "resource": "tents",
-            "quantity": "None"
-         },
-         {
-            "resource": "trailers",
-            "quantity": "None"
-         },
-         {
-            "resource": "ambulances",
-            "quantity": "None"
+         "shelter": {
+            "additional tents": "None",
+            "tents": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3605,18 +3219,18 @@
       "_id": "768604463808458752",
       "lang": "en",
       "text": "CBC TORONTO : ' Calls are coming in from everywhere ' : Torontonians sending aid to Italian earthquake zone",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Torontonians",
-         "Calls",
          "CBC TORONTO",
-         "Italian"
+         "Italian",
+         "Calls",
+         "Torontonians"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3626,7 +3240,7 @@
       "_id": "768611378227654656",
       "lang": "en",
       "text": "Army , Rescuers Race to Save Survivors of Italy Quake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3639,12 +3253,11 @@
       "Sources": [
          "Rescuers Race"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3654,7 +3267,7 @@
       "_id": "768618345683968000",
       "lang": "en",
       "text": "Death toll rises to 159 , over 360 injured after deadly earthquake rocks central Italy , Army mobilized in rescue",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3667,12 +3280,11 @@
       "Sources": [
          "Death toll"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3682,17 +3294,17 @@
       "_id": "768623330630905857",
       "lang": "en",
       "text": "' Calls are coming in from everywhere ' : Torontonians sending aid to Italian earthquake zone : Toronto's 800 - tho ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Torontonians",
+         "Italian",
          "Calls",
-         "Italian"
+         "Torontonians"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3702,38 +3314,24 @@
       "_id": "768624023941029888",
       "lang": "en",
       "text": "Trying to obtain information on volunteer opportunities towards earthquake relief . Could you DM or provide an e-mail address ?",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteer",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "mail": "None",
+            "volunteer opportunities": "None",
+            "volunteer": "None",
+            "mail address": "None",
+            "e mail": "None"
          },
-         {
-            "resource": "mail address",
-            "quantity": "None"
-         },
-         {
-            "resource": "mail",
-            "quantity": "None"
-         },
-         {
-            "resource": "e mail",
-            "quantity": "None"
-         },
-         {
-            "resource": "volunteer opportunities",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
+         "shelter": {
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3743,7 +3341,7 @@
       "_id": "768625953794764801",
       "lang": "en",
       "text": "Deadly earthquake rocks central Italy , Army mobilized in rescue via OUR PRAYERS ARE WITH YOU !",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3756,7 +3354,7 @@
       "Sources": [
          "Army"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3766,7 +3364,7 @@
       "_id": "768629284625788929",
       "lang": "en",
       "text": "Let's pray for + Italy + .. > > RT : Deadly earthquake rocks central Italy , Army mobilized in rescue via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3777,15 +3375,14 @@
          }
       },
       "Sources": [
-         "'s",
-         "RT :"
+         "RT :",
+         "'s"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3795,7 +3392,7 @@
       "_id": "768630207351623681",
       "lang": "en",
       "text": "My thoughts go out to the people of Italy who have suffered a devastating earthquake free calls to Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3806,7 +3403,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3816,7 +3413,7 @@
       "_id": "768641607692353536",
       "lang": "en",
       "text": "T-Mobile offering free calling and texting to Italy following earthquake Tmo News",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3827,7 +3424,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3837,7 +3434,7 @@
       "_id": "768652868215635969",
       "lang": "en",
       "text": "Italy \u2019 s Jewish community pledges aid to areas hit by earthquake ; Have set up blood donation center",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3848,36 +3445,21 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "center",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Jewish community pledges": "None",
+            "blood donation": "None",
+            "blood donation center": "None",
+            "donation": "None",
+            "community": "None"
          },
-         {
-            "resource": "blood donation",
-            "quantity": "None"
+         "food": {
+            "center": "None"
          },
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "donation",
-            "quantity": "None"
-         },
-         {
-            "resource": "Jewish community pledges",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donation center",
-            "quantity": "None"
-         },
-         {
-            "resource": "community",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3887,26 +3469,26 @@
       "_id": "768659409815961600",
       "lang": "en",
       "text": "Italy quake kills 159 as rescuers race to find survivors Accumoli ( Italy ) ( AFP ) Rescuers worked into the ea ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "accumoli": {
-            "lat": 42.69445,
-            "long": 13.247645
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "accumoli": {
+            "lat": 42.69445,
+            "long": 13.247645
          }
       },
       "Sources": [
-         "rescuers",
+         "Rescuers",
          "quake",
-         "Rescuers"
+         "rescuers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3916,7 +3498,7 @@
       "_id": "768661057795661824",
       "lang": "en",
       "text": "ATandT , T-Mobile , and Verizon waive fees following earthquake in Italy Earlier today , a mag \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3929,7 +3511,7 @@
       "Sources": [
          "Verizon"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3939,7 +3521,7 @@
       "_id": "768661566170406912",
       "lang": "en",
       "text": "Rescue workers race to find Italy quake survivors [ via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3952,7 +3534,7 @@
       "Sources": [
          "Rescue workers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3962,7 +3544,7 @@
       "_id": "768662043004170240",
       "lang": "en",
       "text": "Earthquake in Italy ! volunteers , save the life Papa g . all . r your children . help them .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3973,12 +3555,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3988,7 +3569,7 @@
       "_id": "768662818707034112",
       "lang": "en",
       "text": "Italy Quake Kills 159 as Rescuers Race to Find Survivors Outlook Wires",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -3997,7 +3578,7 @@
          "Italy Quake Kills",
          "Rescuers Race"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4007,7 +3588,7 @@
       "_id": "768664430351646721",
       "lang": "en",
       "text": "Rescuers desperately search for survivors after a powerful quake shook central Italy Wednesday , leaving at least ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4020,12 +3601,11 @@
       "Sources": [
          "Rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "powerful quake",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "powerful quake": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4035,22 +3615,18 @@
       "_id": "768664529471283201",
       "lang": "en",
       "text": "Rescuers Search for Survivors in Italy Quake That Killed 159 jobs home : Rescue crews using bulldozers a ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "jobs",
-            "quantity": "159"
-         },
-         {
-            "resource": "home",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "jobs": "159",
+            "home": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4060,7 +3636,7 @@
       "_id": "768666992031117312",
       "lang": "en",
       "text": "Italy quake kills 159 as rescuers race to find survivors via God help the needy one .. All be safe ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4071,10 +3647,10 @@
          }
       },
       "Sources": [
-         "rescuers",
-         "quake"
+         "quake",
+         "rescuers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4084,7 +3660,7 @@
       "_id": "768668222627336192",
       "lang": "en",
       "text": "Verizon is offering free wireless and wireline calling from the U . S . to Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4097,7 +3673,7 @@
       "Sources": [
          "Verizon"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4107,42 +3683,34 @@
       "_id": "768668945742049281",
       "lang": "en",
       "text": "Rescuers search for survivors in Italy quake that killed 159 ( AP ) Do relief supplies include pet items ? Pet Relief",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "ap": {
             "lat": 42.88443,
             "long": 13.55306
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
-         "Pet",
-         "Rescuers"
+         "Rescuers",
+         "Pet"
       ],
-      "Resources": [
-         {
-            "resource": "relief supplies",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Relief": "None",
+            "relief": "None"
          },
-         {
-            "resource": "supplies",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
-         },
-         {
-            "resource": "Relief",
-            "quantity": "None"
+         "logistic": {
+            "supplies": "None",
+            "relief supplies": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4152,31 +3720,30 @@
       "_id": "768669008195235840",
       "lang": "en",
       "text": "Italy quake kills 159 as rescuers race to find survivors : ACCUMOLI , ITALY : Rescuers worked into ... <-- Full Story",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "accumoli": {
-            "lat": 42.69445,
-            "long": 13.247645
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "accumoli": {
+            "lat": 42.69445,
+            "long": 13.247645
          }
       },
       "Sources": [
-         "rescuers",
+         "Rescuers",
          "quake",
-         "Rescuers"
+         "rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "Story",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Story": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4186,7 +3753,7 @@
       "_id": "768669461847109632",
       "lang": "en",
       "text": "Breaking Pope dispatches Vatican firefighters to help in Italy quake rescue Read More :",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4197,10 +3764,10 @@
          }
       },
       "Sources": [
-         "Vatican",
-         "Breaking Pope"
+         "Breaking Pope",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4210,7 +3777,7 @@
       "_id": "768671914982203392",
       "lang": "en",
       "text": "are we sending any support to Italy quake victims ? The Republic of California has trained resources who can help . Get off your ass .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4227,16 +3794,12 @@
       "Sources": [
          "Republic"
       ],
-      "Resources": [
-         {
-            "resource": "resources",
-            "quantity": "None"
-         },
-         {
-            "resource": "support",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "resources": "None",
+            "support": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4246,25 +3809,25 @@
       "_id": "768672980247326720",
       "lang": "en",
       "text": "PSA : Telstra and Optus are offering free calls to Italy following yesterday \u2019 s earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "psa": {
             "lat": 43.696225,
             "long": 10.398175
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
-         "Optus",
-         ": Telstra"
+         ": Telstra",
+         "Optus"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4274,7 +3837,7 @@
       "_id": "768675066133508096",
       "lang": "en",
       "text": "ROBZIK : Vatican firefighters sent by Pope Francis to join the rescue team in Central Italy shaken by the earthquake Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4282,16 +3845,12 @@
       "Sources": [
          "Pope Francis"
       ],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "rescue team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "rescue team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4301,11 +3860,15 @@
       "_id": "768679577019305984",
       "lang": "en",
       "text": "Rescuers search for survivors in Italy quake that killed 247 : AMATRICE , Italy ( AP ) \u2014 Rescue crews using bulld ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
+         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
@@ -4313,16 +3876,12 @@
          "ap": {
             "lat": 42.88443,
             "long": 13.55306
-         },
-         "amatrice": {
-            "lat": 42.62664,
-            "long": 13.29509
          }
       },
       "Sources": [
          "Rescuers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4332,7 +3891,7 @@
       "_id": "768683269348925440",
       "lang": "en",
       "text": "Rescuers search for survivors after deadly earthquake in Italy : Rescue crews using bulldozers and their bare ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4345,7 +3904,7 @@
       "Sources": [
          "Rescuers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4355,7 +3914,7 @@
       "_id": "768683638837878784",
       "lang": "en",
       "text": "business : Death toll of Italy \u2019 s quake rose to 247 and rescue crews are searching for survivors \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4369,12 +3928,11 @@
          "quake",
          "rescue crews"
       ],
-      "Resources": [
-         {
-            "resource": "business",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "business": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4384,7 +3942,7 @@
       "_id": "768687335600828416",
       "lang": "en",
       "text": "Italy earthquake : Death toll rises to 247 : Rescue crews using bulldozers and their bare hands raced to dig out survivors from a stron ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4398,7 +3956,7 @@
          "Rescue crews",
          "Death toll"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4408,13 +3966,13 @@
       "_id": "768687735792033792",
       "lang": "en",
       "text": "Rescuers Search for Survivors in Italy Quake That Killed 247 : Rescue crews using bulldozers and their bare h ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4424,7 +3982,7 @@
       "_id": "768687908974833665",
       "lang": "en",
       "text": "Italy quake kills 247 as rescuers race to find survivors : Rescue crews using bulldozers and their bare hands ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4435,11 +3993,11 @@
          }
       },
       "Sources": [
-         "rescuers",
+         "Rescue crews",
          "quake",
-         "Rescue crews"
+         "rescuers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4449,7 +4007,7 @@
       "_id": "768688426728230912",
       "lang": "en",
       "text": "ATandT , T - <b> Mobile </b> , and Verizon waive fees following earthquake in Italy \u2026 mobile tech",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4463,7 +4021,7 @@
          "Verizon",
          "Mobile"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4473,7 +4031,7 @@
       "_id": "768703895682113536",
       "lang": "en",
       "text": "Italy quake . Young girl found alive under rubble , but at least 247 dead . Shelter Box team arriving today .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4484,19 +4042,15 @@
          }
       },
       "Sources": [
-         "Young girl",
-         "Shelter Box"
+         "Shelter Box",
+         "Young girl"
       ],
-      "Resources": [
-         {
-            "resource": "Box team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Box team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4506,7 +4060,7 @@
       "_id": "768707653673578498",
       "lang": "en",
       "text": "People gathered this morning in Rome to donate blood for the injured earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4519,12 +4073,11 @@
       "Sources": [
          "People"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4534,7 +4087,7 @@
       "_id": "768712022427045888",
       "lang": "en",
       "text": "Italy Earthquake : Tent Camp For Displaced People ( IT SKYTG 24 )",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4545,20 +4098,13 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Tent",
-            "quantity": "None"
-         },
-         {
-            "resource": "Tent Camp",
-            "quantity": "None"
-         },
-         {
-            "resource": "Camp",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Tent": "None",
+            "Tent Camp": "None",
+            "Camp": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4568,7 +4114,7 @@
       "_id": "768721833143087104",
       "lang": "en",
       "text": "The aftershocks woke residents of the devastated region , many of them sleeping in tents or cars .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4576,12 +4122,11 @@
       "Sources": [
          "aftershocks"
       ],
-      "Resources": [
-         {
-            "resource": "cars",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "cars": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4591,7 +4136,7 @@
       "_id": "768724470676590592",
       "lang": "en",
       "text": "AT_T , T_Mobile , and Verizon waive fees following earthquake in Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4604,7 +4149,7 @@
       "Sources": [
          "Verizon"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4614,7 +4159,7 @@
       "_id": "768729948651532288",
       "lang": "en",
       "text": "Some 1,200 people spent the night in tents after the earthquake in Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4627,12 +4172,11 @@
       "Sources": [
          "Some 1,200 people"
       ],
-      "Resources": [
-         {
-            "resource": "tents",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4642,26 +4186,21 @@
       "_id": "768735897982496768",
       "lang": "en",
       "text": "terremoto For helping victims of the earthquake : blankets , food , basic goods",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blankets",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "goods",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "shelter": {
+            "goods": "None",
+            "blankets": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4671,7 +4210,7 @@
       "_id": "768737582800928770",
       "lang": "en",
       "text": "Earthquake Collection efforts taking place in Florence today from 10 am - 10 pm ( asking for clothes , shoes , water )",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4682,24 +4221,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "pm",
-            "quantity": "10"
+      "Resources": {
+         "medical": {
+            "pm": "10"
          },
-         {
-            "resource": "clothes",
-            "quantity": "None"
+         "shelter": {
+            "shoes": "None",
+            "clothes": "None"
          },
-         {
-            "resource": "water",
-            "quantity": "None"
-         },
-         {
-            "resource": "shoes",
-            "quantity": "None"
+         "food": {
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4709,18 +4242,17 @@
       "_id": "768739298589933568",
       "lang": "en",
       "text": "We have a collection of resources and evidence related to health and earthquake Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "resources",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "resources": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4730,7 +4262,7 @@
       "_id": "768740504016154625",
       "lang": "en",
       "text": "ITALY EARTHQUAKE Over 1,200 people camped in tents overnight after Italian quake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4744,12 +4276,11 @@
          "Over 1,200 people",
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "tents",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4759,7 +4290,7 @@
       "_id": "768749892873445376",
       "lang": "en",
       "text": "a man is seen in front of a tent in a temporary shelter for the earthquake victims in Amitrice , Italy .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4776,20 +4307,13 @@
       "Sources": [
          "Amitrice"
       ],
-      "Resources": [
-         {
-            "resource": "tent",
-            "quantity": "None"
-         },
-         {
-            "resource": "temporary shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "shelter",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "temporary shelter": "None",
+            "tent": "None",
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4799,7 +4323,7 @@
       "_id": "768750478679093248",
       "lang": "en",
       "text": "Football stadium becomes a makeshift hospital and rescue centre after Italy earthquake devastation : Mirror Chief \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4812,12 +4336,11 @@
       "Sources": [
          "Mirror"
       ],
-      "Resources": [
-         {
-            "resource": "stadium",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "stadium": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4827,7 +4350,7 @@
       "_id": "768755580395630592",
       "lang": "en",
       "text": "Earthquake in Central Italy , collection of food in the supermarkets of the Valle d \u2019 Aosta",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4838,12 +4361,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4853,26 +4375,21 @@
       "_id": "768755700340228097",
       "lang": "en",
       "text": "Rethinking Resilience : Capacities of Relief Staff and Volunteers in Disaster Zones WRR 2016 DRR NGO earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Capacities",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None",
+            "Capacities": "None"
          },
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Relief",
-            "quantity": "None"
+         "shelter": {
+            "Relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4882,7 +4399,7 @@
       "_id": "768755845085536256",
       "lang": "en",
       "text": "Orderof Malta activated a mobile unit assistance to aid those in Amatrice Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4890,7 +4407,7 @@
       "Sources": [
          "Orderof Malta"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4900,7 +4417,7 @@
       "_id": "768757554260443136",
       "lang": "en",
       "text": "Android Police : ATandT , T-Mobile , and Verizon wave fees following earthquake in Italy ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4914,16 +4431,12 @@
          "Verizon",
          "Mobile"
       ],
-      "Resources": [
-         {
-            "resource": "Police",
-            "quantity": "None"
-         },
-         {
-            "resource": "Android Police",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Police": "None",
+            "Android Police": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4933,7 +4446,7 @@
       "_id": "768765828925943808",
       "lang": "en",
       "text": "US phone customers can call family / friends in Italy for free . Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -4946,7 +4459,7 @@
       "Sources": [
          "US phone customers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4956,22 +4469,18 @@
       "_id": "768768668863987712",
       "lang": "en",
       "text": "Free Airbnb shelter for earthquake survivors",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Free Airbnb shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "shelter",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Free Airbnb shelter": "None",
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4981,35 +4490,33 @@
       "_id": "768769857009704960",
       "lang": "en",
       "text": "From Radio-Canada's team in Italy ; tents erected in Amatrice for survivors of Wednesday's quake :",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "canada": {
-            "lat": 45.447325,
-            "long": 10.76435
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
          },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
          },
-         "amatrice": {
-            "lat": 42.62664,
-            "long": 13.29509
+         "canada": {
+            "lat": 45.447325,
+            "long": 10.76435
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "None"
          },
-         {
-            "resource": "tents",
-            "quantity": "None"
+         "logistic": {
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5019,18 +4526,17 @@
       "_id": "768769977759379456",
       "lang": "en",
       "text": "Corpus Christi Italian Earthquake survivors seek shelter",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "shelter",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5040,7 +4546,7 @@
       "_id": "768770227333136384",
       "lang": "en",
       "text": "African refugees have offered help asVolunteers to those hurt by the earthquake in Italy ThankYOUGuys !  \ufe0f  \ufe0f  \ufe0f",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5051,10 +4557,10 @@
          }
       },
       "Sources": [
-         "African refugees",
-         "\ufe0f  "
+         "\ufe0f  ",
+         "African refugees"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5064,7 +4570,7 @@
       "_id": "768782150900584449",
       "lang": "en",
       "text": "ATandT , T-Mobile and Verizon Give Free Calls to Italy : Earlier this week , a massive Earthquake \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5077,7 +4583,7 @@
       "Sources": [
          "Verizon Give Free Calls"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5087,13 +4593,13 @@
       "_id": "768793828723716096",
       "lang": "en",
       "text": "survival wild Survival tool First aid kit emergency bag earthquake first aid bag",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5103,7 +4609,7 @@
       "_id": "768796452428484610",
       "lang": "en",
       "text": "Chabad in Italy Offers Assistance to Earthquake Victims Arranging volunteers from the local Jewish community ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5116,24 +4622,14 @@
       "Sources": [
          "Chabad"
       ],
-      "Resources": [
-         {
-            "resource": "Jewish community",
-            "quantity": "None"
-         },
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "local community",
-            "quantity": "None"
-         },
-         {
-            "resource": "community",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Jewish community": "None",
+            "local community": "None",
+            "volunteers": "None",
+            "community": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5143,31 +4639,27 @@
       "_id": "768800256922382336",
       "lang": "en",
       "text": "Progressive Army : The BpDShow : 6.2 Earthquake in Amatrice , Italy : via You Tube",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Progressive Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Progressive Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5177,7 +4669,7 @@
       "_id": "768801811323097088",
       "lang": "en",
       "text": "Chabad-Italy Offers Assistance to Earthquake Victims Arranging volunteers from local Jewish community and Israel",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5188,24 +4680,14 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Jewish community",
-            "quantity": "None"
-         },
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "local community",
-            "quantity": "None"
-         },
-         {
-            "resource": "community",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Jewish community": "None",
+            "local community": "None",
+            "volunteers": "None",
+            "community": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5215,22 +4697,21 @@
       "_id": "768802267042578432",
       "lang": "en",
       "text": "Rotary is sending Shelterboxes to provide emergency accommodation to victims of Italian earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Shelterboxes",
+         "Rotary",
          "Italian",
-         "Rotary"
+         "Shelterboxes"
       ],
-      "Resources": [
-         {
-            "resource": "accommodation",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "accommodation": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5240,7 +4721,7 @@
       "_id": "768810763423092738",
       "lang": "en",
       "text": "Telstra offers free calls to Italy in wake of earthquake . Read more : $ TLS",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5253,12 +4734,11 @@
       "Sources": [
          "Telstra"
       ],
-      "Resources": [
-         {
-            "resource": "offers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "offers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5268,18 +4748,17 @@
       "_id": "768812066274578432",
       "lang": "en",
       "text": "\" Amateur Radio Volunteers Assisting in Italian Earthquake Response \" amateurradio feedly",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5289,7 +4768,7 @@
       "_id": "768816702956113924",
       "lang": "en",
       "text": "Italy quake people sleeping outdoors , in cars , in tents . Shelter Box team in place , making plans to help .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5300,32 +4779,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Box team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Box team": "None",
+            "team": "None",
+            "cars": "None",
+            "Shelter team": "None"
          },
-         {
-            "resource": "Shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "tents",
-            "quantity": "None"
-         },
-         {
-            "resource": "cars",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter team",
-            "quantity": "None"
+         "shelter": {
+            "Shelter": "None",
+            "tents": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5335,7 +4800,7 @@
       "_id": "768819079922585600",
       "lang": "en",
       "text": "ARRL : Amateur Radio Volunteers Assisting in Italian Earthquake Response : Radio amateurs are taking part in th ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5343,12 +4808,11 @@
       "Sources": [
          "Radio amateurs"
       ],
-      "Resources": [
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5358,7 +4822,7 @@
       "_id": "768819701891805185",
       "lang": "en",
       "text": "Lt . Colonel Tursi , Officer Commanding Italy and Greece , works with authorities to see how The Salvation Army can help after Italy earthquake .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5375,20 +4839,13 @@
       "Sources": [
          "Greece"
       ],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Officer",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None",
+            "Officer": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5398,7 +4855,7 @@
       "_id": "768819984780894208",
       "lang": "en",
       "text": "The amazing charity I work for , Team Rubicon UK has a team of qualified medics en route to Italy following the rec \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5409,24 +4866,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "qualified medics": "None",
+            "medics": "None"
          },
-         {
-            "resource": "medics",
-            "quantity": "None"
-         },
-         {
-            "resource": "qualified medics",
-            "quantity": "None"
-         },
-         {
-            "resource": "Team",
-            "quantity": "None"
+         "logistic": {
+            "Team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5436,7 +4885,7 @@
       "_id": "768821576154378240",
       "lang": "en",
       "text": "Packages , containing medicalsupplies like Tylenol and aspirin , will help victims of the earthquake recover :",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5444,12 +4893,11 @@
       "Sources": [
          "Tylenol"
       ],
-      "Resources": [
-         {
-            "resource": "aspirin",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "aspirin": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5459,7 +4907,7 @@
       "_id": "768827171494203392",
       "lang": "en",
       "text": "CS Monitor Thousands of workers join efforts to find Italy earthquake survivors",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5472,7 +4920,7 @@
       "Sources": [
          "CS Monitor Thousands"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5482,7 +4930,7 @@
       "_id": "768827476902572033",
       "lang": "en",
       "text": "Thousands of workers join efforts to find Italy earthquake survivors",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5495,7 +4943,7 @@
       "Sources": [
          "Thousands"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5505,29 +4953,24 @@
       "_id": "768832259256311808",
       "lang": "en",
       "text": "Housing , safety checks , free calls ways tech firms are helping Italian earthquake rescue efforts",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "tech firms",
-         "Italian"
+         "Italian",
+         "tech firms"
       ],
-      "Resources": [
-         {
-            "resource": "safety",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Housing": "None",
+            "safety": "None"
          },
-         {
-            "resource": "Housing",
-            "quantity": "None"
-         },
-         {
-            "resource": "checks",
-            "quantity": "None"
+         "medical": {
+            "checks": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5537,7 +4980,7 @@
       "_id": "768835011416129536",
       "lang": "en",
       "text": "Italy Earthquake : The Salvation Army Italy is making plans to respond to the 24 August quake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5548,16 +4991,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5567,7 +5006,7 @@
       "_id": "768835558223257600",
       "lang": "en",
       "text": "First tent camps set up for Italy earthquake homeless . Amatrice Accumoli CBC",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5578,24 +5017,14 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "tent camps",
-            "quantity": "None"
-         },
-         {
-            "resource": "tent",
-            "quantity": "None"
-         },
-         {
-            "resource": "First camps",
-            "quantity": "None"
-         },
-         {
-            "resource": "camps",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tent camps": "None",
+            "camps": "None",
+            "First camps": "None",
+            "tent": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5605,13 +5034,13 @@
       "_id": "768835897173291010",
       "lang": "en",
       "text": "BERGOGLIO \u2019 S GIFT TO THE VICTIMS OF THE EARTHQUAKE : VATICAN FIREFIGHTERS IN AMATRICED",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5621,7 +5050,7 @@
       "_id": "768836232512212992",
       "lang": "en",
       "text": "BERGOGLIO \u2019 S GIFT TO THE VICTIMS OF THE EARTHQUAKE : VATICAN FIREFIGHTERS IN AMATRICE via Terris News on line",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5634,12 +5063,11 @@
       "Sources": [
          "Terris News"
       ],
-      "Resources": [
-         {
-            "resource": "line",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "line": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5649,16 +5077,16 @@
       "_id": "768837411262566400",
       "lang": "en",
       "text": "The Pope has sent to the earthquake area of the Vatican firefighters and gendarmes Russia",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Vatican",
-         "Pope"
+         "Pope",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5668,22 +5096,18 @@
       "_id": "768839641520824321",
       "lang": "en",
       "text": "Salvationist : The Salvation Army is preparing to assist people in need after devastating Italy Earthquake :",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5693,7 +5117,7 @@
       "_id": "768841605348466690",
       "lang": "en",
       "text": "The inhabitants of Italy to massively donate blood for the victims of the earthquake News",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5706,12 +5130,11 @@
       "Sources": [
          "inhabitants"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5721,7 +5144,7 @@
       "_id": "768844645824466944",
       "lang": "en",
       "text": "Pope Dispatches Vatican Firefighters To Help In Italy Earthquake Rescue : Pope Francis on Wednesday dispatched ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5729,7 +5152,7 @@
       "Sources": [
          "Pope Francis"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5739,7 +5162,7 @@
       "_id": "768848577225428992",
       "lang": "en",
       "text": "Italy quake Young girl found alive under rubble , but at least 240 dead . Shelter Box team has arrived in country .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5750,19 +5173,15 @@
          }
       },
       "Sources": [
-         "quake Young girl",
-         "Shelter Box"
+         "Shelter Box",
+         "quake Young girl"
       ],
-      "Resources": [
-         {
-            "resource": "Box team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Box team": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5772,26 +5191,21 @@
       "_id": "768848802769833984",
       "lang": "en",
       "text": "SALISBURY : Disaster relief volunteers head out to earthquake-hit Italy Wiltshire",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Disaster relief volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Disaster relief volunteers": "None",
+            "volunteers": "None"
          },
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
+         "shelter": {
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5801,7 +5215,7 @@
       "_id": "768853052036177921",
       "lang": "en",
       "text": "Cornish aid workers from arrive in Italy earthquake zone :",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5814,7 +5228,7 @@
       "Sources": [
          "Cornish"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5824,41 +5238,27 @@
       "_id": "768853321822179329",
       "lang": "en",
       "text": "Israel has elite search , rescue teams , field hospital on standby . Why refuse manpower when minutes matter ?",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Israel",
-         "minutes"
+         "minutes",
+         "Israel"
       ],
-      "Resources": [
-         {
-            "resource": "field",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "field hospital": "None",
+            "hospital": "None",
+            "search": "None"
          },
-         {
-            "resource": "field hospital",
-            "quantity": "None"
-         },
-         {
-            "resource": "search",
-            "quantity": "None"
-         },
-         {
-            "resource": "rescue teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospital",
-            "quantity": "None"
+         "logistic": {
+            "teams": "None",
+            "field": "None",
+            "rescue teams": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5868,7 +5268,7 @@
       "_id": "768854384319066112",
       "lang": "en",
       "text": "Despite the risks faced from the aftershocks of the earthquake in Italy , our team is on the ground distributing aid",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5879,12 +5279,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5894,7 +5293,7 @@
       "_id": "768859561168023553",
       "lang": "en",
       "text": "Photo : Asylum seekers volunteer to assist in Italy earthquake rescue mission via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5905,16 +5304,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Asylum",
-            "quantity": "None"
-         },
-         {
-            "resource": "Asylum seekers",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Asylum": "None",
+            "Asylum seekers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5924,7 +5319,7 @@
       "_id": "768873438672855040",
       "lang": "en",
       "text": "Asylum seekers volunteer in wake of Italian earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5932,12 +5327,11 @@
       "Sources": [
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "Asylum seekers",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Asylum seekers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5947,7 +5341,7 @@
       "_id": "768878589064253441",
       "lang": "en",
       "text": "Team Rubicon UK has an assessment team of veterans , all qualified medics , en route to Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -5958,32 +5352,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "medics",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "medics": "None",
+            "qualified medics": "None"
          },
-         {
-            "resource": "Team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "qualified medics",
-            "quantity": "None"
-         },
-         {
-            "resource": "assessment team",
-            "quantity": "None"
-         },
-         {
-            "resource": "veterans",
-            "quantity": "None"
+         "logistic": {
+            "Team": "None",
+            "assessment team": "None",
+            "veterans": "None",
+            "team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -5993,7 +5373,7 @@
       "_id": "768886844352237569",
       "lang": "en",
       "text": "ICYMI : Team Rubicon UK has an assessment team of medics en route to Italy . More information : Italy Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6006,24 +5386,16 @@
       "Sources": [
          "Rubicon UK"
       ],
-      "Resources": [
-         {
-            "resource": "team",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Team": "None",
+            "assessment team": "None",
+            "team": "None"
          },
-         {
-            "resource": "medics",
-            "quantity": "None"
-         },
-         {
-            "resource": "Team",
-            "quantity": "None"
-         },
-         {
-            "resource": "assessment team",
-            "quantity": "None"
+         "medical": {
+            "medics": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6033,37 +5405,32 @@
       "_id": "768888082510651392",
       "lang": "en",
       "text": "Antonio Putini , 97 , sleeps with his dog in a temporary shelter set up in a gymnasium in Amatrice , central Italy , ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
          "Antonio Putini ,"
       ],
-      "Resources": [
-         {
-            "resource": "temporary shelter",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "dog": "None"
          },
-         {
-            "resource": "shelter",
-            "quantity": "None"
-         },
-         {
-            "resource": "dog",
-            "quantity": "None"
+         "shelter": {
+            "temporary shelter": "None",
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6073,7 +5440,7 @@
       "_id": "768888657847717888",
       "lang": "en",
       "text": "just met cool disaster response team medics going 2 Italy earthquake v salute u",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6088,28 +5455,17 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "team medics",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "team medics": "None",
+            "medics": "None"
          },
-         {
-            "resource": "medics",
-            "quantity": "None"
-         },
-         {
-            "resource": "disaster response team",
-            "quantity": "None"
-         },
-         {
-            "resource": "team",
-            "quantity": "None"
-         },
-         {
-            "resource": "cool team",
-            "quantity": "None"
+         "logistic": {
+            "cool team": "None",
+            "team": "None",
+            "disaster response team": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6119,7 +5475,7 @@
       "_id": "768889542040518656",
       "lang": "en",
       "text": "Italy : Refugee volunteers help earthquake rescue effort in Amatrice Video , Video News , news , ruptly , Video ) , wor \u2026",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6132,16 +5488,12 @@
       "Sources": [
          "Video News"
       ],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Refugee volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "volunteers": "None",
+            "Refugee volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6151,31 +5503,27 @@
       "_id": "768890414996873217",
       "lang": "en",
       "text": "Latest : Italy : Refugee volunteers help earthquake rescue effort in Amatrice",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Refugee volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "volunteers": "None",
+            "Refugee volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6185,16 +5533,16 @@
       "_id": "768892831704363008",
       "lang": "en",
       "text": "Asylumseekers Asylum seekers volunteer in wake of Italian earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "seekers",
-         "Italian"
+         "Italian",
+         "seekers"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6204,7 +5552,7 @@
       "_id": "768899934791663616",
       "lang": "en",
       "text": "Aosta , collection of food and essential goods for the earthquake victims",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6215,12 +5563,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6230,7 +5577,7 @@
       "_id": "768902814382764033",
       "lang": "en",
       "text": "The Salvation Army International The Salvation Army in Italy Prepares Earthquake Response",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6241,20 +5588,13 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "International Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None",
+            "International Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6264,33 +5604,29 @@
       "_id": "768902930049007616",
       "lang": "en",
       "text": "wfxg Asylum seekers volunteer in wake of Italian earthquake : In Arquata del Tronto , about 20 young residents ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "arquata del tronto": {
-            "lat": 42.77217,
-            "long": 13.295085
-         },
          "arquata": {
             "lat": 44.978705,
             "long": 10.303635
+         },
+         "arquata del tronto": {
+            "lat": 42.77217,
+            "long": 13.295085
          }
       },
       "Sources": [
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "Asylum",
-            "quantity": "None"
-         },
-         {
-            "resource": "Asylum seekers",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Asylum": "None",
+            "Asylum seekers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6300,25 +5636,25 @@
       "_id": "768904236826492929",
       "lang": "en",
       "text": "Pope Francis sends Vatican firefighters to quake town of Amatrice Italy",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
-         "Vatican",
-         "Pope Francis"
+         "Pope Francis",
+         "Vatican"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6328,7 +5664,7 @@
       "_id": "768906567701831680",
       "lang": "en",
       "text": "Italy has reacted with unprecedented solidarity to the earthquake . Too many people reached the concerned areas and too much food was donated",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6341,16 +5677,12 @@
       "Sources": [
          "Too many people"
       ],
-      "Resources": [
-         {
-            "resource": "too much food",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None",
+            "too much food": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6360,7 +5692,7 @@
       "_id": "768910608980992000",
       "lang": "en",
       "text": "The very best of Italy . More than 5,000 among firefighters , law enforcement and voluntary rescuers . earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6375,12 +5707,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "voluntary rescuers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "voluntary rescuers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6390,31 +5721,27 @@
       "_id": "768915808005136388",
       "lang": "en",
       "text": "Tent cities setup northeast of Rome after earthquake in Italy , at least 241 dead : AMATRICE , Italy Rescue cre ...",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "rome": {
             "lat": 41.905435,
             "long": 12.531177
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Tent",
-            "quantity": "None"
-         },
-         {
-            "resource": "Tent cities",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Tent": "None",
+            "Tent cities": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6424,7 +5751,7 @@
       "_id": "768916430523731969",
       "lang": "en",
       "text": "Pope Sends Vatican Firefighters , Police to Quake sites to searching for survivors earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6432,12 +5759,11 @@
       "Sources": [
          "Quake"
       ],
-      "Resources": [
-         {
-            "resource": "Police",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Police": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6447,7 +5773,7 @@
       "_id": "768917144339935233",
       "lang": "en",
       "text": "The Salvation Army in Italy is making plans to respond to the earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6458,16 +5784,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6477,7 +5799,7 @@
       "_id": "768919220130152448",
       "lang": "en",
       "text": "Call now , check on your loved ones Optimum customers : free calls to Italy after quake via",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6490,7 +5812,7 @@
       "Sources": [
          "Optimum"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6500,7 +5822,7 @@
       "_id": "768919887972446208",
       "lang": "en",
       "text": "Comcast Provides Free Calls to Italy Following Earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6513,7 +5835,7 @@
       "Sources": [
          "Comcast Provides Free Calls"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6523,7 +5845,7 @@
       "_id": "768920839597195265",
       "lang": "en",
       "text": "Volunteers flock to central Italy to aid in rescue efforts after earthquake Perspectives Daily",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6534,12 +5856,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6549,30 +5870,20 @@
       "_id": "768922195884068864",
       "lang": "en",
       "text": "Emergency earthquake kit preparers , what are your favorite food items ? Right now , we would be living on water and granola bars . Thanks !",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "food items",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "granola",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None",
+            "water": "None",
+            "granola": "None",
+            "food items": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6582,7 +5893,7 @@
       "_id": "768924851365040128",
       "lang": "en",
       "text": "Following earthquake , offers customers free calls and texts to Italy .",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6593,7 +5904,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6603,7 +5914,7 @@
       "_id": "768925914289704960",
       "lang": "en",
       "text": "Italy Earthquake Field guide for crush injuries in earthquakes for medics ( for print / distribute )",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6614,24 +5925,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "guide",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "guide": "None",
+            "print": "None"
          },
-         {
-            "resource": "medics",
-            "quantity": "None"
+         "logistic": {
+            "Field": "None"
          },
-         {
-            "resource": "Field",
-            "quantity": "None"
-         },
-         {
-            "resource": "print",
-            "quantity": "None"
+         "medical": {
+            "medics": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6641,7 +5946,7 @@
       "_id": "768953046726434816",
       "lang": "en",
       "text": "Free calls to Italy in the wake of earthquake",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6652,7 +5957,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6662,26 +5967,19 @@
       "_id": "768958014745444356",
       "lang": "en",
       "text": "Amateur Radio Volunteers Assisting In Italian Earthquake Response :",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Radio Volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Amateur Volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Volunteers": "None",
+            "Amateur Volunteers": "None",
+            "Radio Volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6691,7 +5989,7 @@
       "_id": "768959512472530945",
       "lang": "en",
       "text": "Italy Earthquake : Salvation Army is making Disaster Relief plans for earthquake victims",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
@@ -6702,20 +6000,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Salvation Army",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Army": "None",
+            "Salvation Army": "None"
          },
-         {
-            "resource": "Army",
-            "quantity": "None"
-         },
-         {
-            "resource": "Relief",
-            "quantity": "None"
+         "shelter": {
+            "Relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6725,31 +6018,27 @@
       "_id": "768961034702852096",
       "lang": "en",
       "text": "\" Italy : Refugee volunteers help earthquake rescue effort in Amatrice \" You Tube",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "volunteers",
-            "quantity": "None"
-         },
-         {
-            "resource": "Refugee volunteers",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "volunteers": "None",
+            "Refugee volunteers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -6759,33 +6048,29 @@
       "_id": "768978828639305728",
       "lang": "en",
       "text": "Italy : Makeshift camp set up for Pescara del Tronto quake victims Video , Video News , news , ruptly , Video ) , world",
-      "Classification": "Availability",
+      "Classification": "Need",
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "pescara": {
-            "lat": 42.398846,
-            "long": 13.733578
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "pescara": {
+            "lat": 42.398846,
+            "long": 13.733578
          }
       },
       "Sources": [
          "Video News"
       ],
-      "Resources": [
-         {
-            "resource": "camp",
-            "quantity": "None"
-         },
-         {
-            "resource": "Makeshift camp",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "camp": "None",
+            "Makeshift camp": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
