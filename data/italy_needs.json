@@ -17,12 +17,11 @@
          "streets",
          "Mayor"
       ],
-      "Resources": [
-         {
-            "resource": "bridge",
-            "quantity": "1"
+      "Resources": {
+         "shelter": {
+            "bridge": "1"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -47,7 +46,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -63,32 +62,22 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "thoughts",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "thoughts": "None",
+            "food": "None",
+            "water": "None"
          },
-         {
-            "resource": "shelter",
-            "quantity": "None"
+         "logistic": {
+            "Actions": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          },
-         {
-            "resource": "water",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "Actions",
-            "quantity": "None"
+         "shelter": {
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -104,16 +93,12 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "ambulances",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "ambulances": "None",
+            "Blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -136,16 +121,12 @@
       "Sources": [
          "people"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood amatrice earthquake",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None",
+            "blood amatrice earthquake": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -168,16 +149,12 @@
       "Sources": [
          "Strong quake"
       ],
-      "Resources": [
-         {
-            "resource": "CASH",
-            "quantity": "None"
-         },
-         {
-            "resource": "buildings",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "CASH": "None",
+            "buildings": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -192,28 +169,27 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "ap": {
-            "lat": 42.88443,
-            "long": 13.55306
+         "amatrice": {
+            "lat": 42.62664,
+            "long": 13.29509
          },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
          },
-         "amatrice": {
-            "lat": 42.62664,
-            "long": 13.29509
+         "ap": {
+            "lat": 42.88443,
+            "long": 13.55306
          }
       },
       "Sources": [
          "damaged city"
       ],
-      "Resources": [
-         {
-            "resource": "equipment",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "equipment": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -234,20 +210,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          },
-         {
-            "resource": "donations",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donations",
-            "quantity": "None"
+         "logistic": {
+            "donations": "None",
+            "blood donations": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -272,24 +243,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "urgent donations",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "urgent donations": "None",
+            "donations": "None",
+            "blood donations": "None"
          },
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "donations",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donations",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -310,20 +273,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          },
-         {
-            "resource": "donations",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donations",
-            "quantity": "None"
+         "logistic": {
+            "donations": "None",
+            "blood donations": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -346,20 +304,15 @@
       "Sources": [
          "KINDS"
       ],
-      "Resources": [
-         {
-            "resource": "Blood Donation",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Blood Donation": "None",
+            "Donation": "None"
          },
-         {
-            "resource": "Blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "Donation",
-            "quantity": "None"
+         "medical": {
+            "Blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -375,28 +328,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood type",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donors",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospital Avis",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospital",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "hospital Avis": "None",
+            "blood type": "None",
+            "blood donors": "None",
+            "hospital": "None",
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -419,12 +359,11 @@
       "Sources": [
          "people"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -442,16 +381,14 @@
       "Sources": [
          "Mayor"
       ],
-      "Resources": [
-         {
-            "resource": "areas",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "areas": "None"
          },
-         {
-            "resource": "blood",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -478,20 +415,13 @@
       "Sources": [
          "military"
       ],
-      "Resources": [
-         {
-            "resource": "TEAMS",
-            "quantity": "None"
-         },
-         {
-            "resource": "RESCUE TEAMS",
-            "quantity": "None"
-         },
-         {
-            "resource": "URGENT TEAMS",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "RESCUE TEAMS": "None",
+            "TEAMS": "None",
+            "URGENT TEAMS": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -512,7 +442,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -530,16 +460,12 @@
       "Sources": [
          "WIFI"
       ],
-      "Resources": [
-         {
-            "resource": "communication",
-            "quantity": "None"
-         },
-         {
-            "resource": "better communication",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "better communication": "None",
+            "communication": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -564,24 +490,14 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "hospital",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donors",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood types",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood donors": "None",
+            "blood": "None",
+            "hospital": "None",
+            "blood types": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -604,24 +520,14 @@
       "Sources": [
          "International tourists"
       ],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "Rescue teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "emergency vehicles",
-            "quantity": "None"
-         },
-         {
-            "resource": "vehicles",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "vehicles": "None",
+            "emergency vehicles": "None",
+            "teams": "None",
+            "Rescue teams": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -642,24 +548,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Civil Protection",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Civil Protection": "None",
+            "Protection": "None",
+            "Civil Protection Department": "None"
          },
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "Civil Protection Department",
-            "quantity": "None"
-         },
-         {
-            "resource": "Protection",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -682,7 +580,7 @@
       "Sources": [
          "emergencies"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": [
@@ -700,16 +598,12 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood earthquake",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None",
+            "blood earthquake": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -727,12 +621,11 @@
       "Sources": [
          "types"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -753,12 +646,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -773,13 +665,9 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
-         "piceno": {
-            "lat": 42.82121,
-            "long": 13.53739
+         "ascoli piceno": {
+            "lat": 42.86025,
+            "long": 13.570966
          },
          "ascoli": {
             "lat": 42.85351,
@@ -789,28 +677,27 @@
             "lat": 42.404366,
             "long": 12.868538
          },
-         "ascoli piceno": {
-            "lat": 42.86025,
-            "long": 13.570966
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
+         },
+         "piceno": {
+            "lat": 42.82121,
+            "long": 13.53739
          }
       },
       "Sources": [
          "Hundreds"
       ],
-      "Resources": [
-         {
-            "resource": "center",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "hospitals": "None",
+            "Blood": "None"
          },
-         {
-            "resource": "Blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospitals",
-            "quantity": "None"
+         "food": {
+            "center": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -826,20 +713,17 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "area": "None"
          },
-         {
-            "resource": "Thoughts",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          },
-         {
-            "resource": "area",
-            "quantity": "None"
+         "food": {
+            "Thoughts": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -864,12 +748,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "networks",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "networks": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -885,12 +768,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -917,12 +799,11 @@
       "Sources": [
          "earquake"
       ],
-      "Resources": [
-         {
-            "resource": "water",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -938,16 +819,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "donations",
-            "quantity": "None"
+         "logistic": {
+            "donations": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -968,12 +847,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -996,7 +874,7 @@
       "Sources": [
          "donateblood"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1024,12 +902,11 @@
          "Terremoto",
          "Lellis"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1045,20 +922,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          },
-         {
-            "resource": "donations",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donations",
-            "quantity": "None"
+         "logistic": {
+            "donations": "None",
+            "blood donations": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1079,31 +951,22 @@
          }
       },
       "Sources": [
-         "Terremoto Numeri",
-         "Civile"
+         "Civile",
+         "Terremoto Numeri"
       ],
-      "Resources": [
-         {
-            "resource": "blood donation",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "blood donation": "None",
+            "donation": "None"
          },
-         {
-            "resource": "donation",
-            "quantity": "None"
+         "shelter": {
+            "Civil Protection": "None",
+            "Protection": "None"
          },
-         {
-            "resource": "Protection",
-            "quantity": "None"
-         },
-         {
-            "resource": "Civil Protection",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": [
@@ -1123,7 +986,7 @@
       "Sources": [
          "loss"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1144,20 +1007,13 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospital terremoto",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospital",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "hospital terremoto": "None",
+            "blood": "None",
+            "hospital": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1175,12 +1031,11 @@
       "Sources": [
          "RT"
       ],
-      "Resources": [
-         {
-            "resource": "Blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "Blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1196,7 +1051,7 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1211,22 +1066,21 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "international": {
-            "lat": 43.44347,
-            "long": 13.315785
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "international": {
+            "lat": 43.44347,
+            "long": 13.315785
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "relief",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1247,24 +1101,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Blood Donation",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Blood Donation": "None",
+            "Donation": "None",
+            "Blood Donation Emergency": "None"
          },
-         {
-            "resource": "Blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "Blood Donation Emergency",
-            "quantity": "None"
-         },
-         {
-            "resource": "Donation",
-            "quantity": "None"
+         "medical": {
+            "Blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1287,12 +1133,11 @@
       "Sources": [
          "Foreign tourists"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1315,16 +1160,14 @@
       "Sources": [
          "Sabarina"
       ],
-      "Resources": [
-         {
-            "resource": "electricity",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "logistic": {
+            "electricity": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1351,12 +1194,11 @@
       "Sources": [
          "Italian rescue worker"
       ],
-      "Resources": [
-         {
-            "resource": "BLOOD",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "BLOOD": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1379,12 +1221,11 @@
       "Sources": [
          "prayers"
       ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1405,16 +1246,14 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "search",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "medical": {
+            "search": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1435,12 +1274,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1463,12 +1301,11 @@
       "Sources": [
          "CNN"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1496,7 +1333,7 @@
          "Wi Fi",
          "Civile"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": [
@@ -1514,20 +1351,17 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "money",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "logistic": {
+            "money": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1548,28 +1382,19 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood donation",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "blood donation": "None",
+            "blood donation centers": "None",
+            "donation": "None"
          },
-         {
-            "resource": "donation",
-            "quantity": "None"
+         "food": {
+            "centers": "None"
          },
-         {
-            "resource": "blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "centers",
-            "quantity": "None"
-         },
-         {
-            "resource": "blood donation centers",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1587,7 +1412,7 @@
       "Sources": [
          "Italian"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1601,14 +1426,13 @@
       "isCompleted": false,
       "username": "@Username",
       "Matched": -1,
-      "Locations": {
-         "into the hospital": {
-            "lat": 27.9929677,
-            "long": 85.1041387
+      "Locations": {},
+      "Sources": [],
+      "Resources": {
+         "medical": {
+            "hospital": "None"
          }
       },
-      "Sources": [],
-      "Resources": [],
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1631,12 +1455,11 @@
       "Sources": [
          "Rescue workers"
       ],
-      "Resources": [
-         {
-            "resource": "equipment",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "equipment": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1654,12 +1477,11 @@
       "Sources": [
          "1 st responders"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1675,20 +1497,18 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian",
+         "People",
          "Wi Fi",
-         "People"
+         "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "post",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "post": "None"
          },
-         {
-            "resource": "relief",
-            "quantity": "None"
+         "shelter": {
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1704,12 +1524,12 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian",
-         "Wi Fi",
          "People",
-         "Axeliito_x"
+         "Wi Fi",
+         "Axeliito_x",
+         "Italian"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1725,12 +1545,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1753,16 +1572,14 @@
       "Sources": [
          "Obama"
       ],
-      "Resources": [
-         {
-            "resource": "money",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "logistic": {
+            "money": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1778,20 +1595,13 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "security",
-            "quantity": "None"
-         },
-         {
-            "resource": "security expert",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "security": "None",
+            "Cross": "None",
+            "security expert": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1814,12 +1624,11 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1841,10 +1650,10 @@
       },
       "Sources": [
          "Se",
-         "de Wi Fi",
-         "gente desbloquee sus"
+         "gente desbloquee sus",
+         "de Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1860,12 +1669,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1883,12 +1691,11 @@
       "Sources": [
          "Wired UK"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1909,12 +1716,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1930,16 +1736,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian",
+         "People",
          "Wi Fi",
-         "People"
+         "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "relief",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1955,23 +1760,16 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Wi Fi",
-         "Italians"
+         "Italians",
+         "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "password protection",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
-         },
-         {
-            "resource": "protection",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None",
+            "protection": "None",
+            "password protection": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -1991,23 +1789,18 @@
             "long": 12.83333
          }
       },
-      "Sources": [
-         "guys"
-      ],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Sources": [],
+      "Resources": {
+         "shelter": {
+            "clothes": "None"
          },
-         {
-            "resource": "centers",
-            "quantity": "None"
+         "food": {
+            "centers": "None"
          },
-         {
-            "resource": "clothes",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2025,12 +1818,11 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "Locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2053,12 +1845,11 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2079,12 +1870,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2105,20 +1895,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "home",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "hospitals": "None",
+            "ambulances": "None"
          },
-         {
-            "resource": "ambulances",
-            "quantity": "None"
-         },
-         {
-            "resource": "hospitals",
-            "quantity": "None"
+         "shelter": {
+            "home": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2139,16 +1924,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "nets",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None",
+            "nets": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2167,16 +1948,14 @@
          "Deborah",
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "Centers",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "food": {
+            "Centers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2194,20 +1973,15 @@
       "Sources": [
          "emergency"
       ],
-      "Resources": [
-         {
-            "resource": "areas",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "areas": "None",
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
-         },
-         {
-            "resource": "routers",
-            "quantity": "None"
+         "logistic": {
+            "routers": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2225,16 +1999,14 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "router",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "router": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2250,16 +2022,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian",
+         "People",
          "Wi Fi",
-         "People"
+         "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "relief",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2280,24 +2051,16 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Hospitals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Stockpile": "None",
+            "Systems": "None"
          },
-         {
-            "resource": "Stockpile",
-            "quantity": "None"
-         },
-         {
-            "resource": "Systems",
-            "quantity": "None"
-         },
-         {
-            "resource": "Mobile Hospitals",
-            "quantity": "None"
+         "medical": {
+            "Mobile Hospitals": "None",
+            "Hospitals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2318,16 +2081,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Hospitals",
-            "quantity": "None"
-         },
-         {
-            "resource": "Mobile Hospitals",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "Mobile Hospitals": "None",
+            "Hospitals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2345,16 +2104,14 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "donations",
-            "quantity": "None"
+         "logistic": {
+            "donations": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2370,12 +2127,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2393,12 +2149,11 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "Feed",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "Feed": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2417,7 +2172,7 @@
          "Wi Fi",
          "Digital Tech News"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2435,7 +2190,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2456,20 +2211,13 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "connections",
-            "quantity": "None"
-         },
-         {
-            "resource": "communication",
-            "quantity": "None"
-         },
-         {
-            "resource": "wifi connections",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "connections": "None",
+            "wifi connections": "None",
+            "communication": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2487,7 +2235,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2505,7 +2253,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2523,12 +2271,11 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "post",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "post": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2546,7 +2293,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2564,12 +2311,11 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "post",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "post": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2592,7 +2338,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2610,7 +2356,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2626,11 +2372,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian victims",
          "Wi Fi",
+         "Italian victims",
          "malicious people"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2651,7 +2397,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2670,7 +2416,7 @@
          "Wi Fi",
          "disasterrelief MT Italianearthquake residents"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2689,7 +2435,7 @@
          "Wi Fi",
          "TX"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2712,16 +2458,12 @@
       "Sources": [
          "death toll"
       ],
-      "Resources": [
-         {
-            "resource": "Hospitals",
-            "quantity": "None"
-         },
-         {
-            "resource": "Mobile Hospitals",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "Mobile Hospitals": "None",
+            "Hospitals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2739,16 +2481,14 @@
       "Sources": [
          "The Croce Rossa"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2764,15 +2504,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian",
-         "Wi Fi"
+         "Wi Fi",
+         "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "case",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "case": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2788,15 +2527,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Wel",
-         "Niet"
+         "Niet",
+         "Wel"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2812,12 +2550,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Web",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Web": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2833,20 +2570,13 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "element",
-            "quantity": "None"
-         },
-         {
-            "resource": "interesting element",
-            "quantity": "None"
-         },
-         {
-            "resource": "commisaid element",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "interesting element": "None",
+            "element": "None",
+            "commisaid element": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2862,16 +2592,12 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Next Web",
-            "quantity": "None"
-         },
-         {
-            "resource": "Web",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Web": "None",
+            "Next Web": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2892,7 +2618,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2913,12 +2639,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "internet",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "internet": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2939,20 +2664,13 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "food pleasedonate everythingcanhelp",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None",
+            "food pleasedonate everythingcanhelp": "None",
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -2970,16 +2688,14 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3002,16 +2718,14 @@
       "Sources": [
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "support",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "support": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3030,16 +2744,14 @@
          "Wi",
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "post",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "post": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3057,16 +2769,14 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3082,20 +2792,13 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Security",
-            "quantity": "None"
-         },
-         {
-            "resource": "Security expert",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Security expert": "None",
+            "Cross": "None",
+            "Security": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3114,7 +2817,7 @@
          "Italians Urged",
          "Remove Wifi Passwords"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3133,7 +2836,7 @@
          "Wi",
          "Italians"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3154,24 +2857,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "pm",
-            "quantity": "10"
+      "Resources": {
+         "shelter": {
+            "shoes": "None",
+            "clothes": "None"
          },
-         {
-            "resource": "shoes",
-            "quantity": "None"
+         "medical": {
+            "pm": "10"
          },
-         {
-            "resource": "clothes",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "food": {
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3190,7 +2887,7 @@
          "responders",
          "Italians"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3211,12 +2908,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "service",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "service": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3237,20 +2933,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "shoes",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "shoes": "None",
+            "clothes": "None"
          },
-         {
-            "resource": "clothes",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "food": {
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3273,12 +2964,11 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "net",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "net": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3299,31 +2989,22 @@
          }
       },
       "Sources": [
-         "\u2014",
-         "Survivors"
+         "Survivors",
+         "\u2014"
       ],
-      "Resources": [
-         {
-            "resource": "medicine",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "medicine": "None"
          },
-         {
-            "resource": "emergency supplies",
-            "quantity": "None"
+         "food": {
+            "food": "None",
+            "water": "None"
          },
-         {
-            "resource": "supplies",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "logistic": {
+            "supplies": "None",
+            "emergency supplies": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3344,20 +3025,15 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Blood donations",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Blood donations": "None",
+            "donations": "None"
          },
-         {
-            "resource": "Blood",
-            "quantity": "None"
-         },
-         {
-            "resource": "donations",
-            "quantity": "None"
+         "medical": {
+            "Blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3373,12 +3049,11 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "things",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "things": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3399,16 +3074,14 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "homes",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "donations": "None"
          },
-         {
-            "resource": "donations",
-            "quantity": "None"
+         "shelter": {
+            "homes": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3423,15 +3096,12 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {},
-      "Sources": [
-         "survivors"
-      ],
-      "Resources": [
-         {
-            "resource": "shelter",
-            "quantity": "None"
+      "Sources": [],
+      "Resources": {
+         "shelter": {
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3449,12 +3119,11 @@
       "Sources": [
          "Help Aid"
       ],
-      "Resources": [
-         {
-            "resource": "Blood Aid",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "Blood Aid": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3469,26 +3138,24 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "perugia": {
             "lat": 43.096689,
             "long": 12.409274
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "blood",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "funds": "None"
          },
-         {
-            "resource": "funds",
-            "quantity": "None"
+         "medical": {
+            "blood": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3503,30 +3170,25 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "shelter",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None",
+            "water": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "shelter": {
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3549,12 +3211,11 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "communication",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "communication": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3570,16 +3231,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Italian",
          "Wi Fi",
-         "Bandwidth Blog"
+         "Bandwidth Blog",
+         "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3603,16 +3263,14 @@
          "Wi Fi",
          "International Busines"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3635,24 +3293,18 @@
       "Sources": [
          "Amatriciana"
       ],
-      "Resources": [
-         {
-            "resource": "home",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food food": "None",
+            "food": "None"
          },
-         {
-            "resource": "locals",
-            "quantity": "None"
+         "shelter": {
+            "home": "None"
          },
-         {
-            "resource": "food food",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3673,7 +3325,7 @@
          }
       },
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3691,20 +3343,15 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "free internet",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "internet",
-            "quantity": "None"
-         },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "free internet": "None",
+            "internet": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3720,7 +3367,7 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3743,20 +3390,15 @@
       "Sources": [
          "people"
       ],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "teams": "None",
+            "rescue teams": "None"
          },
-         {
-            "resource": "rescue teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "body",
-            "quantity": "None"
+         "shelter": {
+            "body": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3777,12 +3419,11 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3800,16 +3441,12 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
-         },
-         {
-            "resource": "area",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "area": "None",
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3824,13 +3461,13 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "india": {
-            "lat": 46.7324,
-            "long": 12.27855
-         },
          "italy": {
             "lat": 42.83333,
             "long": 12.83333
+         },
+         "india": {
+            "lat": 46.7324,
+            "long": 12.27855
          }
       },
       "Sources": [
@@ -3838,12 +3475,11 @@
          "SOP",
          "quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3862,12 +3498,11 @@
          "Wi",
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3885,12 +3520,11 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3906,15 +3540,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Wi Fi",
-         "Italians"
+         "Italians",
+         "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3935,24 +3568,18 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "air": "None"
          },
-         {
-            "resource": "air",
-            "quantity": "None"
+         "logistic": {
+            "teams": "None",
+            "rescue teams": "None"
          },
-         {
-            "resource": "rescue teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "body",
-            "quantity": "None"
+         "shelter": {
+            "body": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3976,12 +3603,11 @@
          "6.2 quake",
          "Survivors"
       ],
-      "Resources": [
-         {
-            "resource": "shelter",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "shelter": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -3999,20 +3625,15 @@
       "Sources": [
          "Survivors"
       ],
-      "Resources": [
-         {
-            "resource": "medicine",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "food": "None",
+            "water": "None"
          },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "medical": {
+            "medicine": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4030,20 +3651,13 @@
       "Sources": [
          "BBC News Tech Italy quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "locals",
-            "quantity": "None"
-         },
-         {
-            "resource": "Rescue teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Rescue teams": "None",
+            "teams": "None",
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4066,20 +3680,13 @@
       "Sources": [
          "quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "locals",
-            "quantity": "None"
-         },
-         {
-            "resource": "Rescue teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Rescue teams": "None",
+            "teams": "None",
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4097,12 +3704,11 @@
       "Sources": [
          "Tech BBC Technology Italy quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4118,10 +3724,10 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Disable wifi",
-         "first responders"
+         "first responders",
+         "Disable wifi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4139,16 +3745,12 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None",
+            "relief": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4171,12 +3773,11 @@
       "Sources": [
          "quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4192,10 +3793,10 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "\u2014 Engadget",
-         "Wi Fi"
+         "Wi Fi",
+         "\u2014 Engadget"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4220,12 +3821,11 @@
          "App and Skype",
          "Wi Fi"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4248,7 +3848,7 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4264,20 +3864,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "house",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "alarm": "None"
          },
-         {
-            "resource": "alarm",
-            "quantity": "None"
-         },
-         {
-            "resource": "button",
-            "quantity": "None"
+         "shelter": {
+            "house": "None",
+            "button": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4293,24 +3888,16 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "game",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "batteries": "None"
          },
-         {
-            "resource": "batteries",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "food": {
+            "food": "None",
+            "water": "None",
+            "game": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4331,28 +3918,19 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "money",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "clothes": "None",
+            "blankets": "None"
          },
-         {
-            "resource": "blankets",
-            "quantity": "None"
+         "logistic": {
+            "money": "None"
          },
-         {
-            "resource": "course",
-            "quantity": "None"
-         },
-         {
-            "resource": "food",
-            "quantity": "None"
-         },
-         {
-            "resource": "clothes",
-            "quantity": "None"
+         "food": {
+            "food": "None",
+            "course": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4375,12 +3953,11 @@
       "Sources": [
          "quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4401,16 +3978,12 @@
          }
       },
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "connection",
-            "quantity": "None"
-         },
-         {
-            "resource": "fi connection",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "fi connection": "None",
+            "connection": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4426,10 +3999,9 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "BBC News",
-         "rescuers"
+         "BBC News"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4445,7 +4017,7 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4468,16 +4040,14 @@
       "Sources": [
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "communication",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "logistic": {
+            "communication": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4495,7 +4065,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4511,32 +4081,20 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "Shelter",
-            "quantity": "None"
+      "Resources": {
+         "medical": {
+            "purification": "None"
          },
-         {
-            "resource": "purification",
-            "quantity": "None"
+         "shelter": {
+            "Shelter efforts": "None",
+            "Shelter": "None",
+            "relief": "None"
          },
-         {
-            "resource": "water purification",
-            "quantity": "None"
-         },
-         {
-            "resource": "relief",
-            "quantity": "None"
-         },
-         {
-            "resource": "Shelter efforts",
-            "quantity": "None"
-         },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "food": {
+            "water purification": "None",
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4552,16 +4110,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "mails",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "mails": "None"
          },
-         {
-            "resource": "medicines",
-            "quantity": "None"
+         "medical": {
+            "medicines": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4579,7 +4135,7 @@
       "Sources": [
          "Wi Fi"
       ],
-      "Resources": [],
+      "Resources": {},
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4595,28 +4151,15 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "dogs",
-            "quantity": "None"
-         },
-         {
-            "resource": "rescue teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "medical teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "dogs teams",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "dogs": "None",
+            "teams": "None",
+            "dogs teams": "None",
+            "medical teams": "None",
+            "rescue teams": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4631,13 +4174,13 @@
       "username": "@Username",
       "Matched": -1,
       "Locations": {
-         "italy": {
-            "lat": 42.83333,
-            "long": 12.83333
-         },
          "amatrice": {
             "lat": 42.62664,
             "long": 13.29509
+         },
+         "italy": {
+            "lat": 42.83333,
+            "long": 12.83333
          }
       },
       "Sources": [
@@ -4645,16 +4188,14 @@
          "PLS",
          "/ Neighbors"
       ],
-      "Resources": [
-         {
-            "resource": "blankets",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "blankets": "None"
          },
-         {
-            "resource": "water",
-            "quantity": "None"
+         "food": {
+            "water": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4672,16 +4213,14 @@
       "Sources": [
          "Italy Quake Rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "Checkout",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Locals": "None"
          },
-         {
-            "resource": "Locals",
-            "quantity": "None"
+         "medical": {
+            "Checkout": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4704,20 +4243,13 @@
       "Sources": [
          "Italy Quake Rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "Rescue teams",
-            "quantity": "None"
-         },
-         {
-            "resource": "Locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Locals": "None",
+            "Rescue teams": "None",
+            "teams": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4736,12 +4268,11 @@
          "Over 1000 people",
          "Italian"
       ],
-      "Resources": [
-         {
-            "resource": "tents",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "tents": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4759,12 +4290,11 @@
       "Sources": [
          "Italy Quake Rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "Locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "Locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4780,16 +4310,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [],
-      "Resources": [
-         {
-            "resource": "search",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          },
-         {
-            "resource": "Cross",
-            "quantity": "None"
+         "medical": {
+            "search": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4805,15 +4333,14 @@
       "Matched": -1,
       "Locations": {},
       "Sources": [
-         "Wifi",
-         "Italians"
+         "Italians",
+         "Wifi"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4834,15 +4361,14 @@
          }
       },
       "Sources": [
-         "quake rescuers",
-         "Short News"
+         "Short News",
+         "quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4861,12 +4387,11 @@
          "Wi",
          "Italians"
       ],
-      "Resources": [
-         {
-            "resource": "Cross",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "Cross": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4889,12 +4414,11 @@
       "Sources": [
          "quake rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "locals",
-            "quantity": "None"
+      "Resources": {
+         "logistic": {
+            "locals": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4917,16 +4441,12 @@
       "Sources": [
          "Rescuers"
       ],
-      "Resources": [
-         {
-            "resource": "networks",
-            "quantity": "None"
-         },
-         {
-            "resource": "Fi networks",
-            "quantity": "None"
+      "Resources": {
+         "shelter": {
+            "networks": "None",
+            "Fi networks": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
@@ -4944,20 +4464,13 @@
       "Sources": [
          "Victims"
       ],
-      "Resources": [
-         {
-            "resource": "Food Water",
-            "quantity": "None"
-         },
-         {
-            "resource": "Water",
-            "quantity": "None"
-         },
-         {
-            "resource": "Food",
-            "quantity": "None"
+      "Resources": {
+         "food": {
+            "Water": "None",
+            "Food Water": "None",
+            "Food": "None"
          }
-      ],
+      },
       "Contact": {
          "Email": [],
          "Phone Number": []
