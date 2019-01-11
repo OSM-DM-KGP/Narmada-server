@@ -40,8 +40,13 @@ app.get('/info', (request, response) => {
     response.send('Info');
 });
 
-// Get
+// basic landing page
 app.get('/', (request, response) => {
+    response.send('This is indeed the basic landing page');
+});
+
+// Get
+app.get('/get', (request, response) => {
     // request.query contains filter
     // response.status(200).send(request.query);
     var options = {
@@ -65,6 +70,12 @@ app.get('/', (request, response) => {
         }
     });
     // response.status(200).send(CircularJSON.stringify(out));
+});
+
+// find matches for particular tweet
+app.get('/match', (request, response) => {
+    console.log('Matching for id ' + request.query.id + ' of type ' + request.query.type);
+    response.send('K');
 });
 
 // get details of tweet
