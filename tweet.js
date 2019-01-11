@@ -44,7 +44,7 @@ const tweetSchema = new mongoose.Schema({
     Sources: [{ // sources - names of people, NGO's, etc
         type: String
     }],
-    Resources: Array, // detected json of jsons - each json has resource and quantity
+    Resources: {}, // detected json of jsons - each json has resource and quantity
     status: {
         type: Number,
         default: 0,
