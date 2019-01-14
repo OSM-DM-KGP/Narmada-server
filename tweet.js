@@ -45,6 +45,10 @@ const tweetSchema = new mongoose.Schema({
         type: String
     }],
     Resources: {}, // detected json of jsons - each json has resource and quantity
+    ResourceWords: {
+        type: Array,
+        default: [],
+    },
     status: {
         type: Number,
         default: 0,
