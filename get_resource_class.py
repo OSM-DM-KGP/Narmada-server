@@ -146,9 +146,8 @@ def get_contact(text):
 	contacts.append(temp)
 	return contacts	
 
-f=open(input_file,'r')
-
-# print(contacts)
+# f=open(input_file,'r')
+f = ["we need 800 units blood urgently"]# print(contacts)
 
 def modifier_word(word):
 	modified_word=word.orth_
@@ -631,8 +630,10 @@ for line in f:
 	global_resource_list[tid]=((text,a,b,c,contacts,modified_array,d, final_resource_dict))
 
 
-with open('DATA/OUTPUT/'+input_name+'.p','wb')as handle:
-	pickle.dump(global_resource_list,handle)
+# text="We need 0.6 kg blood urgently!"
+print(global_resource_list)
+# with open('DATA/OUTPUT/'+input_name+'.p','wb')as handle:
+# 	pickle.dump(global_resource_list,handle)
 
 
 '''

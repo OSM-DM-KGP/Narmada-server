@@ -23,6 +23,22 @@ var docs_arr = [docs_in, docs_io, docs_nn, docs_no];
 docs_arr.forEach(function (docs) {
     docs.forEach(function (doc) {
         console.log('Started', doc._id);
+        var resourceWords = [];
+        for(var category in doc.Resources) {
+            for(var resource in doc.Resources[category]) {
+                resourceWords.push(resource);
+            }
+        }
+        doc.ResourceWords = resourceWords;
+        // console.log(resourceWords);
+        // doc.Resources.forEach(function (category) {
+        //     console.log(category);
+        // });
+
+        if (doc.username === "@Username") {
+            doc.username = "";
+        }
+
         var insertTweet = Tweet(doc);
         db.collection(collectionName).insert(insertTweet);
     });
