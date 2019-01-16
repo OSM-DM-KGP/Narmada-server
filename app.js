@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const CircularJSON = require('circular-json');
 const jaccard = require('jaccard');
-const _ = require("lodash");
+const ObjectID = require('mongodb').ObjectID;
 
 const Tweet = require('./tweet.js');
 const TweetSchema = mongoose.model('Tweet').schema;
@@ -32,7 +32,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 app.all('/*', function (request, response, next) {
 	response.header("Access-Control-Allow-Origin", "*");
 	response.header("Access-Control-Allow-Headers", "X-Requested-With");
-	response.header("Access-Control-Allow-Methods", "GET")
+	response.header("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")
 	response.header('Access-Control-Allow-Headers', 'Content-Type');
 	next();
 });
@@ -55,21 +55,43 @@ app.get('/get', (request, response) => {
 		"limit": 20,
 		"skip": 0,
 	};
+
+	var matching = false;
 	if(request.query.skip) {
 		options.skip = Number(request.query.skip);
 		delete request.query.skip;
 	}
 	if(request.query.isCompleted) request.query.isCompleted = (request.query.isCompleted == 'true');
 	if(request.query.text) request.query.text = JSON.parse(request.query.text);
+	if(request.query.Matched) {request.query.Matched = {$ne: "-1"}; matching = true;}
 	// console.log('Query', request.query);
+	
 	db.collection(collectionName).find(request.query, options).sort({ created: -1 }).toArray(function(err, results) {
 		if(results) {
-			// console.log('results', results);
-			response.send(results);
+			if(matching===true) {
+				var partners = [];
+				results.forEach(result => {partners.push(result.Matched)});
+				console.log('partners', partners);
+				db.collection(collectionName).find({"_id": {$in: partners}}).toArray(function(err, resultpartners) {
+					if(err) console.log('Error retrieving partners', err);
+					
+					// fetched matches, fetched their partners. Now tie them in holy matrimony
+					var partnerid = {};
+					// setting additional field - isPartner as true for later ease
+					for(var i=0; i < resultpartners.length; i++) {partnerid[resultpartners[i]._id] = i; resultpartners[i].isPartner = true;}
+
+
+					for(var i=0; i < results.length; i++) {
+						var availId = results[i].Matched;
+						results[i].partner = resultpartners[ partnerid[availId] ];
+					}
+					response.send(results);
+				});
+			}
+			// console.log(results);
+			else response.send(results);
 		}
-		if(err) {
-			console.log('Error retrieving docs', err);
-		}
+		if(err) console.log('Error retrieving docs', err);
 	});
 	// response.status(200).send(CircularJSON.stringify(out));
 });
@@ -89,7 +111,8 @@ app.get('/match', (request, response) => {
 
 		var searchParams = {
 			"Classification": fetchType,
-			"$text": { $search: resourceToMatch.ResourceWords.join(",")}
+			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
+			"Matched": '-1'
 		}
 		db.collection(collectionName).find(searchParams).sort({ created: -1 }).toArray(function (err, results) {
 			if (err) {
@@ -128,8 +151,14 @@ app.get('/match', (request, response) => {
 	});
 });
 
-// get details of tweet
-// update tweet statuses
+// Make match
+app.put('/makeMatch', (request, response) => {
+	console.log(request.body);
+	db.collection(collectionName).findOneAndUpdate({_id: request.body.id1}, {$set: {Matched: request.body.id2 }});
+	db.collection(collectionName).findOneAndUpdate({ _id: request.body.id2 }, {$set: {Matched: request.body.id1 }});
+
+	response.status(201).send("Made match of" + request.body.id1 + " and " + request.body.id2);
+});
 
 // Create new resource
 app.post('/new', (request, response) => {
