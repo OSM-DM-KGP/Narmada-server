@@ -8,7 +8,7 @@ import subprocess
 import sys
 from datetime import date
 import datetime
-import emoji
+# import emoji
 import re
 from nltk.tokenize import TweetTokenizer
 from collections import defaultdict

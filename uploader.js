@@ -18,6 +18,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(mongourl + '/' + dbName, { useMongoClient: true });
 var db = mongoose.connection;
 
+var tweet_urls = require('./data/tweet_urls.json');
 
 var docs_arr = [docs_in, docs_io, docs_nn, docs_no];
 docs_arr.forEach(function (docs) {
@@ -30,14 +31,14 @@ docs_arr.forEach(function (docs) {
             }
         }
         doc.ResourceWords = resourceWords;
+        if (doc._id in tweet_urls) { doc.url = tweet_urls[doc._id];}
+        // console.log(tweet_urls[doc._id]);
         // console.log(resourceWords);
         // doc.Resources.forEach(function (category) {
         //     console.log(category);
         // });
 
-        if (doc.username === "@Username") {
-            doc.username = "";
-        }
+        if (doc.username === "@Username") doc.username = "";
 
         var insertTweet = Tweet(doc);
         db.collection(collectionName).insert(insertTweet);
