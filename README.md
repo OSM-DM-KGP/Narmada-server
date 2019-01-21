@@ -8,3 +8,15 @@ Currently sends only 20 resources at a time, offset to be used to send more than
 * db.getCollection('tweets').find({Classification: 'Need', isCompleted: false}).sort({created: -1})
   
 * db.tweets.ensureIndex({ text: "text" })
+
+## Servers
+
+We have two servers: One for mongodb setup, and nodejs backend.
+
+Another with simply a flask backend, which uses local files - nothing else.
+
+```
+# both needed
+$ pip install -r requirements.txt
+$ npm install
+```

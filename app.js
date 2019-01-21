@@ -160,6 +160,15 @@ app.put('/makeMatch', (request, response) => {
 	response.status(201).send("Made match of" + request.body.id1 + " and " + request.body.id2);
 });
 
+// Mark need and availability as completed
+app.put('/markCompleted', (request, response) => {
+	console.log(request.body);
+	db.collection(collectionName).findOneAndUpdate({ _id: request.body.id1 }, { $set: { isCompleted: true } });
+	db.collection(collectionName).findOneAndUpdate({ _id: request.body.id2 }, { $set: { isCompleted: true } });
+
+	response.status(201).send("Completed " + request.body.id1 + " and " + request.body.id2);
+});
+
 // Create new resource
 app.post('/new', (request, response) => {
 	// console.log(request.body);
