@@ -147,7 +147,7 @@ def get_contact(text):
 	return contacts	
 
 # f=open(input_file,'r')
-f = ["we need 800 units blood urgently"]# print(contacts)
+f = ["If you are a doctor interested to help in Nepal , contact us today at helpnepal Nepal Help Nepal Earthquake NepalQ …"]# print(contacts)
 
 def modifier_word(word):
 	modified_word=word.orth_

@@ -8,7 +8,7 @@ import subprocess
 import sys
 from datetime import date
 import datetime
-# import emoji
+import emoji
 import re
 from nltk.tokenize import TweetTokenizer
 from collections import defaultdict
@@ -25,7 +25,7 @@ import spacy
 import random
 import wordsegment
 import jellyfish
-from para_sentence import split_into_sentences
+# from para_sentence import split_into_sentences
 import networkx as nx
 import geocoder
 

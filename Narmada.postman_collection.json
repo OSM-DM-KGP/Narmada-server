@@ -2,13 +2,13 @@
 	"variables": [],
 	"info": {
 		"name": "Narmada",
-		"_postman_id": "8580c949-2f8d-ef7e-2ce5-681765ac840d",
+		"_postman_id": "51b9392f-71c5-858f-a7d1-701b37ddea4b",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "Create resource",
+			"name": "Create Resource",
 			"request": {
 				"url": "http://localhost:3000/new",
 				"method": "POST",
@@ -28,15 +28,58 @@
 			"response": []
 		},
 		{
+			"name": "Parse resource text",
+			"request": {
+				"url": "http://localhost:5000/parse",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"text\": \"Blood , free wifi , ambulances and prayers is what needed NOW for earthquake in Central Italy terremoto\"\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Make Match",
+			"request": {
+				"url": "http://localhost:3000/makeMatch",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"id1\": \"592656054489591808\",\n\t\"id2\": \"597410630346219520\"\n\t\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
 			"name": "Get Incomplete Needs",
 			"request": {
 				"url": {
-					"raw": "http://localhost:3000?type=Need&isCompleted=false",
+					"raw": "http://localhost:3000/get?type=Need&isCompleted=false",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
+					"path": [
+						"get"
+					],
 					"query": [
 						{
 							"key": "type",
@@ -47,6 +90,42 @@
 						{
 							"key": "isCompleted",
 							"value": "false",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Matches",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/match?type=Need&id=591987020924260354",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"match"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Need",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "id",
+							"value": "591987020924260354",
 							"equals": true,
 							"description": ""
 						}
