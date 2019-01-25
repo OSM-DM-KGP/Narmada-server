@@ -1,0 +1,86 @@
+cereal
+canned meats
+fruits
+vegetables
+Protein bars
+fruit bars
+granola bars
+Peanut butter
+Dried fruit
+Canned juices
+juices
+pasteurized milk
+baby food
+bottled water
+water
+infant food
+Comfort food
+stress foods
+rice
+corn
+wheat
+flour
+biscuits
+fat
+oil
+canned meat
+canned fish
+dried meat
+supplements
+crackers
+nuts
+power bars
+apricot
+raisin
+sports drink
+powdered milk
+vitamins
+utensils
+fuel
+stove
+gasoline
+container
+Dry Cereal
+Cornflakes,
+Cheerios
+Shredded Wheat
+granola
+Nuts
+almonds
+walnuts
+cashews
+pecans
+pistachios
+Dried Fruit
+apricots
+figs
+raisins
+apples
+dates
+Grains
+white rice 
+crackers
+cream of wheat
+enriched pasta 
+Legumes
+peas
+soybeans
+kidney beans,
+chick peas
+lentils
+vegetables
+carrots 
+tomato 
+spinach
+celery
+bell pepper
+Fresh fruit
+apple
+orange 
+banana
+seedless grapes
+cantaloupe
+meat
+fish
+food
+water

@@ -49,10 +49,11 @@ const tweetSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    status: {
-        type: Number,
-        default: 0,
-    },
+    // to be used for status = 1, 2, 3, 4 => For verified, assigned, etc
+    // status: {
+    //     type: Number,
+    //     default: 0,
+    // },
     Contact: { // straight forwarsd
         Email: [{
             type: String,
