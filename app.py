@@ -626,9 +626,11 @@ def parseResources():
 	resource['Contact'] = {'Phone number': list(contacts[0]), "Email": list(contacts[1])}
 	resource['Sources'] = sources
 	resource['ResourceWords'] = rWords
-	resource['Locations'], resource['Resources'] = {}, {}
+	resource['Locations'], resource['Resources'] = dict(), {}
+	# resource['Locations'] = locations
 	for each in locations:
-		resource['Locations'][each[0]] = {"long": float(each[2]), "lat": float(each[1])}
+		# print(each[0], "<>", each[1])
+		resource['Locations'][each[0]] = {"long": float(each[1][1]), "lat": float(each[1][0])}
 	# f is Resources type
 	resources_bucket = {}
 
@@ -644,7 +646,8 @@ def parseResources():
 				resources_bucket[each_resource] = bucket
 		
 	## Need to add quantity
-
+	## Ritam yaha dekh
+	
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
 	# print(final_resource_dict)
 
