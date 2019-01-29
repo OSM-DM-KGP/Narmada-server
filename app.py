@@ -14,7 +14,7 @@ from itertools import product
 import spacy
 from spacy.symbols import *
 from nltk import Tree
-# from nltk import *
+from word2number import w2n
 import nltk
 import location_2 as location
 import time
@@ -645,6 +645,63 @@ def parseResources():
 				assigned = True
 				resources_bucket[each_resource] = bucket
 		
+	
+	split_text= line.split()
+	class_list={}
+
+	for resource in rWords:
+		s={}
+
+		prev_words=[ split_text[i-1] for i in range(0,len(split_text)) if resource.startswith(split_text[i]) ]		
+
+		qt='None'
+
+		try:
+			for word in prev_words:
+				word=word.replace(',','')
+				if word.isnumeric()==True:
+					qt=str(word)
+					break
+				else:
+					try:
+						qt=str(w2n.word_to_num(word))
+						break
+					except Exception as e:	
+						continue
+
+			if qt=='None':	
+
+				elems=resource.strip().split()	
+				word=elems[0]
+				resource2=" ".join(elems[1:])				
+
+				word=word.replace(',','')
+				if word.isnumeric()==True:
+					qt=str(word)
+				else:
+					try:
+						qt=str(w2n.word_to_num(word))
+					except Exception as e:
+						pass	
+
+			if qt!='None' and qt in resource:
+				print(resource, qt)
+				continue
+
+
+		except Exception as e:
+			exc_type, exc_obj, exc_tb = sys.exc_info()
+			fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+			print(exc_type, fname, exc_tb.tb_lineno)
+			qt='None'						
+
+		
+		
+		class_list[resource]= qt
+
+	
+	
+	
 	## Need to add quantity
 	## Ritam yaha dekh
 	
