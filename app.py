@@ -27,7 +27,9 @@ from flask_cors import CORS, cross_origin
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-nlp=spacy.load('en')
+import en_core_web_sm
+nlp = en_core_web_sm.load()
+# nlp=spacy.load('en')
 np_labels=set(['nsubj','dobj','pobj','iobj','conj','nsubjpass','appos','nmod','poss','parataxis','advmod','advcl'])
 subj_labels=set(['nsubj','nsubjpass','csubj','csubjpass'])
 modifiers=['nummod','compound','amod','punct']
