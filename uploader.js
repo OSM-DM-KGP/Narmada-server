@@ -20,7 +20,8 @@ var db = mongoose.connection;
 
 var tweet_urls = require('./data/tweet_urls.json');
 
-var docs_arr = [docs_in, docs_io, docs_nn, docs_no];
+// var docs_arr = [docs_in, docs_io, docs_nn, docs_no];
+var docs_arr = [docs_nn, docs_no];
 docs_arr.forEach(function (docs) {
     docs.forEach(function (doc) {
         console.log('Started', doc._id);
