@@ -37,7 +37,9 @@ dep_parse_dist=0
 a=0
 orth_dist=0
 
-nlp=spacy.load('en')
+import en_core_web_sm
+nlp = en_core_web_sm.load()
+# nlp=spacy.load('en')
 tknzr=TweetTokenizer(strip_handles=True,reduce_len=True)
 # import CMUTweetTagger
 
