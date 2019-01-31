@@ -9,3 +9,4 @@ spacy==2.0.18
 emoji==0.5.1
 Flask-Cors==3.0.7
 word2number==1.1
+gunicorn==19.9.0
