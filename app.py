@@ -22,6 +22,11 @@ import sys
 import json
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
+## CORS
+from flask_cors import CORS, cross_origin
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 nlp=spacy.load('en')
 np_labels=set(['nsubj','dobj','pobj','iobj','conj','nsubjpass','appos','nmod','poss','parataxis','advmod','advcl'])
 subj_labels=set(['nsubj','nsubjpass','csubj','csubjpass'])
@@ -608,13 +613,15 @@ def create_resource_list(text):
 
 bucket_classes=['shelter', 'food','medical','logistic']
 
-@app.route('/parse', methods=['GET', 'POST'])
+@app.route('/parse', methods=['GET', 'POST', 'OPTIONS'])
+@cross_origin()
 def parseResources():
 	global_resource_list={}
 	# print(request.body)
 	resource = {}
 	line = flask.request.json['text']
 	
+	print('Received for parsing: ', line)
 	contacts = get_contact(line)
 	t2 = location.tweet_preprocess2(line,[])
 	sources,b,locations,modified_array,rWords, final_resource_dict  =create_resource_list(line)
@@ -649,12 +656,10 @@ def parseResources():
 	split_text= line.split()
 	class_list={}
 
-	for resource in rWords:
-		s={}
-
-		prev_words=[ split_text[i-1] for i in range(0,len(split_text)) if resource.startswith(split_text[i]) ]		
-
-		qt='None'
+	for rWord in rWords:
+		s = {}
+		prev_words = [ split_text[i-1] for i in range(0,len(split_text)) if rWord.startswith(split_text[i]) ]
+		qt = 'None'
 
 		try:
 			for word in prev_words:
@@ -670,10 +675,9 @@ def parseResources():
 						continue
 
 			if qt=='None':	
-
-				elems=resource.strip().split()	
+				elems=rWord.strip().split()	
 				word=elems[0]
-				resource2=" ".join(elems[1:])				
+				rWord2=" ".join(elems[1:])
 
 				word=word.replace(',','')
 				if word.isnumeric()==True:
@@ -682,10 +686,10 @@ def parseResources():
 					try:
 						qt=str(w2n.word_to_num(word))
 					except Exception as e:
-						pass	
+						pass
 
-			if qt!='None' and qt in resource:
-				print(resource, qt)
+			if qt != 'None' and qt in rWord:
+				print(rWord, qt)
 				continue
 
 
@@ -693,15 +697,12 @@ def parseResources():
 			exc_type, exc_obj, exc_tb = sys.exc_info()
 			fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
 			print(exc_type, fname, exc_tb.tb_lineno)
-			qt='None'						
+			qt='None'
 
-		
-		
-		class_list[resource]= qt
+		# class_list[rWord]= qt
+		resource['Resources'][resources_bucket[rWord]][rWord] = qt
 
-	
-	
-	
+	# print(class_list)
 	## Need to add quantity
 	## Ritam yaha dekh
 	
@@ -712,7 +713,8 @@ def parseResources():
 
 # add routes for nodejs backend via here as well
 
-@app.route('/')
+@app.route('/', methods=['GET', 'OPTIONS'])
+@cross_origin()
 def base():
 	with open('index.html', 'r') as f:
 		txt = f.readlines()

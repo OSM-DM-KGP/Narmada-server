@@ -7,3 +7,5 @@ jellyfish==0.7.1
 geocoder==1.38.1
 spacy==2.0.18
 emoji==0.5.1
+Flask-Cors==3.0.7
+word2number==1.1
