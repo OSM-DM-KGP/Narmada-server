@@ -10,3 +10,4 @@ emoji==0.5.1
 Flask-Cors==3.0.7
 word2number==1.1
 gunicorn==19.9.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz#egg=en_core_web_sm
