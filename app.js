@@ -5,12 +5,16 @@ const mongoose = require('mongoose');
 const CircularJSON = require('circular-json');
 const jaccard = require('jaccard');
 const ObjectID = require('mongodb').ObjectID;
+var axios = require('axios');
 
 const Tweet = require('./tweet.js');
 const TweetSchema = mongoose.model('Tweet').schema;
 // from resource import resource
 // Make sure to change this in client as well
 const port = process.env.PORT | 3000;
+
+// locally hosted python parsing app
+const parseUrl = 'http://localhost:5000';
 
 // Middleware
 app.use(bodyParser.json());
@@ -39,11 +43,13 @@ app.all('/*', function (request, response, next) {
 
 // Info only
 app.get('/info', (request, response) => {
+	console.log(new Date(), '+++--- /info');
 	response.send('Info');
 });
 
 // basic landing page
 app.get('/', (request, response) => {
+	console.log(new Date(), '+++--- /');
 	response.send('This is indeed the basic landing page');
 });
 
@@ -51,6 +57,7 @@ app.get('/', (request, response) => {
 app.get('/get', (request, response) => {
 	// request.query contains filter
 	// response.status(200).send(request.query);
+	console.log(new Date(), '+++--- /get', request.query);
 	var options = {
 		"limit": 20,
 		"skip": 0,
@@ -98,7 +105,7 @@ app.get('/get', (request, response) => {
 
 // find matches for particular tweet
 app.get('/match', (request, response) => {
-	console.log('Matching for id ' + request.query.id + ' of type ' + request.query.type);
+	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
 	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
 
 	db.collection(collectionName).findOne({_id: request.query.id}, function(err, resourceToMatch) {
@@ -153,7 +160,7 @@ app.get('/match', (request, response) => {
 
 // Make match
 app.put('/makeMatch', (request, response) => {
-	console.log(request.body);
+	console.log(new Date(), '+++--- /makeMatch ', request.body);
 	db.collection(collectionName).findOneAndUpdate({_id: request.body.id1}, {$set: {Matched: request.body.id2 }});
 	db.collection(collectionName).findOneAndUpdate({ _id: request.body.id2 }, {$set: {Matched: request.body.id1 }});
 
@@ -162,11 +169,28 @@ app.put('/makeMatch', (request, response) => {
 
 // Mark need and availability as completed
 app.put('/markCompleted', (request, response) => {
-	console.log(request.body);
+	console.log(new Date(), '+++--- /markCompleted ', request.body);
 	db.collection(collectionName).findOneAndUpdate({ _id: request.body.id1 }, { $set: { isCompleted: true } });
 	db.collection(collectionName).findOneAndUpdate({ _id: request.body.id2 }, { $set: { isCompleted: true } });
 
 	response.status(201).send("Completed " + request.body.id1 + " and " + request.body.id2);
+});
+
+
+// out of order
+app.post('/parse', (request, response, next) => {
+	console.log(new Date(), '+++--- /parse', request.body);
+	axios.post(parseUrl + '/parse', {"text": request.body.text})
+		.then((response) => {
+			console.log('Parsed info', response);
+			response.error = 0;
+			response.status(200).send(response);
+		})
+		.catch((error) => {
+			console.log(error);
+			response.status(200).send({error: 1});
+		});
+	
 });
 
 // Create new resource
