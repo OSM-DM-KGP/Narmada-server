@@ -37,9 +37,9 @@ dep_parse_dist=0
 a=0
 orth_dist=0
 
-import en_core_web_sm
-nlp = en_core_web_sm.load()
-# nlp=spacy.load('en')
+# import en_core_web_sm
+# nlp = en_core_web_sm.load()
+nlp=spacy.load('en')
 tknzr=TweetTokenizer(strip_handles=True,reduce_len=True)
 # import CMUTweetTagger
 
@@ -460,7 +460,7 @@ def NP_chunk(doc,text):
 	return dep_places
 
 
-with open('DATA_2/IT/IT_loc.p','rb') as handle:
+with open('DATA_2/NP/NP_loc.p','rb') as handle:
 	curr_loc_dict=pickle.load(handle)
 
 # false_names=false_names-set([i for i in curr_loc_dict])
