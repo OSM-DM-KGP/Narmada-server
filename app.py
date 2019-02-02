@@ -20,6 +20,7 @@ import location_2 as location
 import time
 import sys
 import json
+from urllib.parse import unquote
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
 ## CORS
@@ -620,10 +621,14 @@ bucket_classes=['shelter', 'food','medical','logistic']
 def parseResources():
 	global_resource_list={}
 	# print(request.body)
-	resource = {}
-	print(flask.request.json);
-	line = flask.request.json['text']
-	
+	resource, line = {}, ''
+	print(flask.request.json)
+	print(unquote(flask.request.query_string.decode('utf-8')))
+	if flask.request and flask.request.json and'text' in flask.request.json:
+		line = flask.request.json['text']
+	else:
+		line = json.loads(unquote(flask.request.query_string.decode('utf-8')))['text']
+
 	print('Received for parsing: ', line)
 	contacts = get_contact(line)
 	t2 = location.tweet_preprocess2(line,[])

@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const CircularJSON = require('circular-json');
 const jaccard = require('jaccard');
 const ObjectID = require('mongodb').ObjectID;
-var axios = require('axios');
+const requestM = require('request');
 
 const Tweet = require('./tweet.js');
 const TweetSchema = mongoose.model('Tweet').schema;
@@ -180,17 +180,20 @@ app.put('/markCompleted', (request, response) => {
 // out of order
 app.post('/parse', (request, response, next) => {
 	console.log(new Date(), '+++--- /parse', request.body);
-	axios.post(parseUrl + '/parse', {"text": request.body.text})
-		.then((response) => {
-			console.log('Parsed info', response);
-			response.error = 0;
-			response.status(200).send(response);
-		})
-		.catch((error) => {
+	console.log(encodeURIComponent(JSON.stringify(request.body)));
+
+	requestM('http://localhost:5000/parse?' + encodeURIComponent( JSON.stringify(request.body) ), (error, resp, body) => {
+		if(error) {
 			console.log(error);
-			response.status(200).send({error: 1});
-		});
-	
+			error['error'] = 1;
+			response.send(CircularJSON.stringify(error));
+		}
+		else {
+			console.log('Parsed info', CircularJSON.stringify(resp.body));
+			resp.body.error = 0;
+			response.send(JSON.parse(resp.body));
+		}
+	});
 });
 
 // Create new resource
