@@ -15,15 +15,22 @@ We are using Digitalocean for this
 
 ### Setup
 
-Install: nodejs, npm, mongodb, python, pip, ngrok, git
- (ngrok needs auth token, get from their dashboard)
+Install the following:
+* nodejs
+* npm
+* mongodb
+* python3
+* pip3
+* ngrok (ngrok needs auth token, get from their dashboard)
+* git
 
 
-```
+```sh
 # both needed
 $ pip3 install -r requirements.txt
 $ npm install
 $ python3 -m spacy download en
+$ node uploader.js # upload all the tweets into mongodb
 ```
 
 Once everything is setup, in three separate terminals, we have the following:
