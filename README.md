@@ -6,6 +6,7 @@ Currently sends only 20 resources at a time, offset to be used to send more than
 * db.getCollection('tweets').find({Classification: 'Need', isCompleted: false}).sort({created: -1})
   
 * db.tweets.ensureIndex({ text: "text" })
+* db.tweets.createIndex({ text: "text" })
 
 ## Servers
 
