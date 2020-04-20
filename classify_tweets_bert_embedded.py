@@ -125,7 +125,7 @@ def evaluate_bert(text):
 
 
 	test_nepal_here = [text]
-	test_nepal_here_sentences  = ["[CLS] "+ text[0]+ " [SEP]" for text in test_nepal_here]
+	test_nepal_here_sentences  = ["[CLS] "+ text+ " [SEP]" for text in test_nepal_here]
 	# train_italy_sentences = ["[CLS] "+ text[0]+ " [SEP]" for text in train_italy]
 	# val_italy_sentences   = ["[CLS] "+ text[0]+ " [SEP]" for text in val_italy]
 	# test_italy_sentences  = ["[CLS] "+ text[0]+ " [SEP]" for text in test_italy]

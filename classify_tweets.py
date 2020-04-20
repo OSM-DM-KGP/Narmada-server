@@ -269,6 +269,7 @@ model = model
 
 y_true=[]
 y_pred=[]
+sentences = []
 for step, batch in tqdm(enumerate(test_nepal_dataloader)):
 	b_ids, b_mask, b_labels = batch
 	b_ids= b_ids
@@ -280,9 +281,10 @@ for step, batch in tqdm(enumerate(test_nepal_dataloader)):
 		b_labels = b_labels.flatten()
 		y_true.extend(b_labels)
 		y_pred.extend(preds)
+		sentences.append(test_nepal_sentences[step])
 		
 print(classification_report(y_true, y_pred))
-
+pu.db
 
 
 
