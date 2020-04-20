@@ -21,7 +21,7 @@ import time
 import sys
 import json
 from urllib.parse import unquote
-from classify_tweets_bert_service import evaluate_bert, BertSentClassifier
+from classify_tweets_bert_embedded import evaluate_bert, BertSentClassifier
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
 ## CORS
