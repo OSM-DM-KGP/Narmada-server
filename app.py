@@ -21,6 +21,7 @@ import time
 import sys
 import json
 from urllib.parse import unquote
+from classify_tweets_bert_service import evaluate_bert, BertSentClassifier
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
 ## CORS
@@ -46,14 +47,14 @@ alphanum="[^0-9a-zA-Z ]"
 stop_list=list(location.false_names)
 #,'nn','quantmod','nmod','hmod','infmod']
 
-need_file=open('DATA/Process_resources/need.txt')
-offer_file=open('DATA/Process_resources/offer.txt')
-shelter_file=open('DATA/Process_resources/shelter.txt')
-food_file=open('DATA/Process_resources/food.txt')
-medical_file=open('DATA/Process_resources/medical.txt')
-cash_file=open('DATA/Process_resources/cash.txt')
-logistics_file=open('DATA/Process_resources/logistics.txt')
-disaster_events_file=open('DATA/Process_resources/disaster_events.txt')
+need_file=open('DATA/Process_resources/need.txt', encoding="utf-8")
+offer_file=open('DATA/Process_resources/offer.txt', encoding="utf-8")
+shelter_file=open('DATA/Process_resources/shelter.txt', encoding="utf-8")
+food_file=open('DATA/Process_resources/food.txt', encoding="utf-8")
+medical_file=open('DATA/Process_resources/medical.txt', encoding="utf-8")
+cash_file=open('DATA/Process_resources/cash.txt', encoding="utf-8")
+logistics_file=open('DATA/Process_resources/logistics.txt', encoding="utf-8")
+disaster_events_file=open('DATA/Process_resources/disaster_events.txt', encoding="utf-8")
 
 basic_resource=['medical','water','sanitation','shelter','cloth','food','transport','infrastructure','volunteers','logistic']
 
@@ -614,6 +615,10 @@ def create_resource_list(text):
 	'''
 	return a,b,loc_list_2,modified_array,d, final_resource_dict
 
+def get_classification(text):
+	return evaluate_bert(text)
+
+
 bucket_classes=['shelter', 'food','medical','logistic']
 
 @app.route('/parse', methods=['GET', 'POST', 'OPTIONS'])
@@ -713,7 +718,7 @@ def parseResources():
 	# print(class_list)
 	## Need to add quantity
 	## Ritam yaha dekh
-	
+	resource['Classification'] = get_classification(line)
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
 	# print(final_resource_dict)
 	print('Returning', resource)
