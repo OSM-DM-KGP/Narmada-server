@@ -21,7 +21,10 @@ import time
 import sys
 import json
 from urllib.parse import unquote
-from classify_tweets_bert_embedded import evaluate_bert, BertSentClassifier
+from classify_tweets_bert_embedded import BertSentClassifier, load_model
+from classify_tweets_bert_embedded import evaluate_bert
+
+model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
 ## CORS
@@ -616,7 +619,8 @@ def create_resource_list(text):
 	return a,b,loc_list_2,modified_array,d, final_resource_dict
 
 def get_classification(text):
-	return evaluate_bert(text)
+	global model
+	return evaluate_bert(text, model)
 
 
 bucket_classes=['shelter', 'food','medical','logistic']
@@ -740,4 +744,4 @@ def base():
 
 if __name__ == '__main__':
 	port = int(os.environ.get('PORT', 5000))
-	app.run(host='0.0.0.0', port=port, debug=True)
+	app.run(host='0.0.0.0', port=port, debug=False)
