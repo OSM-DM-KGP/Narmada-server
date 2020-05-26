@@ -1,10 +1,24 @@
 # Narmada-server
-Backend server for Narmada calls. Refer to https://osm-dm-kgp.github.io/Narmada-server/ for API description.
+Backend server for Narmada webapp.
+
+This is the repository for the paper titled "NARMADA: Need and Available Resource Managing Assistant for Disasters and Adversities" which is to be presented at the [ACL Workshop on Natural Language Processing for Social Media (SocialNLP)](https://sites.google.com/site/socialnlp2020/) 2020.
+
+Please refer to our website https://osm-dm-kgp.github.io/Narmada/ for up-to-date information (contains API description).
 
 Other repositories associated with this project:
-* Frontend - [OSM-DM-KGP/Narmada](https://github.com/OSM-DM-KGP/Narmada)
+* Frontend app - [OSM-DM-KGP/Narmada](https://github.com/OSM-DM-KGP/Narmada)
 
-Currently sends only 20 resources at a time, offset to be used to send more than certain resources
+## Citation
+
+If you use the codes, please cite the following paper:
+```
+ @inproceedings{hiware-socialnlp20,
+   author = {Hiware, Kaustubh and Dutt, Ritam and Sinha, Sayan and Patro, Sohan and Ghosh, Kripabandhu and Ghosh, Saptarshi},
+   title = {{NARMADA: Need and Available Resource Managing Assistant for Disasters and Adversities}},
+   booktitle = {{Proceedings of ACL Workshop on Natural Language Processing for Social Media (SocialNLP)}},
+   year = {2020}
+  }
+```
 
 ## Servers
 
