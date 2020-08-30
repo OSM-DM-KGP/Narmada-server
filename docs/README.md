@@ -1,72 +1,34 @@
-# Narmada-server
+# Narmada app alternative
 
-Backend server for Narmada calls
+Owing to unsustainable server costs, we have decided to stop the server. Although this is not an equal replacement, here are a few demo videos for the web app.
 
-The server side uses NodeJS framework and is written in Javascript. Nginx is used as an HTTP server to make the frontend accessible to the public. However, the NLP-related extraction tasks are handled better in Python. So a part of the server-side has been hosted with Flask, a micro web framework in Python. The Flask server makes API calls to the deep learning classifiers, featuring BERT, which returns the output. The output is further reflected in the frontend. The server sends information requested by the user interface via _RESTful API_, which supports cached responses on the frontend and enables the system to be scalable, thus allowing more users to use this service. 
+## Demo
 
-API endpoints are publicly available, which would allow programmatic access to the server's functionalities. The major services provided are:
+NARMADA is a resource matching assistant for disasters. Have a look at the demo video to learn about its working.
+<iframe src="https://drive.google.com/file/d/1tqkYUnzxYonJhkkycuEfcqtXOw9Fvqz3/preview"></iframe>
 
-* **Fetching information** i.e. needs, availabilites and matches. Filtering by multiple conditions (such as matched or not, containing a particular resource) is also possible.
+## Dashboard
+The dashboard contains information for all needs, availabilities and matches. This interface can  be used to search, geolocate or match pending resources.
+<iframe src="https://drive.google.com/file/d/1JjWfDkWe7Vj3UPlKBPfvcg1Ql0-5eaS7/preview"></iframe>
 
-    ```
-    GET /get?type=Need&isCompleted=false
+## Searching
+The dashboard allows to search among text of multiple resources.</p>
+<iframe src="https://drive.google.com/file/d/11dLvhhAoTm_Pwluj3VRx5LbI_iwdrOhj/preview"></iframe>
 
-    isCompleted: false / true {Completed already or not}
-    skip: Skips first x results (int, default=0)
-    text: Resource must contain this text (default absent)
-    type: Need / Availability
+## Matching resources
+<iframe src="https://drive.google.com/file/d/1gr6P9a-hQ4Ks5A6xo3MCArn-yrCAnZ8f/preview"></iframe>
 
-    Response: array of jsons
-    ```
+## Using the map
+<iframe src="https://drive.google.com/file/d/1O7pYBZFyeqoWcbvRjY_8hfWEq8rlEO19/preview"></iframe>
 
-* **Matching needs and availabilities** For a provided need / availability, top 20 matches are suggested based on resource similarity.
+## Completed resources
+For the purpose of logging, all completed needs and availabilities are stored, with a searchable UI of course.
+<iframe src="https://drive.google.com/file/d/1ASBGkFaeQW_-fil657nL-nS45OSZVXui/preview"></iframe>
 
-    ```
-    GET /match?type=Need&id=591987020924260354
+## Adding a new resource
+nce text is provided, we intelligently identify contact details, source, location and resources for any information
+<iframe src="https://drive.google.com/file/d/1Qo61N1UvSShAb5WF2wd3oBpHpOVN9OOe/preview"></iframe>
 
-    id: id of resource that needs to be matched
-    type: type of current resource that seeks matches
-
-    Response: array of jsons
-    ```
-
-* **Elevating matched status** -- Whenever a suitable match is found for a need/ availability, the corresponding pair is marked as _Matched_, implying these cannot be matched again. Once the Match has been assigned to a volunteer, and is completed, the sys-admin can mark this match as _Completed_, which moves both these resources from the dashboard to the Completed Resources view.
-
-    ```
-    PUT /makeMatch?id1=X&id2=Y
-    id1, id2: ids of two items that should be matched
-    Currently does not have server side validation
-
-    PUT /markCompleted?id1=X&id2=Y
-    id1, id2: ids of two items that should be matched
-    Currently does not have server side validation
-
-    Response: Status code 201
-    ```
-
-* **Parsing and adding new information** -- The system allows creation of new need/availability for a provided text. This is achieved by parsing all information - resources, contact, location, quantity and source from the said text and returning these fields.
-
-```
-POST /parse?text=This is some text
-text: Tweet text that should be parsed
-
-Response: See request params for next call
-```
-
-```
-POST /new
-Params:
-{ "lang": "en",
-  "text": "Food as rice service",
-  "Classification": "Need",
-  "isCompleted": false,
-  "Matched": -1,
-  "Locations":
-   { "Assam, India": { "lat": 26.0737044, "long": 83.18594580000001 } },
-  "Resources": { "Food": "rice"},
-  "Contact": { "Email": [], "Phone number": [] } 
-	
-}
-
-Response: Status code 201
-```
+## Early warning system
+Along with managing resources, it is always helpful to keep track of information diffusion, regardless of its utility.</p>
+<iframe src="https://drive.google.com/file/d/1zV1g9gxcX7McPN4h2gJhPssRN2uaEOhE/preview"></iframe>
