@@ -21,6 +21,10 @@ import time
 import sys
 import json
 from urllib.parse import unquote
+from classify_tweets_covid_infer import BertSentClassifier, load_model
+from classify_tweets_covid_infer import evaluate_bert
+
+model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
 ## CORS
@@ -30,7 +34,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 # import en_core_web_sm
 # nlp = en_core_web_sm.load()
-nlp = spacy.load("en_core_web_sm")
+nlp=spacy.load('en')
 np_labels=set(['nsubj','dobj','pobj','iobj','conj','nsubjpass','appos','nmod','poss','parataxis','advmod','advcl'])
 subj_labels=set(['nsubj','nsubjpass','csubj','csubjpass'])
 modifiers=['nummod','compound','amod','punct']
@@ -614,6 +618,10 @@ def create_resource_list(text):
 	'''
 	return a,b,loc_list_2,modified_array,d, final_resource_dict
 
+def get_classification(text):
+	global model
+	return evaluate_bert(text, model)
+
 bucket_classes=['shelter', 'food','medical','logistic']
 
 @app.route('/parse', methods=['GET', 'POST', 'OPTIONS'])
@@ -713,7 +721,7 @@ def parseResources():
 	# print(class_list)
 	## Need to add quantity
 	## Ritam yaha dekh
-	
+	resource['Classification'] = get_classification(line)
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
 	# print(final_resource_dict)
 	print('Returning', resource)
