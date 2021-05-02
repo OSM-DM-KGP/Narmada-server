@@ -21,10 +21,10 @@ import time
 import sys
 import json
 from urllib.parse import unquote
-from classify_tweets_covid_infer import BertSentClassifier, load_model
+from classify_tweets_covid_infer import BertSentClassifier
 from classify_tweets_covid_infer import evaluate_bert
 
-model = load_model()
+# model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
 ## CORS
@@ -619,8 +619,8 @@ def create_resource_list(text):
 	return a,b,loc_list_2,modified_array,d, final_resource_dict
 
 def get_classification(text):
-	global model
-	return evaluate_bert(text, model)
+	# global model
+	return evaluate_bert(text)
 
 bucket_classes=['shelter', 'food','medical','logistic']
 

@@ -176,7 +176,6 @@ except Exception as e:
 
 
 class BertSentClassifier(torch.nn.Module):
-
 	def __init__(self, config):
 		super(BertSentClassifier, self).__init__()
 		self.num_labels = config.num_labels
@@ -185,7 +184,6 @@ class BertSentClassifier(torch.nn.Module):
 			param.requires_grad = False
 		self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
 		self.classifier = torch.nn.Linear(config.hidden_size, config.num_labels)
-
 	def forward(self, input_ids, token_type_ids =None, attention_mask= None):
 		# pu.db
 		output_here = self.bert(input_ids.long(), token_type_ids, attention_mask).last_hidden_state
@@ -193,12 +191,19 @@ class BertSentClassifier(torch.nn.Module):
 		logits = self.classifier(output_here[:,0,:])
 		return F.log_softmax(logits, dim=1)
 
+class WrappedModel(nn.Module):
+	def __init__(self, module):
+		super(WrappedModel, self).__init__()
+		self.module = module # that I actually define.
+	def forward(self, x):
+		return self.module(x)
+
 config = {'hidden_dropout_prob':0.3, 'num_labels':3,'model_name':'bert-base-uncased', 'hidden_size':768, 'data_dir':'saved_models/',}
 config = SimpleNamespace(**config)
 
 # model = BertModel.from_pretrained('bert-base-uncased')
 # sent_bert = BertModel.from_pretrained(config.model_name)
-model = BertSentClassifier(config)
+model= BertSentClassifier(config)
 # print("Loading Done")
 
 # import os
@@ -316,15 +321,14 @@ model = BertSentClassifier(config)
 # 		# y_true.extend(b_labels)
 # 		y_pred.extend(preds)
 
-def load_model():
-    print("Loading BERT model")
-    model_path = '{}/{}_covid.pth'.format(config.data_dir, dataset)
-    # model.cpu()
-    model = torch.load(model_path, map_location='cpu')
-    model.cpu()
-    model.eval()
-    print("Done loading BERT model")
-    return model
+model_path = '{}/{}_bert_covid.pth'.format(config.data_dir, dataset)
+model = WrappedModel(model)
+state_dict = torch.load(model_path,map_location='cpu')
+# model = torch.load(model_path, map_location='cpu')
+model.load_state_dict(state_dict)
+model.cpu()
+model.eval()
+print("Done loading BERT model")
 
 # pu.db
 # print(classification_report(y_true, y_pred))
@@ -339,18 +343,17 @@ def load_model():
 # 	else:
 # 		print(": OTHER")
 
-def evaluate_bert(text, model):
+tokenizer = AutoTokenizer.from_pretrained('bert-base-cased', use_fast=True)
+def evaluate_bert(text):
     test_nepal_masks = []
     SENTENCES = [text]
     test_nepal_sentences  = ["[CLS] "+ text+ " [SEP]" for text in SENTENCES]
     # test_nepal_here_sentences  = ["[CLS] "+ text+ " [SEP]" for text in test_nepal_here]
-    tokenizer = AutoTokenizer.from_pretrained('bert-base-cased', use_fast=True) 
     MAX_LEN = 64
     test_nepal_ids  = tokenizer(test_nepal_sentences, padding="max_length", truncation=True, max_length=MAX_LEN)["input_ids"]
     for seq in test_nepal_ids:
         seq_mask = [float(i>0) for i in seq]
         test_nepal_masks.append(seq_mask)
-
     test_nepal_ids     =  torch.FloatTensor(test_nepal_ids)
     test_nepal_masks   =  torch.LongTensor(test_nepal_masks)
     test_nepal_labels = [0 for x in range(len(test_nepal_ids))]
@@ -372,13 +375,14 @@ def evaluate_bert(text, model):
             # b_labels = b_labels.flatten()
             # y_true.extend(b_labels)
             y_pred.extend(preds)
+            print(y_pred)
     print("Classification: "+str(int(y_pred[0]) - 1))
     return int(y_pred[0]) - 1
 
 if __name__ == "__main__":
 	text = input("Text ploxx: ")
-	model = load_model()
-	evaluate_bert(text, model)
+	# model = load_model()
+	evaluate_bert(text)
 
 '''
 No weights, processed text. 
