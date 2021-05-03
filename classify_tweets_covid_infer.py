@@ -346,7 +346,7 @@ print("Done loading BERT model")
 tokenizer = AutoTokenizer.from_pretrained('bert-base-cased', use_fast=True)
 def evaluate_bert(text):
     test_nepal_masks = []
-    SENTENCES = [text]
+    SENTENCES = text
     test_nepal_sentences  = ["[CLS] "+ text+ " [SEP]" for text in SENTENCES]
     # test_nepal_here_sentences  = ["[CLS] "+ text+ " [SEP]" for text in test_nepal_here]
     MAX_LEN = 64
@@ -359,7 +359,7 @@ def evaluate_bert(text):
     test_nepal_labels = [0 for x in range(len(test_nepal_ids))]
     test_nepal_labels  = torch.LongTensor(test_nepal_labels)
     test_nepal_data    = TensorDataset(test_nepal_ids, test_nepal_masks, test_nepal_labels)
-    BATCH_SIZE = 1
+    BATCH_SIZE = 64
     test_nepal_dataloader = DataLoader(test_nepal_data, shuffle = False, batch_size= BATCH_SIZE)
     y_true=[]
     y_pred=[]
@@ -376,8 +376,9 @@ def evaluate_bert(text):
             # y_true.extend(b_labels)
             y_pred.extend(preds)
             print(y_pred)
-    print("Classification: "+str(int(y_pred[0]) - 1))
-    return int(y_pred[0]) - 1
+    y_pred = [(a - 1) for a in y_pred]
+    # print("Classification: "+str(int(y_pred[0]) - 1))
+    return y_pred
 
 if __name__ == "__main__":
 	text = input("Text ploxx: ")
