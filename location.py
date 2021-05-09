@@ -25,9 +25,10 @@ import spacy
 import random
 import wordsegment
 import jellyfish
-from para_sentence import split_into_sentences
+# from para_sentence import split_into_sentences
 import networkx as nx
 import geocoder
+import pudb
 
 ps_stemmer=porter.PorterStemmer()
 
@@ -46,7 +47,7 @@ stop_words=stop_words.get_stop_words('en')
 
 stop_words_2=['i','me','we','us','you','u','she','her','his','he','him','it','they','them','who','which','whom','whose','that','this','these','those','anyone','someone','some','all','most','himself','herself','myself','itself','hers','ours','yours','theirs','to','in','at','for','from','etc',' ',',']
 stop_words.extend(stop_words_2)
-stop_words.extend(['with', 'at', 'from', 'into', 'during', 'including', 'until', 'against', 'among', 'throughout', 'despite', 'towards', 'upon', 'concerning', 'of', 'to', 'in', 'for', 'on', 'by', 'about', 'like', 'through', 'over', 'before', 'between', 'after', 'since', 'without', 'under', 'within', 'along', 'following', 'across', 'behind', 'beyond', 'plus', 'except', 'but', 'up', 'out', 'around', 'down', 'off', 'above', 'near', 'and', 'or', 'but', 'nor', 'so', 'for', 'yet', 'after', 'although', 'as', 'as', 'if', 'long', 'because', 'before', 'even', 'if', 'even though', 'once', 'since', 'so', 'that', 'though', 'till', 'unless', 'until', 'what', 'when', 'whenever', 'wherever', 'whether', 'while', 'the', 'a', 'an', 'this', 'that', 'these', 'those', 'my', 'yours', 'his', 'her', 'its', 'ours', 'their', 'few', 'many', 'little', 'much', 'many', 'lot', 'most', 'some', 'any', 'enough', 'all', 'both', 'half', 'either', 'neither', 'each', 'every', 'other', 'another', 'such', 'what', 'rather', 'quite'])
+stop_words.extend(['with', 'at', 'from', 'into', 'during', 'including', 'until', 'against', 'among', 'throughout', 'despite', 'towards', 'upon', 'concerning', 'of', 'to', 'in', 'for', 'on', 'by', 'about', 'like', 'through', 'over', 'before', 'between', 'after', 'since', 'without', 'under', 'within', 'along', 'following', 'across', 'behind', 'beyond', 'plus', 'except', 'but', 'up', 'out', 'around', 'down', 'off', 'above', 'near', 'and', 'or', 'but', 'nor', 'so', 'for', 'yet', 'after', 'although', 'as', 'as', 'if', 'long', 'because', 'before', 'even', 'if', 'even though', 'once', 'since', 'so', 'that', 'though', 'till', 'unless', 'until', 'what', 'when', 'whenever', 'wherever', 'whether', 'while', 'the', 'a', 'an', 'this', 'that', 'these', 'those', 'my', 'yours', 'his', 'her', 'its', 'ours', 'their', 'few', 'many', 'little', 'much', 'many', 'lot', 'most', 'some', 'any', 'enough', 'all', 'both', 'half', 'either', 'neither', 'each', 'every', 'other', 'another', 'such', 'what', 'rather', 'quite', 'oxygen', 'ventilator', 'bed', 'remdesivir', 'consultation', 'plasma', 'vir', 'se'])
 stop_words=list(set(stop_words))
 stopword_file=open("DATA/Process_resources/stopword.txt",'r')
 stop_words.extend([line.rstrip() for line in stopword_file])
@@ -458,7 +459,7 @@ def NP_chunk(doc,text):
 	return dep_places
 
 
-with open('DATA/NP/NP_loc.p','rb') as handle:
+with open('DATA/NP/IN_loc.p','rb') as handle:
 	curr_loc_dict=pickle.load(handle)
 
 # false_names=false_names-set([i for i in curr_loc_dict])
@@ -476,6 +477,7 @@ false_lines=0
 starttime=time.time()
 
 def return_location_list(text):
+	# pu.db
 	lat_long=[]
 	try:
 		# print('\n')
@@ -544,7 +546,7 @@ def return_location_list(text):
 				if i =='' or i in false_names or ps_stemmer.stem(i) in false_names:
 					continue
 				if i.endswith('hospital') and len(i.split())>=3:
-					g=geocoder.osm(i+', Nepal')
+					g=geocoder.osm(i+', India')
 					# print(g)
 					if g.json!=None:
 						lat_long.append((i,(g.json['lat'],g.json['lng'])))
