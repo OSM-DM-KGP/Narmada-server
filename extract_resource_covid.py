@@ -15,7 +15,8 @@ resources = {
     "icu": "Beds",
     "remdes": "Remdesivir",
     "plasma": "Plasma",
-    "consultation": "Doctor"
+    "consultation": "Doctor",
+    "ambulance": "Ambulance"
 }
 
 places_to_remove = []
@@ -33,3 +34,10 @@ for ptr in places_to_remove:
 print("\n\n\nText: "+str(text_org))
 print("\nLocation: "+str(places))
 print("\nResources: "+resource_text)
+
+if "need" in text or "require" in text:
+    print("\nType: Need")
+elif "availab" in text or len(resource_text) != 0:
+    print("\nType: Availability")
+else:
+    print("\nType: Other")
