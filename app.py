@@ -762,7 +762,7 @@ def parseResources():
 	elif "availab" in text or len(resource_text) != 0:
 	    classification = 2
 	else:
-    	classification = 0
+		classification = 0
 		
 	resource['Classification'] = classification
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
