@@ -24,6 +24,7 @@ from urllib.parse import unquote
 from classify_tweets_covid_infer import BertSentClassifier
 from classify_tweets_covid_infer import evaluate_bert
 import location
+import pudb
 # model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
@@ -657,16 +658,17 @@ def parseResources():
 
 	places_to_remove = []
 	resource_text = ""
-	for resource in resources:
-		if resource in each_loc:
-			places_to_remove.append(each_loc.index(resource))
-		if resource in text:
-			resource_text = resource_text+resources[resource]+" "
+	for res in resources:
+		if res in each_loc:
+			places_to_remove.append(each_loc.index(res))
+		if res in text:
+			resource_text = resource_text+resources[res]+" "
 
 	places_to_remove.sort(reverse=True)
 	for ptr in places_to_remove:
 		del places[ptr]
 
+	# pu.db
 	resource['ResourceWords'] = resource_text
 	resource['Locations'] = places
 
@@ -758,11 +760,9 @@ def parseResources():
 	## Ritam yaha dekh
 	classification = -1
 	if "need" in text or "require" in text:
-	    classification = 1
+	    classification = 0
 	elif "availab" in text or len(resource_text) != 0:
-	    classification = 2
-	else:
-		classification = 0
+	    classification = 1
 		
 	resource['Classification'] = classification
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
