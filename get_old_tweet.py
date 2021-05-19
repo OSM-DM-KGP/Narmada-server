@@ -15,6 +15,12 @@ def fetch_all(keywords, outfile = 'tw.txt.gz', STARTDATE = None, ENDDATE = None,
         print("FETCHING BETWEEN", STARTDATE, "and", ENDDATE, "user:", user)
         print("##########################################\n")
         
+        current_time_object = datetime.now()
+        hour_before_time_object = current_time_object - timedelta(hours=1)
+
+        STARTDATE = current_time_object.strftime("%Y-%M-%d %H:%M:%S")
+        ENDDATE = hour_before_time_object.strftime("%Y-%M-%d %H:%M:%S")
+
         for _retry in range(3):
                 try:
                         if not idset: 
@@ -154,6 +160,6 @@ if __name__ == '__main__':
         #         time.sleep(60)
        
         
-        fetch_all(keys, '2021-05-10.jsonl.gz', STARTDATE = '2021-05-15', ENDDATE = '2021-05-16', english = True)
+        fetch_all(keys, 'HH2021-05-10.jsonl.gz', STARTDATE = '2021-05-17 01:00:00', ENDDATE = '2021-05-17 02:00:00', english = True)
         #fetch_between(keys, '2021-03-01', '2021-04-24', output_dir)
         # fetch_hourly(keys, output_dir, '2021-04-26')
