@@ -14,6 +14,7 @@ from itertools import product
 import spacy
 from spacy.symbols import *
 from nltk import Tree
+from nltk.tokenize import word_tokenize 
 from word2number import w2n
 import nltk
 import location_2 as location
@@ -655,6 +656,21 @@ def parseResources():
 		"ambulance": "Ambulance"
 	}
 
+	# pu.db
+	tokenized_text = word_tokenize(text)
+	print("\nOrig tokenized text:" + str(tokenized_text))
+	for i in reversed(range(1, len(tokenized_text))):
+		# pu.db
+		word = tokenized_text[i]
+		word_prev = tokenized_text[i - 1]
+		if "#" in word_prev:
+			del tokenized_text[i]
+
+	print("\nNew tokenized text:" + str(tokenized_text))
+	text = ""
+	for word in tokenized_text:
+		text = text+word+" "
+
 	places_to_remove = []
 	resource_text = ""
 	for resource in resources:
@@ -667,7 +683,11 @@ def parseResources():
 	for ptr in places_to_remove:
 		del places[ptr]
 
-	resource['ResourceWords'] = resource_text
+	resource_text = word_tokenize(resource_text)
+	resource_text = [w.lower() for w in resource_text]
+	resource_text = list(set(resource_text))
+
+	resource['ResourceWords'] = str(resource_text)
 	resource['Locations'] = places
 
 
