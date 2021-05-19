@@ -75,6 +75,8 @@ app.get('/get', (request, response) => {
 	
 	db.collection(collectionName).find(request.query, options).sort({ created: -1 }).toArray(function(err, results) {
 		if(results) {
+			console.log('wat are results ', results)		 // remove temporarily plz
+		
 			if(matching===true) {
 				var partners = [];
 				results.forEach(result => {partners.push(result.Matched)});
@@ -108,9 +110,12 @@ app.get('/match', (request, response) => {
 	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
 	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
 
-	db.collection(collectionName).findOne({_id: request.query.id}, function(err, resourceToMatch) {
+	console.log("_id is ",request.query.id)
+	db.collection(collectionName).findOne({_id: ObjectID(request.query.id)}, function(err, resourceToMatch) {
+		
 		if(err) {
 			console.log('Cannot fetch resource of id!', err);
+			console.log('err is ', err)
 			response.send([]);
 		}
 		// buckets approach -> go via tweets having those categories
@@ -119,9 +124,16 @@ app.get('/match', (request, response) => {
 		var searchParams = {
 			"Classification": fetchType,
 			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
-			"Matched": '-1'
+			// "$text": { $search: 'Beds,Oxygen' },
+			"Matched": -1
 		}
-		db.collection(collectionName).find(searchParams).sort({ created: -1 }).toArray(function (err, results) {
+
+		console.log('search Params before starting search ', searchParams)
+		
+		
+
+		db.collection(collectionName).find(searchParams).sort({created: -1 }).toArray(function (err, results) {
+			console.log("came inside ")
 			if (err) {
 				console.log('Error retrieving docs', err);
 			}
@@ -130,6 +142,7 @@ app.get('/match', (request, response) => {
 			var scores = [];
 			var matches = [];
 			var minScore = 1, minIndex = 0;
+			console.log("the results are ",results.length)
 			results.forEach(result => {
 				var jscore = jaccard.index(resourceToMatch.ResourceWords, result.ResourceWords);
 				
@@ -152,7 +165,7 @@ app.get('/match', (request, response) => {
 			keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
 			matches = [];
 			for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
-			
+			console.log("response.send ", matches.length)
 			response.send(matches);
 		});
 	});

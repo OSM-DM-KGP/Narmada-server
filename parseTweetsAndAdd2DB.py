@@ -89,12 +89,13 @@ def parseTweet(text_org):
 
 with open('2021-05-10.jsonl') as f:
     json_lines = f.readlines()
-    try:
-        for json_line in json_lines:
+    for json_line in json_lines:
+        try:
             parsed_json_line = json.loads(json_line)
             tweet = parsed_json_line['tweet']
             print('============> parsing currently ', tweet)
             parseTweet(tweet)
-    except Exception as e:
-        print('Failed for some thing')     
-
+        except Exception as e:
+            print('Failed for some thing')
+            
+    
