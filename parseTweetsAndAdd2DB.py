@@ -1,7 +1,7 @@
 import location
 import pudb
 import json
-
+from nltk.tokenize import word_tokenize 
 from pymongo import MongoClient
 client = MongoClient('mongodb://127.0.0.1:27017')
 db = client["narmada"]
@@ -25,6 +25,20 @@ def parseTweet(text_org):
         "ambulance": "Ambulance"
     }
 
+    tokenized_text = word_tokenize(text)
+    print("\nOrig tokenized text:" + str(tokenized_text))
+    for i in reversed(range(1, len(tokenized_text))):
+        # pu.db
+        word = tokenized_text[i]
+        word_prev = tokenized_text[i - 1]
+        if "#" in word_prev:
+            del tokenized_text[i]
+
+    print("\nNew tokenized text:" + str(tokenized_text))
+    text = ""
+    for word in tokenized_text:
+        text = text+word+" "
+
     places_to_remove = []
     resource_text = ""
     for resource in resources:
@@ -36,6 +50,7 @@ def parseTweet(text_org):
     places_to_remove.sort(reverse=True)
     for ptr in places_to_remove:
         del places[ptr]
+
 
 
     # print("\n\n\nText: "+str(text_org))
