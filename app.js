@@ -221,8 +221,15 @@ app.post('/new', (request, response) => {
 	}
 
 	var insertTweet = Tweet(tweet);
-	db.collection(collectionName).insert(insertTweet);
-	response.status(201).send('Created resource');
+	console.log('Before inserting tweet')
+	db.collection(collectionName).insertOne(insertTweet, function(err, res) {
+		if(err) {
+			console.log("err ", err)
+		}
+		console.log('res is ',res.insertedId)
+		response.status(201).send({'msg': 'Created resource', '_id': res.insertedId });
+	});
+	
 });
 
 app.listen(port, () => {

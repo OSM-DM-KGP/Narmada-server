@@ -670,7 +670,19 @@ def parseResources():
 
 	# pu.db
 	resource['ResourceWords'] = resource_text
-	resource['Locations'] = places
+	locations = {}
+	for place in places:
+		name_of_place = place[0]
+		arr_of_co_ords = place[1]
+		if len(arr_of_co_ords) == 1:
+			locations[name_of_place] = {
+				'lat': arr_of_co_ords[0][1],
+				'long': arr_of_co_ords[0][1]
+			}
+		else:
+			for i in range(len(arr_of_co_ords)):
+				locations[name_of_place + '_' + str(i+1)] = { 'lat': arr_of_co_ords[i][0], 'long': arr_of_co_ords[i][1] }
+	resource['Locations'] = locations
 
 
 
@@ -760,9 +772,9 @@ def parseResources():
 	## Ritam yaha dekh
 	classification = -1
 	if "need" in text or "require" in text:
-	    classification = 0
+	    classification = "Need"
 	elif "availab" in text or len(resource_text) != 0:
-	    classification = 1
+	    classification = "Availability"
 		
 	resource['Classification'] = classification
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
