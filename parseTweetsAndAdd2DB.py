@@ -61,15 +61,23 @@ def parseTweet(text_org):
 
 
     print('locations in DB ', locations)
-    if "need" in text or "require" in text:
-        classification_type = 'Need'
-        print("\nType: Need")
-    elif "availab" in text or len(resource_text) != 0:
+
+    if "availab" in text:
         classification_type = 'Availability'
         print("\nType: Availability")
+    elif "need" in text or "require" in text:
+        classification_type = 'Need'
+        print("\nType: Need")
     else:
         classification_type = 'Other'
         print("\nType: Other")
+
+    # if "need" in text or "require" in text:
+    #     print("\nType: Need")
+    # elif "availab" in text or len(resource_text) != 0:
+    #     print("\nType: Availability")
+    # else:
+    #     print("\nType: Other")
     
     # inserting in mongodb
     if classification_type != 'Other':

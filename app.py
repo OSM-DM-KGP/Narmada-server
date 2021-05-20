@@ -795,6 +795,15 @@ def parseResources():
 	## Need to add quantity
 	## Ritam yaha dekh
 	classification = -1
+
+	if "availab" in text:
+    	classification = "Availability"
+	elif "need" in text or "require" in text:
+    	classification = "Need"
+	else:
+    	classification = "Other"
+
+
 	if "need" in text or "require" in text:
 	    classification = "Need"
 	elif "availab" in text or len(resource_text) != 0:
