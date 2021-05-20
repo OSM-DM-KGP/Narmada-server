@@ -109,6 +109,14 @@ app.get('/get', (request, response) => {
 app.get('/match', (request, response) => {
 	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
 	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
+	try {
+		var values = Object.Values(request.query.Locations)
+		var latitude = values[0]['lat']
+		var longitude = values[0]['long']
+	} catch(err) {
+		var latitude = 0
+		var longitude = 0
+	}
 
 	console.log("_id is ",request.query.id)
 	db.collection(collectionName).findOne({_id: ObjectID(request.query.id)}, function(err, resourceToMatch) {
@@ -151,11 +159,27 @@ app.get('/match', (request, response) => {
 				}
 				// add the score
 				result['score'] = jscore
+
+				try {
+				let loc_values = Object.values(result["Locations"])
+
+				var result_lat = loc_values[0]['lat']
+				var result_long = loc_values[0]['long']
+
+				} catch(err) {
+					var result_lat = 0
+					var result_long = 0
+				}
+
+				let euclid_dist = Math.abs(result_lat - latitude) + Math.abs(result_long - longitude)
+				result['euclid_dist'] = euclid_dist
+
 			});
 
 			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dis'] - b['euclid_dist'])
 			console.log('sending these many',sorted_results.length)
-			response.send(sorted_results)		
+			response.send(sorted_by_dist_results)		
 	
 			
 			// var keyvalues = [];
