@@ -14,6 +14,7 @@ from itertools import product
 import spacy
 from spacy.symbols import *
 from nltk import Tree
+from nltk.tokenize import word_tokenize 
 from word2number import w2n
 import nltk
 import location_2 as location
@@ -24,7 +25,6 @@ from urllib.parse import unquote
 from classify_tweets_covid_infer import BertSentClassifier
 from classify_tweets_covid_infer import evaluate_bert
 import location
-import pudb
 # model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
@@ -656,20 +656,38 @@ def parseResources():
 		"ambulance": "Ambulance"
 	}
 
+	# pu.db
+	tokenized_text = word_tokenize(text)
+	print("\nOrig tokenized text:" + str(tokenized_text))
+	for i in reversed(range(1, len(tokenized_text))):
+		# pu.db
+		word = tokenized_text[i]
+		word_prev = tokenized_text[i - 1]
+		if "#" in word_prev:
+			del tokenized_text[i]
+
+	print("\nNew tokenized text:" + str(tokenized_text))
+	text = ""
+	for word in tokenized_text:
+		text = text+word+" "
+
 	places_to_remove = []
 	resource_text = ""
-	for res in resources:
-		if res in each_loc:
-			places_to_remove.append(each_loc.index(res))
-		if res in text:
-			resource_text = resource_text+resources[res]+" "
+	for resource in resources:
+		if resource in each_loc:
+			places_to_remove.append(each_loc.index(resource))
+		if resource in text:
+			resource_text = resource_text+resources[resource]+" "
 
 	places_to_remove.sort(reverse=True)
 	for ptr in places_to_remove:
 		del places[ptr]
 
-	# pu.db
-	resource['ResourceWords'] = resource_text
+	resource_text = word_tokenize(resource_text)
+	resource_text = [w.lower() for w in resource_text]
+	resource_text = list(set(resource_text))
+
+	resource['ResourceWords'] = str(resource_text)
 	resource['Locations'] = places
 
 
@@ -760,9 +778,11 @@ def parseResources():
 	## Ritam yaha dekh
 	classification = -1
 	if "need" in text or "require" in text:
-	    classification = 0
-	elif "availab" in text or len(resource_text) != 0:
 	    classification = 1
+	elif "availab" in text or len(resource_text) != 0:
+	    classification = 2
+	else:
+		classification = 0
 		
 	resource['Classification'] = classification
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
