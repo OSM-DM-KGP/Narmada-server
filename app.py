@@ -686,8 +686,11 @@ def parseResources():
 	resource_text = word_tokenize(resource_text)
 	resource_text = [w.lower() for w in resource_text]
 	resource_text = list(set(resource_text))
+	resource_text_final = ""
+	for res in resource_text:
+		resource_text_final = resource_text_final + res + " "
 
-	resource['ResourceWords'] = str(resource_text)
+	resource['ResourceWords'] = resource_text_final.strip()
 	resource['Locations'] = places
 
 
