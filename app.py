@@ -673,11 +673,11 @@ def parseResources():
 
 	places_to_remove = []
 	resource_text = ""
-	for resource in resources:
-		if resource in each_loc:
-			places_to_remove.append(each_loc.index(resource))
-		if resource in text:
-			resource_text = resource_text+resources[resource]+" "
+	for res in resources:
+		if res in each_loc:
+			places_to_remove.append(each_loc.index(res))
+		if res in text:
+			resource_text = resource_text+resources[res]+" "
 
 	places_to_remove.sort(reverse=True)
 	for ptr in places_to_remove:
