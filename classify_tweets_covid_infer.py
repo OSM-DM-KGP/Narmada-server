@@ -198,7 +198,7 @@ class WrappedModel(nn.Module):
 	def forward(self, x):
 		return self.module(x)
 
-config = {'hidden_dropout_prob':0.3, 'num_labels':3,'model_name':'bert-base-uncased', 'hidden_size':768, 'data_dir':'saved_models/',}
+config = {'hidden_dropout_prob':0.3, 'num_labels':3,'model_name':'bert-base-uncased', 'hidden_size':768, 'data_dir':'saved_models',}
 config = SimpleNamespace(**config)
 
 # model = BertModel.from_pretrained('bert-base-uncased')
