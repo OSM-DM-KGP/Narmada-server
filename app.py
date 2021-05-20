@@ -25,6 +25,7 @@ from classify_tweets_covid_infer import BertSentClassifier
 from classify_tweets_covid_infer import evaluate_bert
 import location
 import pudb
+from nltk.tokenize import word_tokenize 
 # model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
@@ -656,6 +657,22 @@ def parseResources():
 		"ambulance": "Ambulance"
 	}
 
+	# pu.db
+
+	tokenized_text = word_tokenize(text)
+	print("\nOrig tokenized text:" + str(tokenized_text))
+	for i in reversed(range(1, len(tokenized_text))):
+		# pu.db
+		word = tokenized_text[i]
+		word_prev = tokenized_text[i - 1]
+		if "#" in word_prev:
+			del tokenized_text[i]
+	
+	print("\nNew tokenized text:" + str(tokenized_text))
+	text = ""
+	for word in tokenized_text:
+		text = text+word+" "
+	
 	places_to_remove = []
 	resource_text = ""
 	for res in resources:
@@ -668,8 +685,15 @@ def parseResources():
 	for ptr in places_to_remove:
 		del places[ptr]
 
-	# pu.db
-	resource['ResourceWords'] = resource_text
+	resource_text = word_tokenize(resource_text)
+	resource_text = [w.lower() for w in resource_text]
+	resource_text = list(set(resource_text))
+	resource_text_final = ""
+	for res in resource_text:
+		resource_text_final = resource_text_final + res + " "
+	
+	resource['ResourceWords'] = resource_text_final.strip()
+	
 	locations = {}
 	for place in places:
 		name_of_place = place[0]

@@ -221,6 +221,7 @@ app.post('/new', (request, response) => {
 	}
 
 	var insertTweet = Tweet(tweet);
+	insertTweet["isCompleted"] = true
 	console.log('Before inserting tweet')
 	db.collection(collectionName).insertOne(insertTweet, function(err, res) {
 		if(err) {
