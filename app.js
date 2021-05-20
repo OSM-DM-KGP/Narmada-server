@@ -142,31 +142,33 @@ app.get('/match', (request, response) => {
 			var scores = [];
 			var matches = [];
 			var minScore = 1, minIndex = 0;
-			console.log("the results are ",results.length)
+
 			results.forEach(result => {
 				var jscore = jaccard.index(resourceToMatch.ResourceWords, result.ResourceWords);
-				
-				if(scores.length < 20 || scores.length == 20 && minScore < jscore) {
-					if(scores.length == 20) {
-						// remove min element
-						scores.splice(minIndex, 1); matches.splice(minIndex, 1); 
-					}
+				if(scores.length < 20 || minScore < jscore) {
 					scores.push(jscore); matches.push(result);
 					minScore = Math.min(...scores); minIndex = scores.indexOf(minScore);
 				}
+				// add the score
+				result['score'] = jscore
 			});
 
-			var keyvalues = [];
-			for(var i=0; i < scores.length; i++) {
-				keyvalues.push([matches[i], scores[i]]);
-			}
+			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+			console.log('sending these many',sorted_results.length)
+			response.send(sorted_results)		
+	
+			
+			// var keyvalues = [];
+			// for(var i=0; i < scores.length; i++) {
+			// 	keyvalues.push([matches[i], scores[i]]);
+			// }
 
-			// sort by score
-			keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
-			matches = [];
-			for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
-			console.log("response.send ", matches.length)
-			response.send(matches);
+			// // sort by score
+			// keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
+			// matches = [];
+			// for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
+			// console.log("response.send ", matches.length)
+			// response.send(matches);
 		});
 	});
 });
