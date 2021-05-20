@@ -14,6 +14,7 @@ from itertools import product
 import spacy
 from spacy.symbols import *
 from nltk import Tree
+from nltk.tokenize import word_tokenize 
 from word2number import w2n
 import nltk
 import location_2 as location
@@ -23,7 +24,7 @@ import json
 from urllib.parse import unquote
 from classify_tweets_covid_infer import BertSentClassifier
 from classify_tweets_covid_infer import evaluate_bert
-
+import location
 # model = load_model()
 ps_stemmer= nltk.stem.porter.PorterStemmer()
 
@@ -638,90 +639,155 @@ def parseResources():
 		line = json.loads(unquote(flask.request.query_string.decode('utf-8')))['text']
 
 	print('Received for parsing: ', line)
-	contacts = get_contact(line)
-	t2 = location.tweet_preprocess2(line,[])
-	sources,b,locations,modified_array,rWords, final_resource_dict  =create_resource_list(line)
-	# source_list,final_resource_keys,loc_list	,dup_final_resource_keys => post_process
 
-	## source_list, final_resource_keys, loc_list_2, modified_array?, dup_final_resource_keys, final_resource_dict?
-	# resource['x']=((line,a,b,c,modified_array,d, final_resource_dict))
+	text = line.lower()
 
-	resource['Contact'] = {'Phone number': list(contacts[0]), "Email": list(contacts[1])}
-	resource['Sources'] = sources
-	resource['ResourceWords'] = rWords
-	resource['Locations'], resource['Resources'] = dict(), {}
-	# resource['Locations'] = locations
-	for each in locations:
-		# print(each[0], "<>", each[1])
-		resource['Locations'][each[0]] = {"long": float(each[1][1]), "lat": float(each[1][0])}
-	# f is Resources type
-	resources_bucket = {}
+	places = location.return_location_list(text)
+	each_loc = [place[0] for place in places]
+	resources = {
+		"oxygen": "Oxygen",
+		"o2": "Oxygen",
+		"ventilator": "Ventilator",
+		"bed": "Beds",
+		"icu": "Beds",
+		"remdes": "Remdesivir",
+		"plasma": "Plasma",
+		"consultation": "Doctor",
+		"ambulance": "Ambulance"
+	}
 
-	for each_resource in final_resource_dict:
-		buckets = final_resource_dict[each_resource]
-		assigned = False
-		for bucket in buckets:
-			if bucket in bucket_classes and not assigned:
-				if bucket not in resource['Resources']:
-					resource['Resources'][bucket] = {}
-				resource['Resources'][bucket][each_resource] = 'None'
-				assigned = True
-				resources_bucket[each_resource] = bucket
+	# pu.db
+	tokenized_text = word_tokenize(text)
+	print("\nOrig tokenized text:" + str(tokenized_text))
+	for i in reversed(range(1, len(tokenized_text))):
+		# pu.db
+		word = tokenized_text[i]
+		word_prev = tokenized_text[i - 1]
+		if "#" in word_prev:
+			del tokenized_text[i]
+
+	print("\nNew tokenized text:" + str(tokenized_text))
+	text = ""
+	for word in tokenized_text:
+		text = text+word+" "
+
+	places_to_remove = []
+	resource_text = ""
+	for res in resources:
+		if res in each_loc:
+			places_to_remove.append(each_loc.index(res))
+		if res in text:
+			resource_text = resource_text+resources[res]+" "
+
+	places_to_remove.sort(reverse=True)
+	for ptr in places_to_remove:
+		del places[ptr]
+
+	resource_text = word_tokenize(resource_text)
+	resource_text = [w.lower() for w in resource_text]
+	resource_text = list(set(resource_text))
+	resource_text_final = ""
+	for res in resource_text:
+		resource_text_final = resource_text_final + res + " "
+
+	resource['ResourceWords'] = resource_text_final.strip()
+	resource['Locations'] = places
+
+
+
+
+	# contacts = get_contact(line)
+	# t2 = location.tweet_preprocess2(line,[])
+	# sources,b,locations,modified_array,rWords, final_resource_dict  =create_resource_list(line)
+	# # source_list,final_resource_keys,loc_list	,dup_final_resource_keys => post_process
+
+	# ## source_list, final_resource_keys, loc_list_2, modified_array?, dup_final_resource_keys, final_resource_dict?
+	# # resource['x']=((line,a,b,c,modified_array,d, final_resource_dict))
+
+	# resource['Contact'] = {'Phone number': list(contacts[0]), "Email": list(contacts[1])}
+	# resource['Sources'] = sources
+	# resource['ResourceWords'] = rWords
+	# resource['Locations'], resource['Resources'] = dict(), {}
+	# # resource['Locations'] = locations
+	# for each in locations:
+	# 	# print(each[0], "<>", each[1])
+	# 	resource['Locations'][each[0]] = {"long": float(each[1][1]), "lat": float(each[1][0])}
+	# # f is Resources type
+	# resources_bucket = {}
+
+	# for each_resource in final_resource_dict:
+	# 	buckets = final_resource_dict[each_resource]
+	# 	assigned = False
+	# 	for bucket in buckets:
+	# 		if bucket in bucket_classes and not assigned:
+	# 			if bucket not in resource['Resources']:
+	# 				resource['Resources'][bucket] = {}
+	# 			resource['Resources'][bucket][each_resource] = 'None'
+	# 			assigned = True
+	# 			resources_bucket[each_resource] = bucket
 		
 	
-	split_text= line.split()
-	class_list={}
+	# split_text= line.split()
+	# class_list={}
 
-	for rWord in rWords:
-		s = {}
-		prev_words = [ split_text[i-1] for i in range(0,len(split_text)) if rWord.startswith(split_text[i]) ]
-		qt = 'None'
+	# for rWord in rWords:
+	# 	s = {}
+	# 	prev_words = [ split_text[i-1] for i in range(0,len(split_text)) if rWord.startswith(split_text[i]) ]
+	# 	qt = 'None'
 
-		try:
-			for word in prev_words:
-				word=word.replace(',','')
-				if word.isnumeric()==True:
-					qt=str(word)
-					break
-				else:
-					try:
-						qt=str(w2n.word_to_num(word))
-						break
-					except Exception as e:	
-						continue
+	# 	try:
+	# 		for word in prev_words:
+	# 			word=word.replace(',','')
+	# 			if word.isnumeric()==True:
+	# 				qt=str(word)
+	# 				break
+	# 			else:
+	# 				try:
+	# 					qt=str(w2n.word_to_num(word))
+	# 					break
+	# 				except Exception as e:	
+	# 					continue
 
-			if qt=='None':	
-				elems=rWord.strip().split()	
-				word=elems[0]
-				rWord2=" ".join(elems[1:])
+	# 		if qt=='None':	
+	# 			elems=rWord.strip().split()	
+	# 			word=elems[0]
+	# 			rWord2=" ".join(elems[1:])
 
-				word=word.replace(',','')
-				if word.isnumeric()==True:
-					qt=str(word)
-				else:
-					try:
-						qt=str(w2n.word_to_num(word))
-					except Exception as e:
-						pass
+	# 			word=word.replace(',','')
+	# 			if word.isnumeric()==True:
+	# 				qt=str(word)
+	# 			else:
+	# 				try:
+	# 					qt=str(w2n.word_to_num(word))
+	# 				except Exception as e:
+	# 					pass
 
-			if qt != 'None' and qt in rWord:
-				print(rWord, qt)
-				continue
+	# 		if qt != 'None' and qt in rWord:
+	# 			print(rWord, qt)
+	# 			continue
 
 
-		except Exception as e:
-			exc_type, exc_obj, exc_tb = sys.exc_info()
-			fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-			print(exc_type, fname, exc_tb.tb_lineno)
-			qt='None'
+	# 	except Exception as e:
+	# 		exc_type, exc_obj, exc_tb = sys.exc_info()
+	# 		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+	# 		print(exc_type, fname, exc_tb.tb_lineno)
+	# 		qt='None'
 
-		# class_list[rWord]= qt
-		resource['Resources'][resources_bucket[rWord]][rWord] = qt
+	# 	# class_list[rWord]= qt
+	# 	resource['Resources'][resources_bucket[rWord]][rWord] = qt
 
 	# print(class_list)
 	## Need to add quantity
 	## Ritam yaha dekh
-	resource['Classification'] = int(get_classification(line)[0])
+	classification = -1
+	if "need" in text or "require" in text:
+	    classification = 1
+	elif "availab" in text or len(resource_text) != 0:
+	    classification = 2
+	else:
+		classification = 0
+		
+	resource['Classification'] = classification
 	# print('=>', resource['contact'], '\na=>', a, '\nb=>', b, '\nc=>', c, '\nm=>', modified_array, '\nd=>', d, '\nf=>', final_resource_dict)
 	# print(final_resource_dict)
 	print('Returning', resource)
