@@ -119,7 +119,7 @@ app.get('/match', (request, response) => {
 	}
 
 	console.log("_id is ",request.query.id)
-	db.collection(collectionName).findOne({_id: ObjectID(request.query.id)}, function(err, resourceToMatch) {
+	db.collection(collectionName).findOne({_id: ObjectID(request.query.id) }, function(err, resourceToMatch) {
 		
 		if(err) {
 			console.log('Cannot fetch resource of id!', err);
@@ -129,11 +129,106 @@ app.get('/match', (request, response) => {
 		// buckets approach -> go via tweets having those categories
 		var categoriesToMatch = [];
 
+		console.log("resourceToMatch", resourceToMatch)
 		var searchParams = {
 			"Classification": fetchType,
 			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
 			// "$text": { $search: 'Beds,Oxygen' },
-			"Matched": -1
+			// "Matched": -1
+		}
+
+		console.log('search Params before starting search ', searchParams)
+		
+		
+
+		db.collection(collectionName).find(searchParams).sort({created: -1 }).toArray(function (err, results) {
+			console.log("came inside ")
+			if (err) {
+				console.log('Error retrieving docs', err);
+			}
+			// console.log('Matches', results.length); => >20 results
+			// keep array of size 20 to track results
+			var scores = [];
+			var matches = [];
+			var minScore = 1, minIndex = 0;
+
+			console.log("results.length ",results.length)
+			results.forEach(result => {
+				var jscore = jaccard.index(resourceToMatch.ResourceWords, result.ResourceWords);
+				if(scores.length < 20 || minScore < jscore) {
+					scores.push(jscore); matches.push(result);
+					minScore = Math.min(...scores); minIndex = scores.indexOf(minScore);
+				}
+				// add the score
+				result['score'] = jscore
+
+				try {
+				let loc_values = Object.values(result["Locations"])
+
+				var result_lat = loc_values[0]['lat']
+				var result_long = loc_values[0]['long']
+
+				} catch(err) {
+					var result_lat = 0
+					var result_long = 0
+				}
+
+				let euclid_dist = Math.abs(result_lat - latitude) + Math.abs(result_long - longitude)
+				result['euclid_dist'] = euclid_dist
+
+			});
+
+			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dis'] - b['euclid_dist'])
+			console.log('sending these many',sorted_results.length)
+			response.send(sorted_by_dist_results)		
+	
+			
+			// var keyvalues = [];
+			// for(var i=0; i < scores.length; i++) {
+			// 	keyvalues.push([matches[i], scores[i]]);
+			// }
+
+			// // sort by score
+			// keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
+			// matches = [];
+			// for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
+			// console.log("response.send ", matches.length)
+			// response.send(matches);
+		});
+	});
+});
+
+// new match
+app.get('/newmatch', (request, response) => {
+	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
+	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
+	try {
+		var values = Object.Values(request.query.Locations)
+		var latitude = values[0]['lat']
+		var longitude = values[0]['long']
+	} catch(err) {
+		var latitude = 0
+		var longitude = 0
+	}
+
+	console.log("_id is ",request.query.id)
+	db.collection(collectionName).findOne({_id: request.query.id}, function(err, resourceToMatch) {
+		
+		if(err) {
+			console.log('Cannot fetch resource of id!', err);
+			console.log('err is ', err)
+			response.send([]);
+		}
+		// buckets approach -> go via tweets having those categories
+		var categoriesToMatch = [];
+
+		console.log("resourceToMatch", resourceToMatch)
+		var searchParams = {
+			"Classification": fetchType,
+			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
+			// "$text": { $search: 'Beds,Oxygen' },
+			// "Matched": -1
 		}
 
 		console.log('search Params before starting search ', searchParams)

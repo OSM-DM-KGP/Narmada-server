@@ -78,7 +78,8 @@ def parseTweet(text_org):
                 'text': text_org,
                 'Classification': classification_type,
                 'ResourceWords': resource_text.split(" "),
-                "Locations": locations
+                "Locations": locations,
+                "isCompleted": False
             })
             print('successfully added in DB')
         except Exception as e:
@@ -87,7 +88,7 @@ def parseTweet(text_org):
 # For testing uncomment below
 # parseTweet('I need oxygen and bed in goa and hyderabad')
 
-with open('2021-05-10.jsonl') as f:
+with open('latest_tweets.jsonl') as f:
     json_lines = f.readlines()
     for json_line in json_lines:
         try:
