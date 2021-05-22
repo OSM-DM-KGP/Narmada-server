@@ -272,8 +272,11 @@ app.get('/newmatch', (request, response) => {
 			});
 
 			sorted_results = results.sort((a,b) => b['score'] - a['score'])
-			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dis'] - b['euclid_dist'])
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
 			console.log('sending these many',sorted_results.length)
+			
+
+
 			response.send(sorted_by_dist_results)		
 	
 			

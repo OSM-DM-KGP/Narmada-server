@@ -3,12 +3,14 @@ import pudb
 import json
 from nltk.tokenize import word_tokenize 
 from pymongo import MongoClient
+from datetime import datetime
+
 client = MongoClient('mongodb://127.0.0.1:27017')
 db = client["narmada"]
 tweet = db['tweets']
 
 
-def parseTweet(text_org):
+def parseTweet(text_org, tweet_link, tweet_id):
     print('helo')
     text = text_org.lower()
     places = location.return_location_list(text)
@@ -97,14 +99,21 @@ def parseTweet(text_org):
     # inserting in mongodb
     if classification_type != 'Other':
         try:
-            db.tweets.insert_one({
-                'text': text_org,
-                'Classification': classification_type,
-                'ResourceWords': resource_text.split(" "),
-                "Locations": locations,
-                "isCompleted": False
-            })
-            print('successfully added in DB')
+            if db.tweets.count_documents({ "TweetId": tweet_id }) == 0:
+                db.tweets.insert_one({
+                    'text': text_org,
+                    'Classification': classification_type,
+                    'ResourceWords': resource_text.split(" "),
+                    "Locations": locations,
+                    "isCompleted": False,
+                    "CreatedAt":  datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "TweetLink": tweet_link,
+                    "TweetId": tweet_id
+                })
+                print('successfully added in DB')
+            else:
+                print('already there in db')
+            
         except Exception as e:
             print('Error in adding to DB is ',e)
 
@@ -117,8 +126,10 @@ with open('latest_tweets.jsonl') as f:
         try:
             parsed_json_line = json.loads(json_line)
             tweet = parsed_json_line['tweet']
+            tweet_link = parsed_json_line['link']
+            tweet_id = parsed_json_line['id_str']
             print('============> parsing currently ', tweet)
-            parseTweet(tweet)
+            parseTweet(tweet, tweet_link, tweet_id)
         except Exception as e:
             print('Failed for some thing')
             

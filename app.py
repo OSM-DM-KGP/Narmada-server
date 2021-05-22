@@ -21,8 +21,8 @@ import time
 import sys
 import json
 from urllib.parse import unquote
-from classify_tweets_covid_infer import BertSentClassifier
-from classify_tweets_covid_infer import evaluate_bert
+# from classify_tweets_covid_infer import BertSentClassifier
+# from classify_tweets_covid_infer import evaluate_bert
 import location
 import pudb
 from nltk.tokenize import word_tokenize 
