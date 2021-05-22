@@ -797,11 +797,11 @@ def parseResources():
 	classification = -1
 
 	if "availab" in text:
-    	classification = "Availability"
+		classification = "Availability"
 	elif "need" in text or "require" in text:
-    	classification = "Need"
+		classification = "Need"
 	else:
-    	classification = "Other"
+		classification = "Other"
 
 
 	if "need" in text or "require" in text:
