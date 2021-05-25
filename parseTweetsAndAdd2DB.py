@@ -10,7 +10,7 @@ db = client["narmada"]
 tweet = db['tweets']
 
 
-def parseTweet(text_org, tweet_link, tweet_id):
+def parseTweet(text_org, tweet_link, tweet_id,timestamp):
     print('helo')
     text = text_org.lower()
     places = location.return_location_list(text)
@@ -106,7 +106,7 @@ def parseTweet(text_org, tweet_link, tweet_id):
                     'ResourceWords': resource_text.split(" "),
                     "Locations": locations,
                     "isCompleted": False,
-                    "CreatedAt":  datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "Timestamp":  timestamp,
                     "TweetLink": tweet_link,
                     "TweetId": tweet_id
                 })
@@ -128,9 +128,13 @@ with open('latest_tweets.jsonl') as f:
             tweet = parsed_json_line['tweet']
             tweet_link = parsed_json_line['link']
             tweet_id = parsed_json_line['id_str']
+            timestamp = parsed_json_line['datetime']
             print('============> parsing currently ', tweet)
-            parseTweet(tweet, tweet_link, tweet_id)
+            parseTweet(tweet, tweet_link, tweet_id, timestamp)
         except Exception as e:
             print('Failed for some thing')
             
     
+with open('cronjob_last_time', 'w') as f:
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    f.write(current_time)

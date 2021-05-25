@@ -109,14 +109,7 @@ app.get('/get', (request, response) => {
 app.get('/match', (request, response) => {
 	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
 	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
-	try {
-		var values = Object.Values(request.query.Locations)
-		var latitude = values[0]['lat']
-		var longitude = values[0]['long']
-	} catch(err) {
-		var latitude = 0
-		var longitude = 0
-	}
+	
 
 	console.log("_id is ",request.query.id)
 	db.collection(collectionName).findOne({_id: ObjectID(request.query.id) }, function(err, resourceToMatch) {
@@ -130,6 +123,16 @@ app.get('/match', (request, response) => {
 		var categoriesToMatch = [];
 
 		console.log("resourceToMatch", resourceToMatch)
+		try {
+			var values = Object.values(resourceToMatch["Locations"])
+			var latitude = values[0]['lat']
+			var longitude = values[0]['long']
+		} catch(err) {
+			console.log("err is ",err)
+			var latitude = 0
+			var longitude = 0
+		}
+
 		var searchParams = {
 			"Classification": fetchType,
 			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
@@ -173,15 +176,16 @@ app.get('/match', (request, response) => {
 					var result_long = 0
 				}
 
-				let euclid_dist = Math.abs(result_lat - latitude) + Math.abs(result_long - longitude)
+				let euclid_dist = Math.abs(result_lat - latitude)**2 + Math.abs(result_long - longitude)**2
 				result['euclid_dist'] = euclid_dist
 
 			});
 
 			sorted_results = results.sort((a,b) => b['score'] - a['score'])
-			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dis'] - b['euclid_dist'])
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
 			console.log('sending these many',sorted_results.length)
-			response.send(sorted_by_dist_results)		
+			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 35)
+			response.send(nearer_results)		
 	
 			
 			// var keyvalues = [];
@@ -203,14 +207,7 @@ app.get('/match', (request, response) => {
 app.get('/newmatch', (request, response) => {
 	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
 	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
-	try {
-		var values = Object.Values(request.query.Locations)
-		var latitude = values[0]['lat']
-		var longitude = values[0]['long']
-	} catch(err) {
-		var latitude = 0
-		var longitude = 0
-	}
+	
 
 	console.log("_id is ",request.query.id)
 	db.collection(collectionName).findOne({_id: request.query.id}, function(err, resourceToMatch) {
@@ -224,6 +221,19 @@ app.get('/newmatch', (request, response) => {
 		var categoriesToMatch = [];
 
 		console.log("resourceToMatch", resourceToMatch)
+		try {
+			var values = Object.values(resourceToMatch["Locations"])
+			var latitude = values[0]['lat']
+			var longitude = values[0]['long']
+		} catch(err) {
+			console.log("err is ",err)
+			var latitude = 0
+			var longitude = 0
+		}
+	
+		console.log("query lat is ",latitude)
+		console.log("query long is ",longitude)
+	
 		var searchParams = {
 			"Classification": fetchType,
 			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
@@ -257,7 +267,6 @@ app.get('/newmatch', (request, response) => {
 
 				try {
 				let loc_values = Object.values(result["Locations"])
-
 				var result_lat = loc_values[0]['lat']
 				var result_long = loc_values[0]['long']
 
@@ -266,18 +275,34 @@ app.get('/newmatch', (request, response) => {
 					var result_long = 0
 				}
 
-				let euclid_dist = Math.abs(result_lat - latitude) + Math.abs(result_long - longitude)
+			
+				let euclid_dist = Math.abs(result_lat - latitude)**2 + Math.abs(result_long - longitude)**2
 				result['euclid_dist'] = euclid_dist
 
 			});
 
-			sorted_results = results.sort((a,b) => b['score'] - a['score'])
-			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
-			console.log('sending these many',sorted_results.length)
 			
 
+			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
+			// console.log(sorted_by_dist_results)
+			console.log('only sorted',sorted_results.length)
+			
 
-			response.send(sorted_by_dist_results)		
+			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 35)
+			console.log("nearer_restults ",nearer_results.length)
+			// nearer_results.forEach(item => {
+			// 	console.log(Object.keys(item["Locations"])[0])
+			// 	console.log(Object.values(item["Locations"])[0]['lat'])
+			// 	console.log(Object.values(item["Locations"])[0]['long'])
+
+			// 	console.log('score',item['euclid_dist'])
+			// })
+			response.send(nearer_results)	
+			
+			db.collection(collectionName).deleteOne({ _id: request.query.id }, function(err) {
+				console.log("err in removing ",err)
+			})
 	
 			
 			// var keyvalues = [];

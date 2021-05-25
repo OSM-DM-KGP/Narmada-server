@@ -933,9 +933,10 @@ def parseResourcesStream():
 @app.route('/', methods=['GET', 'OPTIONS'])
 @cross_origin()
 def base():
-	with open('index.html', 'r') as f:
+	with open('cronjob_last_time', 'r') as f:
 		txt = f.readlines()
-	return ''.join(txt)
+		print(txt)
+	return txt[0]
 
 # @app.route('/hello')
 # def empty():
