@@ -10,12 +10,16 @@ while True:
 	line = f.readline()
 	if not line: break
 	names = [line.split("\t")[2]]
-	names.extend(line.split("\t")[3])
+	more_names = line.split("\t")[3]
+	names.extend(more_names.split(","))
+	names.append(line.split("\t")[1])
 	lat = line.split("\t")[4]
 	lon = line.split("\t")[4]
 	names = [x.lower() for x in names]
 	names = list(set(names))
 	for name in names:
+		# if "haora" in name:
+		# 	pu.db
 		if name not in all_poses:
 			all_poses[name] = []
 		all_poses[name].append((lat,lon))
