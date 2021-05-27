@@ -14,7 +14,7 @@ while True:
 	names.extend(more_names.split(","))
 	names.append(line.split("\t")[1])
 	lat = line.split("\t")[4]
-	lon = line.split("\t")[4]
+	lon = line.split("\t")[5]
 	names = [x.lower() for x in names]
 	names = list(set(names))
 	for name in names:
