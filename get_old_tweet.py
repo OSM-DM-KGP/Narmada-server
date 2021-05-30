@@ -16,7 +16,6 @@ def fetch_all(keywords, outfile = 'tw.txt.gz', STARTDATE = None, ENDDATE = None,
         print("##########################################\n")
         
         current_time_object = datetime.now()
-        current_time_object = current_time_object - timedelta(hours=6)
         hour_before_time_object = current_time_object - timedelta(hours=1)
 
         ENDDATE = current_time_object.strftime("%Y-%m-%d %H:%M:%S")
