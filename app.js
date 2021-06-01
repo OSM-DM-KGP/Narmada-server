@@ -75,6 +75,8 @@ app.get('/get', (request, response) => {
 	
 	db.collection(collectionName).find(request.query, options).sort({ created: -1 }).toArray(function(err, results) {
 		if(results) {
+			console.log('wat are results ', results)		 // remove temporarily plz
+		
 			if(matching===true) {
 				var partners = [];
 				results.forEach(result => {partners.push(result.Matched)});
@@ -107,21 +109,43 @@ app.get('/get', (request, response) => {
 app.get('/match', (request, response) => {
 	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
 	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
+	
 
-	db.collection(collectionName).findOne({_id: request.query.id}, function(err, resourceToMatch) {
+	console.log("_id is ",request.query.id)
+	db.collection(collectionName).findOne({_id: ObjectID(request.query.id) }, function(err, resourceToMatch) {
+		
 		if(err) {
 			console.log('Cannot fetch resource of id!', err);
+			console.log('err is ', err)
 			response.send([]);
 		}
 		// buckets approach -> go via tweets having those categories
 		var categoriesToMatch = [];
 
+		console.log("resourceToMatch", resourceToMatch)
+		try {
+			var values = Object.values(resourceToMatch["Locations"])
+			var latitude = values[0]['lat']
+			var longitude = values[0]['long']
+		} catch(err) {
+			console.log("err is ",err)
+			var latitude = 0
+			var longitude = 0
+		}
+
 		var searchParams = {
 			"Classification": fetchType,
 			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
-			"Matched": '-1'
+			// "$text": { $search: 'Beds,Oxygen' },
+			// "Matched": -1
 		}
-		db.collection(collectionName).find(searchParams).sort({ created: -1 }).toArray(function (err, results) {
+
+		console.log('search Params before starting search ', searchParams)
+		
+		
+
+		db.collection(collectionName).find(searchParams).sort({created: -1 }).toArray(function (err, results) {
+			console.log("came inside ")
 			if (err) {
 				console.log('Error retrieving docs', err);
 			}
@@ -130,30 +154,181 @@ app.get('/match', (request, response) => {
 			var scores = [];
 			var matches = [];
 			var minScore = 1, minIndex = 0;
+
+			console.log("results.length ",results.length)
 			results.forEach(result => {
 				var jscore = jaccard.index(resourceToMatch.ResourceWords, result.ResourceWords);
-				
-				if(scores.length < 20 || scores.length == 20 && minScore < jscore) {
-					if(scores.length == 20) {
-						// remove min element
-						scores.splice(minIndex, 1); matches.splice(minIndex, 1); 
-					}
+				if(scores.length < 20 || minScore < jscore) {
 					scores.push(jscore); matches.push(result);
 					minScore = Math.min(...scores); minIndex = scores.indexOf(minScore);
 				}
+				// add the score
+				result['score'] = jscore
+
+				try {
+				let loc_values = Object.values(result["Locations"])
+
+				var result_lat = loc_values[0]['lat']
+				var result_long = loc_values[0]['long']
+
+				} catch(err) {
+					var result_lat = 0
+					var result_long = 0
+				}
+
+				let euclid_dist = Math.abs(result_lat - latitude)**2 + Math.abs(result_long - longitude)**2
+				result['euclid_dist'] = euclid_dist
+
 			});
 
-			var keyvalues = [];
-			for(var i=0; i < scores.length; i++) {
-				keyvalues.push([matches[i], scores[i]]);
-			}
-
-			// sort by score
-			keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
-			matches = [];
-			for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
+			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
+			console.log('sending these many',sorted_results.length)
+			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 8)
+			response.send(nearer_results)		
+	
 			
-			response.send(matches);
+			// var keyvalues = [];
+			// for(var i=0; i < scores.length; i++) {
+			// 	keyvalues.push([matches[i], scores[i]]);
+			// }
+
+			// // sort by score
+			// keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
+			// matches = [];
+			// for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
+			// console.log("response.send ", matches.length)
+			// response.send(matches);
+		});
+	});
+});
+
+// new match
+app.get('/newmatch', (request, response) => {
+	console.log(new Date(), '+++--- /match ' + request.query.id + ' of type ' + request.query.type);
+	var fetchType = (request.query.type === "Need") ? "Availability" : "Need";
+	
+
+	console.log("_id is ",request.query.id)
+	db.collection(collectionName).findOne({_id: request.query.id}, function(err, resourceToMatch) {
+		
+		if(err) {
+			console.log('Cannot fetch resource of id!', err);
+			console.log('err is ', err)
+			response.send([]);
+		}
+		// buckets approach -> go via tweets having those categories
+		var categoriesToMatch = [];
+
+		console.log("resourceToMatch", resourceToMatch)
+		try {
+			var values = Object.values(resourceToMatch["Locations"])
+			var latitude = values[0]['lat']
+			var longitude = values[0]['long']
+		} catch(err) {
+			console.log("err is ",err)
+			var latitude = 0
+			var longitude = 0
+		}
+	
+		console.log("query lat is ",latitude)
+		console.log("query long is ",longitude)
+	
+		var searchParams = {
+			"Classification": fetchType,
+			"$text": { $search: resourceToMatch.ResourceWords.join(",")},
+			// "$text": { $search: 'Beds,Oxygen' },
+			// "Matched": -1
+		}
+
+		console.log('search Params before starting search ', searchParams)
+		
+		
+
+		db.collection(collectionName).find(searchParams).sort({created: -1 }).toArray(function (err, results) {
+			console.log("came inside ")
+			if (err) {
+				console.log('Error retrieving docs', err);
+			}
+			// console.log('Matches', results.length); => >20 results
+			// keep array of size 20 to track results
+			var scores = [];
+			var matches = [];
+			var minScore = 1, minIndex = 0;
+
+			results.forEach(result => {
+				var jscore = jaccard.index(resourceToMatch.ResourceWords, result.ResourceWords);
+				if(scores.length < 20 || minScore < jscore) {
+					scores.push(jscore); matches.push(result);
+					minScore = Math.min(...scores); minIndex = scores.indexOf(minScore);
+				}
+				// add the score
+				result['score'] = jscore
+
+				try {
+				let loc_values = Object.values(result["Locations"])
+				var result_lat = loc_values[0]['lat']
+				var result_long = loc_values[0]['long']
+
+				} catch(err) {
+					var result_lat = 0
+					var result_long = 0
+				}
+
+			
+				let euclid_dist = Math.abs(result_lat - latitude)**2 + Math.abs(result_long - longitude)**2
+				result['euclid_dist'] = euclid_dist
+
+			});
+
+			
+
+			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+
+			// debugging
+			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
+			// console.log(sorted_by_dist_results)
+			console.log('only sorted',sorted_results.length)
+			
+
+			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 8)
+
+			
+				nearer_results.forEach(item => {
+				
+					console.log("location ", item['Locations'])
+					console.log("score ", item['score'])
+					console.log("dist ", item['euclid_dist'])
+					console.log("\n")
+					
+				})
+			
+			console.log("nearer_restults ",nearer_results.length)
+			// nearer_results.forEach(item => {
+			// 	console.log(Object.keys(item["Locations"])[0])
+			// 	console.log(Object.values(item["Locations"])[0]['lat'])
+			// 	console.log(Object.values(item["Locations"])[0]['long'])
+
+			// 	console.log('score',item['euclid_dist'])
+			// })
+			response.send(nearer_results)	
+			
+			db.collection(collectionName).deleteOne({ _id: request.query.id }, function(err) {
+				console.log("err in removing ",err)
+			})
+	
+			
+			// var keyvalues = [];
+			// for(var i=0; i < scores.length; i++) {
+			// 	keyvalues.push([matches[i], scores[i]]);
+			// }
+
+			// // sort by score
+			// keyvalues.sort(function compare(kv1, kv2) { return kv2[1] - kv1[1] });
+			// matches = [];
+			// for(var i =0 ; i < keyvalues.length; i++) matches.push(keyvalues[i][0]);
+			// console.log("response.send ", matches.length)
+			// response.send(matches);
 		});
 	});
 });
@@ -206,8 +381,16 @@ app.post('/new', (request, response) => {
 	}
 
 	var insertTweet = Tweet(tweet);
-	db.collection(collectionName).insert(insertTweet);
-	response.status(201).send('Created resource');
+	insertTweet["isCompleted"] = true
+	console.log('Before inserting tweet')
+	db.collection(collectionName).insertOne(insertTweet, function(err, res) {
+		if(err) {
+			console.log("err ", err)
+		}
+		console.log('res is ',res.insertedId)
+		response.status(201).send({'msg': 'Created resource', '_id': res.insertedId });
+	});
+	
 });
 
 app.listen(port, () => {
