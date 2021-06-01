@@ -24,7 +24,7 @@ MarkupSafe==2.0.0
 matplotlib==3.4.2
 murmurhash==1.0.5
 networkx==2.5.1
-nltk==3.4
+nltk==3.4.5
 numpy==1.20.3
 packaging==20.9
 pandas==1.2.4
