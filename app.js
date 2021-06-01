@@ -184,7 +184,7 @@ app.get('/match', (request, response) => {
 			sorted_results = results.sort((a,b) => b['score'] - a['score'])
 			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
 			console.log('sending these many',sorted_results.length)
-			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 35)
+			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 8)
 			response.send(nearer_results)		
 	
 			
@@ -284,12 +284,25 @@ app.get('/newmatch', (request, response) => {
 			
 
 			sorted_results = results.sort((a,b) => b['score'] - a['score'])
+
+			// debugging
 			sorted_by_dist_results = sorted_results.sort((a,b) => a['euclid_dist'] - b['euclid_dist'])
 			// console.log(sorted_by_dist_results)
 			console.log('only sorted',sorted_results.length)
 			
 
-			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 35)
+			nearer_results = sorted_by_dist_results.filter(item => item['euclid_dist'] < 8)
+
+			
+				nearer_results.forEach(item => {
+				
+					console.log("location ", item['Locations'])
+					console.log("score ", item['score'])
+					console.log("dist ", item['euclid_dist'])
+					console.log("\n")
+					
+				})
+			
 			console.log("nearer_restults ",nearer_results.length)
 			// nearer_results.forEach(item => {
 			// 	console.log(Object.keys(item["Locations"])[0])
