@@ -28,7 +28,7 @@ nltk==3.4
 numpy==1.20.3
 packaging==20.9
 pandas==1.2.4
-Pillow==8.2.0
+Pillow==9.0.0
 plac==1.1.3
 preshed==3.0.5
 pudb==2019.1
